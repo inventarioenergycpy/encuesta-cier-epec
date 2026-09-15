@@ -1,0 +1,64 @@
+﻿Area_Dimension,Sigla,Tipo_Indice,Atributo_Evaluado,Nota_Promedio_1_10,Indice_Satisfaccion_100
+Índices Globales,IAC,-,Índice de aprobación del cliente,7.52,77.6
+Suministro de energía,SE,IDAR,Suministro de energía,7.55,78.48
+Suministro de energía,,IDAT,Sin interrupción,7.94,85.92
+Suministro de energía,,IDAT,Sin variación de voltaje,7.51,77.4
+Suministro de energía,,IDAT,Rapidez en la reanudación de la energía cuando falta,7.19,72.12
+Información y comunicación,IC,IDAR,Información y comunicación,6.18,52.03
+Información y comunicación,,IDAT,Notificación de interrupción,6.55,58.86
+Información y comunicación,,IDAT,Uso eficiente,6.45,57.81
+Información y comunicación,,IDAT,Riesgos y peligros,6.16,50.08
+Información y comunicación,,IDAT,Derechos y deberes,6.02,48.37
+Información y comunicación,,IDAT,Medición del consumo de energía(1),5.71,44.52
+Información y comunicación,,[NUEVO],IDAT,6.79,63.33
+Información y comunicación,,[NUEVO],IDAT,6.95,66.94
+Factura de energía,FE,IDAR,Factura de energía,7.25,70.38
+Factura de energía,,IDAT,Plazo entre la recepción y el vencimiento,6.85,63.12
+Factura de energía,,IDAT,Factura sin errores,7.29,69.56
+Factura de energía,,IDAT,Facilidad de comprensión,6.84,62.19
+Factura de energía,,IDAT,Locales para el pago,8.08,85.97
+Factura de energía,,IDAT,Fechas para el vencimiento,7.17,70.97
+Factura de energía,,IDAT,Disponibilidad de canales de pago digitales(2),8.28,89.2
+Factura de energía,,[NUEVO],IDAT,6.94,66.49
+Factura de energía,,[NUEVO],IDAT,6.65,61.76
+Atención al cliente,AT,IDAR,Atención al cliente,7.06,68.1
+Atención al cliente,,IDAT,Facilidad para contactarse,6.64,58.32
+Atención al cliente,,IDAT,Tiempo de espera hasta ser atendido,6.35,55.59
+Atención al cliente,,IDAT,Duración de la atención,7.12,69.46
+Atención al cliente,,IDAT,Conocimiento sobre el tema,7.38,74.52
+Atención al cliente,,IDAT,Claridad en la información,7.36,73.08
+Atención al cliente,,IDAT,Calidad de la atención,7.57,77.63
+Atención al cliente,,IDAT,Plazo informado,7.05,66.44
+Atención al cliente,,IDAT,Solución definitiva del problema,7.04,68.71
+Atención al cliente,,IDAT,Cumplimiento del plazo,7.05,69.16
+Atención al cliente,,IDAT,Autonomía/ flexibilidad del empleado(2),7.22,70.95
+Imagen,IM,IDAR,Imagen,6.76,60.53
+Imagen,,IDAT,Respeta los derechos de los clientes,6.71,59.87
+Imagen,,IDAT,Correcta con los clientes,6.78,60.27
+Imagen,,IDAT,Invierte para proveer energía con calidad,6.85,61.67
+Imagen,,IDAT,Informa a sus clientes con respecto a su actuación,6.5,55.0
+Imagen,,IDAT,Se ocupa de evitar hurtos de energía,6.66,59.25
+Imagen,,IDAT,Ofrece atención sin discriminación,7.14,68.43
+Imagen,,IDAT,Dispuesta a negociar con sus clientes (flexible),6.46,56.72
+Imagen,,IDAT,Se ocupa del medio ambiente,7.02,63.46
+Imagen,,IDAT,Preparada para situaciones de emergencia(2),7.06,68.14
+Imagen,,[NUEVO],IDAT,6.66,58.83
+Imagen,,[NUEVO],IDAT,6.84,62.06
+Imagen,IIS,-,Índice intermedio de satisfacción,7.45,77.56
+Responsabilidad socioambiental,RSA,IDAR,Responsabilidad socioambiental,6.71,59.57
+Responsabilidad socioambiental,,IDAT,Promoción de programas sociales,6.47,53.85
+Responsabilidad socioambiental,,IDAT,Promoción de acciones culturales,6.35,52.93
+Responsabilidad socioambiental,,IDAT,Se ocupa de la prevención de accidentes,6.72,60.92
+Responsabilidad socioambiental,,IDAT,Lleva energía a regiones no atendidas,6.71,60.77
+Responsabilidad socioambiental,,IDAT,Contribuye para el desarrollo econ. de la ciudad,6.82,63.27
+Responsabilidad socioambiental,,IDAT,Facilita el acceso de ciudadanos con neces. espec.,6.78,59.41
+Responsabilidad socioambiental,,IDAT,Honesta/ cumple con sus obligaciones,6.62,59.12
+Responsabilidad socioambiental,,IDAT,Se ocupa de evitar hurtos de energía,6.66,59.25
+Responsabilidad socioambiental,,IDAT,Se ocupa del medio ambiente,7.02,63.46
+Alumbrado público,AP,IDAR,Alumbrado público,6.55,57.46
+Alumbrado público,,IDAT,Disponible en todo el municipio,6.52,55.57
+Alumbrado público,,IDAT,Calidad del AP,6.74,61.07
+Alumbrado público,,IDAT,"Mantenimiento del alumbrado público en calles, avenidas",6.36,54.71
+Alumbrado público,,IDAT,"Mantenimiento del alumbrado público en plazas, parques, etc",6.57,58.5
+Alumbrado público,PR,IDAT,Precio de la factura,4.11,9.28
+Alumbrado público,ISG,-,Índice de satisfacción general,6.96,65.6

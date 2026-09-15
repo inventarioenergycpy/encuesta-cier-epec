@@ -1,0 +1,1719 @@
+
+--- SLIDE 1 ---
+DIAGNÓSTICO SECTORIAL REGIONAL 23ª Encuesta de Satisfacción de Clientes Noviembre | 2025
+
+--- SLIDE 2 ---
+4. Detalles de la encuesta 13. Presentación de resultados 16. Principales resultados 29. IAC – Índice de Aprobación del Cliente 36. IIS – Índice Intermedio de Satisfacción 47. ISG – Índice de Satisfacción General 54. Comparación de índices: IAC x IIS x ISG 75. Trayectoria de la distribuidora 82. SE – Suministro de Energía 97. Análisis complementarias -  Recordación de la cantidad de interrupciones  120. IC – Información y Comunicación 142. FE – Factura 167. Análisis complementarias - Forma de recepción de la factura 176. AT – Atención al Cliente 213. Grupos de evaluación del área Atención al Cliente 217. Análisis complementarias - Interacciones con la distribuidora 251. Análisis complementarias - Indicador de esfuerzo del cliente 263. Análisis complementarias - Canales digitales 272. IM – Imagen 306. Recolección de la importancia 309. ISCAL – Índice de Satisfacción con la Calidad Percibida 318. IECP – Índice de Excelencia de la Calidad Percibida 325. IICP – Índice de Insatisfacción de la Calidad Percibida 332. Evaluación del precio 342. RSA – Responsabilidad Socioambiental 371. Análisis complementarias - Participación en programas sociales 376. Análisis complementarias - Igualdad de atención a hombres y mujeres 386. AP – Alumbrado Público 404. Análisis complementarias - Responsabilidad del alumbrado 412. Eventos climáticos extremos 475. NPS – Net  Promoter  Score 487. Matrices de apoyo a la definición de acciones de mejora 506. Matriz conjunta de la definición de acciones de mejora 515. Caracterización sociodemográfica 542. Valor de la factura de energía 553. Consumo de energía 558. Análisis de Conglomerados 566. Productos generados
+
+--- SLIDE 3 ---
+Medición del nivel de satisfacción  de los clientes con respecto a la calidad del producto y de los servicios prestados por la distribuidora. Generación de índices  que permitan la comparación de los resultados entre todas las distribuidoras; Generación de matrices de apoyo  a la definición de acciones de mejora.
+
+--- SLIDE 4 ---
+Detalles de la encuesta Detalles de la encuesta
+
+--- SLIDE 5 ---
+La metodología para cálculo y distribución de la muestra garantiza el respeto a las particularidades del mercado de cada distribuidora, en lo que se refiere al número y el tamaño de los municipios atendidos, resultando en una muestra consistente, que reproduce las características de cada empresa participante. Para obtener la muestra, los municipios atendidos por la distribuidora son agrupados de acuerdo con su ubicación y número de clientes. Dentro de cada grupo, son sorteados municipios para la composición de la muestra. Métodos de muestreo
+
+--- SLIDE 6 ---
+Condiciones para composición de la muestra Durante el abordaje se aplicó un cuestionario de selección del domicilio, de forma que en el estudio se consideraran solamente aquellos donde: La  energía eléctrica era suministrada  por la distribuidora investigada; Fue posible encuestar  al responsable (o su cónyuge); El suministro de energía  estaba normal en el día de la encuesta; La persona responsable residía en el domicilio  por más de seis meses; Ninguno de los habitantes  era empleado o prestaba servicios para la distribuidora; El uso de energía era solamente residencial ; El entrevistado pudo informar acerca del valor de la factura y consumo mensual de energía; Se respetaba el límite superior de edad  del encuestado, establecido en 75 años;   El entrevistado no se negó  a decir su escolaridad e ingreso familiar; El entrevistado evaluó la calidad de los servicios  prestados por la distribuidora.
+
+--- SLIDE 7 ---
+Muestra y recolección de datos Esta tabla trae la distribución de entrevistas por municipio de cada región.
+
+--- SLIDE 8 ---
+Muestra y recolección de datos
+
+--- SLIDE 9 ---
+El instrumento de recolección de datos Todo el tema tratado en esta ronda fue detallado en 240 preguntas, distribuidas entre los siguientes grupos de cuestiones:   Caracterización de los encuestados  (género, ingreso familiar, edad, entre otras). Evaluación de la calidad  de los servicios prestados por la distribuidora. Recolección de la importancia:  de atributos de calidad y de las áreas de calidad y precio. Recolección de la satisfacción con los atributos  de las áreas de calidad, responsabilidad socioambiental y alumbrado público. Información sobre  interrupciones  en el suministro de energía en los últimos 30 días. Verificación sobre las formas de recepción  y pago de la factura de energía. Percepción sobre  tratamiento equitativo de género  por la distribuidora, con justificaciones para las respuestas.    Medición de la satisfacción  intermedia y general del cliente
+
+--- SLIDE 10 ---
+El instrumento de recolección de datos Evaluación del precio (si es caro o barato) Recolección de la posibilidad de recomendación  de la distribuidora de energía Verificación si el cliente buscó atención en la empresa en el último año  y, en caso positivo, los motivos para contacto, los medios utilizados y cuántas veces tuvo que contactarse con la empresa para solucionar el problema. Satisfacción con canales digitales , con justificaciones para las notas bajas
+
+--- SLIDE 11 ---
+El resultado general CIER es un promedio que considera las 25 empresas evaluadas en esta ronda de la Encuesta CIER, y también 3 empresas brasileñas asociadas al Comité Brasileiro da CIER (BRACIER) evaluadas en la 27ª ronda de la investigación de la  Associação  Brasileira de Distribuidores de  Energia   Elétrica  (ABRADEE). El margen de error del resultado CIER, para el conjunto de todas las distribuidoras participantes, es de ± 2,1 puntos porcentuales para un nivel de confianza de 95,0%. El margen de error, por distribuidora, incluso para las asociadas al BRACIER, es ± 5 puntos porcentuales para las empresas con hasta 500 mil clientes, y de ± 4 puntos porcentuales para las empresas con más de 500 mil clientes. De esa manera, es posible la comparación de los resultados entre las distribuidoras. La información que representa el margen de error es importante porque los resultados de la investigación deben ser interpretados dentro de un intervalo que establece límites en torno a la estimativa o promedio obtenido, que es el Intervalo de Confianza. Sobre el margen de error
+
+--- SLIDE 12 ---
+Para esta investigación, se utilizó un intervalo de confianza de 95%, lo que significa que, dado determinado resultado, este tiene 95% de probabilidad de estar dentro del margen de error, 2,5% de probabilidad de estar por sobre el margen y 2,5% de probabilidad de estar por debajo del margen de error. Ejemplo: si la satisfacción con un determinado atributo es de 75%, esto significa que existe 95% de probabilidad de que dicha satisfacción esté comprendida en el intervalo: 75% menos error de muestreo y 75% más error de muestreo, 2,5% de probabilidad de estar por debajo (75% menos error de muestreo) y 2,5% de probabilidad de estar por sobre el margen de error (75% más error de muestreo). Así, para las muestras con un margen de error de 5 puntos porcentuales (p.p.), la satisfacción relativa a un determinado atributo tiene 95% de probabilidad de estar comprendida en el intervalo (75% - 5p.p. y 75% + 5p.p.), o sea, entre 70% y 80%. Para las muestras con un margen de error de 4p.p., la satisfacción respecto a un determinado atributo tiene 95% de probabilidad de estar comprendida en el intervalo (75% - 4p.p. y 75% + 4p.p.). O sea, entre 71% y 79%. Sobre el margen de error
+
+--- SLIDE 13 ---
+Presentación de resultados Presentación de resultados
+
+--- SLIDE 14 ---
+Metodologia  Evaluación de la calidad  de los servicios prestados 1ª etapa Importancia  de  los atributos  y áreas evaluadas 2ª etapa  Satisfacción general 4ª etapa Satisfacción con los  Atributos  de calidad ( IDATs ) 3ª etapa Índice de aprobación del cliente Índice de satisfacción general Índice de satisfacción con la calidad percibida Índice de  insatisfacción con la calidad percibida Índice de excelencia de la calidad percibida Evaluación de precio IICP IECP IAC ISCAL ISG
+
+--- SLIDE 15 ---
+Metodologia Evaluación de la calidad de los servicios prestados  Satisfacción con los  Atributos de calidad ( IDATs ) Calidad Percibida Evaluación del precio Valor Percibido Demás Aspectos  Satisfacción general IAC -  Índice de aprobación del cliente ISG -  Índice de satisfacción general SE -  Suministro de energía 3 atributos IC -  Información y comunicación 5 atributos FE -  Factura de Energía 6 atributos * AT -  Atención al cliente 10 atributos * IM -  Imagen 9 atributos *  5  IDARs 33 atributos*  ( IDATs ) ISCAL -  Índice de satisfacción con la calidad percibida IICP -  Índice de  insatisfacción con la calidad percibida IECP -  Índice de excelencia de la calidad percibida IIS -  Índice Intermedio de Satisfacción PR -  Precio de  la factura RSA -  Responsabilidad Socioambiental 7 atributos* AP -  Alumbrado Público 7 atributos* * El ISCAL, IECP e IICP no consideran el área RSA, AP  ni los atributos FE "Disponibilidad de canales de pago ", IM "Preparada para situaciones de emergencias", AT “Autonomía/ flexibilidad) del empleado".
+
+--- SLIDE 16 ---
+Principales resultados Principales resultados
+
+--- SLIDE 17 ---
+En esa sección, se presenta al lector un resumen de los índices principales de la encuesta en tablas y gráficos comparativos que enseñan el resultado de la distribuidora, el resultado general CIER y el  benchmark . Así, el lector ya podrá elaborar una opinión acerca de la situación general de la distribuidora; Los principales índices generados por la metodología, además del índice de las cinco áreas de calidad que componen el ISCAL y los índices de las áreas Responsabilidad Socioambiental y Alumbrado Público, fueron representados en sus respectivos colores, y resumidos de la siguiente manera: Principales resultados
+
+--- SLIDE 18 ---
+Principales Resultados IAC -  Índice de aprobación del cliente SE -  Suministro de energía IM -  Imagen IC -  Información y comunicación PR -  Precio de  la factura FE -  Factura de Energía RSA -  Responsabilidad Socioambiental AT -  Atención al cliente AP -  Alumbrado Público IIS -  Índice Intermedio de Satisfacción ISG -  Índice de satisfacción general ISCAL -  Índice de satisfacción con la calidad percibida IECP -  Índice de excelencia de la calidad percibida IICP -  Índice de  insatisfacción con la calidad percibida
+
+--- SLIDE 19 ---
+Principales Resultados El  benchmark  es el mejor resultado entre empresas del mismo tamaño de la distribuidora. 
+
+--- SLIDE 20 ---
+En los cuadros siguientes se muestran los principales índices de la encuesta calculados para las regiones de la distribuidora. En la tabla de principales índices, las marcas en verde y rojo se refieren a diferencias mayores o menores que las indicadas por el margen de error. Los resultados son más favorables que el resultado general de la distribuidora con marcas en verde y, menos favorables, en rojo. Principales resultados Interpretación de la tabla de principales índices de la encuesta
+
+--- SLIDE 21 ---
+Principales resultados General y por región de la distribuidora
+
+--- SLIDE 22 ---
+Posición en el ranking Por región de la distribuidora
+
+--- SLIDE 23 ---
+Índices x Promedio de satisfacción Como se sabe, los índices de desempeño de atributos y de áreas son la proporción de clientes cuya evaluación haya sido igual o mayor que 7, excluyéndose las respuestas NS/NR; Si las notas están muy concentradas en 5/6 o 7/8, los índices pueden sufrir fuerte variación de un año a otro, aunque, en el promedio, las notas no sean tan diferentes; Por ejemplo, vea la distribución de las notas de dos atributos hipotéticos que tienen índices muy diferentes, pero presentan promedios iguales. Así, vea en las próximas diapositivas la evolución de los índices y de los promedios de las notas del IAC, de las siete áreas de calidad, de la evaluación del precio propiamente dicho, el IIS y del ISG, de los cinco últimos años de la distribuidora. Escala Abierta (10 puntos) % 1 2 3 4 5 6 7 8 9 10 NS/NR 11+12 Índice Promedio Atributo x 0,6 1,0 2,1 5,1 12,3 16,8 29,4 16,3 10,4 5,4 0,5 61,9 6,8 Atributo y 0,3 0,2 1,1 4,8 14,1 22,1 27,5 17,4 8,0 4,5 0,0 57,4 6,8
+
+--- SLIDE 24 ---
+Serie histórica de los principales índices
+
+--- SLIDE 25 ---
+Serie histórica del promedio de satisfacción
+
+--- SLIDE 26 ---
+En la próxima diapositiva son presentados todos los atributos investigados en un único gráfico, de tipo radar. En este, se puede comparar: el resultado de la distribuidora con el resultado general CIER. el resultado de la distribuidora con el mejor desempeño obtenido entre  las distribuidoras de su tamaño. La leyenda con los atributos está en la diapositiva siguiente. Desempeño de atributos x  Benchmark  x Resultado CIER
+
+--- SLIDE 27 ---
+Desempeño de atributos x  Benchmark  x Resultado CIER SE - Suministro de Energía IC – Información y Comunicación FE – Factura de Energía AT - Atención al cliente IM – Imagen RSA – Responsabilidad Socioambiental AP – Alumbrado Público
+
+--- SLIDE 28 ---
+Desempeño de atributos x  Benchmark  x Resultado CIER SE - Suministro de Energía SE1 – Sin interrupción SE2 – Sin variación de voltaje SE3 – Rapidez en la reanudación de la energía cuando falta FT – Factura de Energía FE1 – Plazo entre recepción y vencimiento FE2 – Factura sin errores FE3 – Facilidad de comprensión FE4 – Locales para el pago FE5 – Fechas para el vencimiento FE6 – Disponibilidad de canales de pago digitales IM - Imagen IM1 – Respeta los derechos de los clientes IM2 – Conecta con los clientes IM3 – Invierte para proveer energía con calidad IM4 – Informa a sus clientes con respecto a su actuación IM5 – Se ocupa de evitar hurtos de energía IM6 – Ofrece atención sin discriminación IM7 – Dispuesta a negociar con sus clientes (flexible) IM8 – Se ocupa del medio ambiente IM9 – Preparada para situaciones de Emergencia RSA – Responsabilidad Socioambiental RSA1 – Promoción de programas sociales RSA2 – Promoción de acciones culturales RSA3 – Se ocupa de la prevención de accidentes RSA4 – Lleva energía a las regiones no atendidas RSA5 – Contribuye para el desarrollo económico de la ciudad RSA6 – Facilita el acceso de ciudadanos con necesidades especiales RSA7 – Honesta / cumple con sus obligaciones RSA8 – Ofrece buenas condiciones de trabajo IC – Información y Comunicación IC1 – Notificación de interrupción IC2 – Uso eficiente IC3 – Riesgos y peligros IC4 – Derechos y deberes IC5 – Medición del consumo de energía AT -  Atención al cliente AT1 – Facilidad para contactarse AT2 – Tiempo de espera hasta ser atendido AT3 – Duración del tiempo de la atención AT4 – Conocimiento sobre el tema AT5 – Claridad en la información AT6 – Calidad de la atención AT7 – Plazo informado AT8 – Solución definitiva del problema AT9 – Cumplimiento del plazo AT10 – Autonomía / flexibilidad del empleado AP – Alumbrado Público AP1 – Disponible en todo el Municipio AP2 – Calidad del AP AP3 – Cuidados con mantenimiento del alumbrado público en calles, avenidas AP4 – Cuidados con mantenimiento del alumbrado público en plazas, parques, etc.
+
+--- SLIDE 29 ---
+IAC – Índice de Aprobación del Cliente IAC Índice de Aprobación del Cliente
+
+--- SLIDE 30 ---
+IAC - Índice de Aprobación del Cliente La evaluación de la calidad de los servicios prestados por la distribuidora representa el nivel de satisfacción inicial del cliente, dado que fue aplicada antes de la evaluación de los atributos y áreas de calidad. Para la obtención de la respuesta, fue presentada y explicada al encuestado una escala de 10 puntos, variando desde "muy mala" hasta "muy buena". Los resultados obtenidos fueron agrupados y presentados a continuación. Además del índice y del promedio obtenidos, las próximas diapositivas muestran la distribución de las respuestas en la escala agrupada, así como el resultado CIER y el mejor resultado obtenido entre las distribuidoras de su tamaño ( benchmark ).
+
+--- SLIDE 31 ---
+IAC Escala agregada en 4 puntos, resultado CIER y  benchmark
+
+--- SLIDE 32 ---
+IAC por región de la distribuidora Escala agregada en 4 puntos e índice
+
+--- SLIDE 33 ---
+IAC Por distribuidora
+
+--- SLIDE 34 ---
+IAC Por país
+
+--- SLIDE 35 ---
+IAC Por región
+
+--- SLIDE 36 ---
+IIS – Índice Intermedio de Satisfacción IIS Índice Intermedio de Satisfacción
+
+--- SLIDE 37 ---
+IIS – Índice Intermedio de Satisfacción Después de las preguntas sobre la satisfacción del cliente con todas las áreas de calidad, y antes de la evaluación de precio, los entrevistados informaron su nivel de satisfacción con la distribuidora hasta aquel momento de la entrevista. La pregunta aplicada fue la siguiente (P158): “Pensando en todo lo que hemos hablado hasta ahora, ¿cuál es su nivel de satisfacción con la distribuidora de una manera general? Los resultados obtenidos fueron agrupados y se presentan a continuación. Recordando: Se utiliza la misma escala de satisfacción de 10 puntos ya presentada. Para el cálculo del IIS, tampoco son considerados aquellos encuestados que no supieron o no quisieron contestar la pregunta.
+
+--- SLIDE 38 ---
+IIS Escala agregada en 4 puntos, resultado CIER y  benchmark
+
+--- SLIDE 39 ---
+IIS por región de la distribuidora Escala agregada en 4 puntos e índice
+
+--- SLIDE 40 ---
+IIS Por distribuidora
+
+--- SLIDE 41 ---
+IIS Por país
+
+--- SLIDE 42 ---
+IIS Por región
+
+--- SLIDE 43 ---
+Justificaciones para la insatisfacción intermedia En esta ronda, los encuestados que dieron notas de 1 a 6 a la pregunta sobre satisfacción intermedia contestaron una pregunta sobre los motivos para la nota informada.  Esta respuesta fue múltiple y espontánea, y los resultados están presentados a continuación.  Observe que, para el tratamiento de las respuestas obtenidas, se adoptó el procedimiento de estandarización de respuestas espontáneas. La categoría “otros” es la suma de todas las respuestas que, en separado, no alcanzaron 2,5% de mención.
+
+--- SLIDE 44 ---
+Justificaciones para la insatisfacción intermedia
+
+--- SLIDE 45 ---
+Justificaciones para la insatisfacción intermedia Por región de la distribuidora
+
+--- SLIDE 46 ---
+Justificaciones para la insatisfacción intermedia Por país
+
+--- SLIDE 47 ---
+ISG – Índice de Satisfacción General ISG Índice de Satisfacción General
+
+--- SLIDE 48 ---
+ISG – Índice de Satisfacción General Después responder sobre la satisfacción intermedia y sobre el precio propiamente dicho, se solicitó al encuestado una respuesta general de satisfacción, con base en la misma escala de satisfacción de 10 puntos ya presentada. Los resultados obtenidos fueron agrupados y se presentan a continuación.  Es importante tomar en consideración que, para el cálculo del ISG, tampoco se consideran a aquellos encuestados que no quisieron o no supieron contestar la pregunta.
+
+--- SLIDE 49 ---
+ISG Escala agregada en 4 puntos, resultado CIER y  benchmark
+
+--- SLIDE 50 ---
+ISG por región de la distribuidora Escala agregada en 4 puntos e índice
+
+--- SLIDE 51 ---
+ISG Por distribuidora
+
+--- SLIDE 52 ---
+ISG Por país
+
+--- SLIDE 53 ---
+ISG Por región
+
+--- SLIDE 54 ---
+IAC x IIS x ISG Comparación de índices Comparación de índices: IAC x IIS x ISG
+
+--- SLIDE 55 ---
+Comparación de índices: IAC X IIS Inicialmente, observe el cruce entre las respuestas obtenidas a partir de la escala de satisfacción intermedia y las obtenidas a partir de la escala de evaluación de calidad de los servicios (IAC). De esa manera, será posible observar, por ejemplo, entre el grupo de clientes que tienen una opinión muy favorable sobre los servicios prestados por la distribuidora, la proporción de aquellos que están muy satisfechos después de estimulados por las preguntas relativas a la calidad del servicio, con excepción del precio y del alumbrado público.  Para auxiliar en la conclusión de la asociación entre las dos variables, observe también la correlación entre ellas. La correlación  bivariada  representa la asociación entre las respuestas dadas por los clientes a las dos variables, y se presentó el coeficiente de correlación Tau de Kendall.  Para más fácil interpretación, los coeficientes de correlación se transformaron en porcentajes multiplicándolos por 100. Cuanto mayor es el porcentaje encontrado en la correlación, mayor es la asociación entre la evaluación inicial y la satisfacción final.
+
+--- SLIDE 56 ---
+IIS x IAC
+
+--- SLIDE 57 ---
+Comparación de índices: IAC X ISG En seguida, observe el cruce entre el resultado de la pregunta de satisfacción general del cliente por el IAC. El objetivo con ese cruce es enseñar la migración entre las respuestas iniciales y las finales, es decir, permite verificar si los estímulos dados al cliente durante la entrevista lo llevaron a cambiar de nivel de satisfacción cuando comparadas a las principales evaluaciones generales de la distribuidora. Observe también la correlación de las dos variables.  La correlación  bivariada  representa la asociación entre las respuestas dadas por los clientes a las dos variables, y se presentó el coeficiente de correlación Tau de Kendall.  Para más fácil interpretación, los coeficientes de correlación se transformaron en porcentajes multiplicándolos por 100. Cuanto mayor es el porcentaje encontrado en la correlación, mayor es la asociación entre la evaluación inicial y la satisfacción final.
+
+--- SLIDE 58 ---
+IAC X ISG  
+
+--- SLIDE 59 ---
+Camino recorrido: del IAC al IIS y al ISG En esta sección se presentan los análisis que permiten verificar si los estímulos dados al cliente a lo largo de la entrevista lo llevaron a cambiar de nivel de satisfacción, al comparar las principales evaluaciones generales de la distribuidora: IAC, IIS e ISG.  Entre la evaluación de la calidad de los servicios (que genera el IAC) y la satisfacción intermedia (que genera el IIS), los entrevistados fueron expuestos a las preguntas sobre todas las áreas de calidad que componen el ISCAL– Suministro de Energía, Información y Comunicación, Factura, Atención al Cliente e Imagen – además de Responsabilidad Socioambiental. Por su vez, entre la satisfacción intermedia y la satisfacción general (que genera el ISG), los encuestados evalúan el precio pagado por la energía.  La verificación de la diferencia entre los resultados para el IAC, IIS e ISG es un análisis importante, ya que el encuestado puede cambiar su evaluación a lo largo de la encuesta, en función de la aplicación del cuestionario.  Para la comparación de las notas, se analizó el camino recorrido por los clientes durante la aplicación del cuestionario, teniendo como base las notas informadas a las preguntas sobre la evaluación de la calidad de los servicios (que genera el IAC), la satisfacción intermedia (que genera el IIS) y la satisfacción general (que genera el ISG). Así, fueron criadas tres variables para entender cómo fue la trayectoria de notas de los encuestados.
+
+--- SLIDE 60 ---
+Camino recorrido: del IAC al IIS y al ISG Inicialmente, utilizando como punto de partida la nota contestada para la evaluación de la calidad de servicios (IAC) y, como punto final, la nota contestada para la satisfacción intermedia (IIS), el camino recorrido fue establecido de acuerdo con la siguiente clasificación: disminuyó la nota (la nota dada al IAC fue más alta que la nota dada al IIS); mantuvo la nota (la nota dada al IAC fue igual a la nota dada al IIS); aumentó la nota (la nota dada al IAC fue más baja que la nota dada al IIS). Dado que los índices están compuestos a partir de un rango de calificaciones (desde 7 hasta 10), un cambio en la calificación puede no implicar alteración en el índice.  De esta manera será presentado el promedio aritmético de resultados obtenidos, calculado para cada contingente, o sea, aquellos que disminuyeron, aumentaron o mantuvieron la nota.
+
+--- SLIDE 61 ---
+Camino recorrido: del IAC al IIS Variable creada
+
+--- SLIDE 62 ---
+Camino recorrido: del IAC al IIS Variable creada – Por región de la distribuidora
+
+--- SLIDE 63 ---
+Camino recorrido: del IAC al IIS Variable creada – Por país
+
+--- SLIDE 64 ---
+Camino recorrido: del IAC al IIS y al ISG La segunda variable de camino recorrido fue creada para comparar la nota dada a la satisfacción intermedia (IIS como punto de partida) y la nota dada a la satisfacción general (ISG como punto final). Esa sigue los mismos criterios presentados para la variable anterior:  disminuyó la nota (la nota dada en el IIS fue más alta que la nota dada en el ISG);  mantuvo la nota (la nota dada en el IIS fue igual a la nota dada en el ISG);  aumentó la nota (la nota dada en el IIS fue más baja que la nota dada en el ISG) Observe también el promedio (cajas en naranja) del IIS y del ISG calculado para cada contingente (porcentuales presentes en la barra del gráfico), o sea, aquellos que disminuyeron, mantuvieron o aumentaron la nota.
+
+--- SLIDE 65 ---
+Camino recorrido: del IIS al ISG Variable creada
+
+--- SLIDE 66 ---
+Camino recorrido: del IIS al ISG Variable creada – Por región de la distribuidora
+
+--- SLIDE 67 ---
+Camino recorrido: del IIS al ISG Variable creada – Por país
+
+--- SLIDE 68 ---
+Camino recorrido: del IAC al ISG Finalmente, utilizando como punto de partida la nota contestada para la evaluación de la calidad de servicios (que genera el IAC) y, como punto final, la nota contestada para la satisfacción general (que genera el ISG), el camino recorrido fue establecido de acuerdo con la siguiente clasificación: disminuyó la nota (la nota dada al IAC fue más alta que la nota dada al ISG); mantuvo la nota (la nota dada al IAC fue igual a la nota dada al ISG); aumentó la nota (la nota dada al IAC fue más baja que la nota dada al ISG). Para cada uno de los contingentes presentados en el "camino recorrido entre el IAC y el ISG", fueron calculados los índices de la encuesta: IAC, IDAR de las áreas evaluadas, precio propiamente dicho, IIS, ISG, ISCAL, IECP e IICP.  Los resultados son presentados en la secuencia.
+
+--- SLIDE 69 ---
+Camino recorrido: del IAC al ISG Variable creada
+
+--- SLIDE 70 ---
+Camino recorrido: del IAC al ISG Variable creada – Por región de la distribuidora
+
+--- SLIDE 71 ---
+Camino recorrido: del IAC al ISG Variable creada – Por país
+
+--- SLIDE 72 ---
+Camino recorrido: del IAC al ISG
+
+--- SLIDE 73 ---
+Camino recorrido: IAC-ISG x IIS-ISG Por fin, se observa el resultado del cruce entre dos variables creadas de camino recorrido: “del IAC al ISG” versus “del IIS al ISG”. Como se debe leer la tabla siguiente: en las columnas, tenemos el resultado del camino recorrido entre la evaluación inicial de la calidad del servicio de la distribuidora (IAC) y la satisfacción general (ISG). En las líneas, tenemos el camino recorrido entre la satisfacción intermedia (IIS) y la satisfacción general (ISG), es decir, la evaluación de la distribuidora después del tratamiento de precio y alumbrado público. 
+
+--- SLIDE 74 ---
+Camino recorrido: IAC-ISG x IIS-ISG
+
+--- SLIDE 75 ---
+Trayectoria de la distribuidora Trayectoria de la distribuidora
+
+--- SLIDE 76 ---
+Después de la evaluación intermedia y antes de evaluar el precio, los entrevistados contestaron cómo perciben la trayectoria de la distribuidora en el último año, si la calidad de su servicio está mejorando mucho, mejorando, ni mejorando ni empeorando, empeorando o empeorando mucho. En seguida, ellos justificaron sus respuestas.  La variable de percepción de la trayectoria de la distribuidora y la de satisfacción intermedia fueron cruzadas. Así, es posible observar cómo evalúan la trayectoria aquellos usuarios que expresan diferentes niveles de satisfacción con el servicio actual. Trayectoria de la distribuidora
+
+--- SLIDE 77 ---
+Trayectoria de la distribuidora
+
+--- SLIDE 78 ---
+Trayectoria de la distribuidora por región de la distribuidora Escala agregada en 4 puntos e índice
+
+--- SLIDE 79 ---
+Trayectoria de la distribuidora Por distribuidora
+
+--- SLIDE 80 ---
+Trayectoria de la distribuidora Por país
+
+--- SLIDE 81 ---
+Trayectoria de la distribuidora
+
+--- SLIDE 82 ---
+SE – Suministro de Energía
+
+--- SLIDE 83 ---
+Desempeño de atributos y del área Suministro de Energía Escala agregada en 4 puntos, índices 
+
+--- SLIDE 84 ---
+IDAT – Sin interrupción Por distribuidora
+
+--- SLIDE 85 ---
+IDAT – Sin interrupción Por país
+
+--- SLIDE 86 ---
+IDAT – Sin interrupción Por región
+
+--- SLIDE 87 ---
+IDAT – Sin variación de voltaje Por distribuidora
+
+--- SLIDE 88 ---
+IDAT – Sin variación de voltaje Por país
+
+--- SLIDE 89 ---
+IDAT – Sin variación de voltaje Por región
+
+--- SLIDE 90 ---
+IDAT – Rapidez en la reanudación de la energía cuando falta Por distribuidora
+
+--- SLIDE 91 ---
+IDAT – Rapidez en la reanudación de la energía cuando falta Por país
+
+--- SLIDE 92 ---
+IDAT – Rapidez en la reanudación de la energía cuando falta Por región
+
+--- SLIDE 93 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices
+
+--- SLIDE 94 ---
+IDAR – Suministro de Energía Por región
+
+--- SLIDE 95 ---
+IDAR – Suministro de Energía Por distribuidora
+
+--- SLIDE 96 ---
+IDAR – Suministro de Energía Por país
+
+--- SLIDE 97 ---
+Análisis complementarias -   Recordación de la cantidad de interrupciones  Recordación de la cantidad de interrupciones 
+
+--- SLIDE 98 ---
+Recordación de interrupción del suministro de energía Se aplicó una batería de preguntas con el objetivo de identificar si la respuesta de satisfacción con la calidad y continuidad del suministro de energía varía en función del domicilio haber sufrido falta en los últimos 30 días. Primero, el cliente fue interrogado sobre si faltó energía en su domicilio en los 30 días anteriores a la encuesta, aunque haya sido una interrupción de corta duración. Aquellos que contestaron de manera positiva deberían informar cuántas interrupciones sufrieron.
+
+--- SLIDE 99 ---
+Recordación de interrupción del suministro de energía 2025
+
+--- SLIDE 100 ---
+Recordación de interrupción del suministro de energía Variación de  respostas  positivas Por región de la distribuidora
+
+--- SLIDE 101 ---
+Recordación de interrupción del suministro de energía Por país
+
+--- SLIDE 102 ---
+Recordación de la cantidad de interrupciones  Por región de la distribuidora
+
+--- SLIDE 103 ---
+Recordación de la cantidad de interrupciones  Por país
+
+--- SLIDE 104 ---
+Recordación de la cantidad de interrupciones  A continuación, observe los principales índices de la encuesta calculados para los dos grupos de clientes: los que informaron que tuvieron el suministro de energía interrumpido en los últimos 30 días y los que no lo tuvieron. Se empleó el test de Kruskal-Wallis para indicar si hay diferencia significativa entre los niveles de satisfacción de ambos los contingentes. Como el objetivo es identificar si las respuestas de satisfacción son significativamente diferentes entre aquellos que sufrieron interrupción en los últimos 30 días y aquellos que no la sufrieron, asociando el resultado del test al índice obtenido, es posible decir si un grupo de clientes está más o menos satisfecho que el otro, o si los niveles de satisfacción son iguales entre ellos. En la tabla de presentación de los resultados, la línea será llenada en amarillo cuando el test de promedios presenta diferencia significativa de resultados. En estos casos, se debe observar en que grupo la satisfacción es más alta. Si la línea no está llenada en amarillo, la variación de satisfacción observada entre los grupos no fue significativa. 
+
+--- SLIDE 105 ---
+Recordación de la cantidad de interrupciones  Test de promedios: Principales índices
+
+--- SLIDE 106 ---
+Recordación de la cantidad de interrupciones  Se calcularon los  IDATs  e IDAR Suministro de Energía para aquellos que se quedaron sin luz en los últimos 30 días y los que no se quedaron. En la secuencia, vea el resultado del test empleado para verificar si hay diferencia significativa en los niveles de satisfacción de los que tuvieron o no interrupción en el suministro de energía.
+
+--- SLIDE 107 ---
+Recordación de la cantidad de interrupciones  Test de promedios:  IDATs  e IDAR Suministro de Energía 
+
+--- SLIDE 108 ---
+Recordación de la cantidad de interrupciones  Para facilitar la percepción del resultado para el total de la muestra, se creó una variable que suma aquellos domicilios donde hubo falta de energía en los 30 días anteriores a la encuesta con domicilios donde no hubo interrupción en el período, enseñando la cantidad de interrupciones del suministro para el total de la muestra.  Para cada categoría de respuesta de la variable creada, se calculó el IDAT "suministro sin interrupción".
+
+--- SLIDE 109 ---
+Recordación de la cantidad de interrupciones 
+
+--- SLIDE 110 ---
+Recordación de la cantidad de interrupciones  Por región de la distribuidora
+
+--- SLIDE 111 ---
+Recordación de la cantidad de interrupciones  Por país
+
+--- SLIDE 112 ---
+IDAT Sin interrupción X por número de interrupciones
+
+--- SLIDE 113 ---
+Duración de la interrupción de energía A los clientes que contestaron haberse quedado sin energía en su domicilio en los 30 días anteriores a la encuesta, se les preguntó la duración de la interrupción.  Aquellos que tuvieron más de una interrupción deberían estimar el tiempo total pensando en todos los eventos. Es presentado también como varía el promedio de duración de la interrupción (en minutos) para aquellos que se quedaron sin energía una vez, dos veces o tres veces o más en el período.
+
+--- SLIDE 114 ---
+Duración de la interrupción de energía 2025
+
+--- SLIDE 115 ---
+Duración de la interrupción de energía Por región de la distribuidora
+
+--- SLIDE 116 ---
+Duración de la interrupción de energía Por país
+
+--- SLIDE 117 ---
+Promedio de duración de la interrupción de energía
+
+--- SLIDE 118 ---
+Variación en la satisfacción por duración de la interrupción En el próximo gráfico y poniendo atención en la proporción de encuestados, observe el desempeño del atributo "rapidez en la reanudación" por tiempo de interrupción.
+
+--- SLIDE 119 ---
+IDAT Rapidez en la reanudación X duración de la interrupción
+
+--- SLIDE 120 ---
+IC – Información y Comunicación
+
+--- SLIDE 121 ---
+Información y Comunicación En 2019, se incluyó el atributo "Informaciones brindadas por la distribuidora respecto a la medición del consumo de energía (ej.: cómo se hace, cómo leer el medidor)", pero hasta 2024 él no era considerado en el cálculo del índice del área (IDAR), ni en el cálculo del ISCAL, IECP o IICP. A partir de 2025, este atributo pasó a ser considerado también en el cálculo de los índices. 
+
+--- SLIDE 122 ---
+Desempeño de atributos y del área Información y Comunicación Escala agregada en 4 puntos, índices
+
+--- SLIDE 123 ---
+IDAT – Notificación de interrupción Por distribuidora
+
+--- SLIDE 124 ---
+IDAT – Notificación de interrupción Por país
+
+--- SLIDE 125 ---
+IDAT – Notificación de interrupción Por región
+
+--- SLIDE 126 ---
+IDAT – Uso eficiente Por distribuidora
+
+--- SLIDE 127 ---
+IDAT – Uso eficiente Por país
+
+--- SLIDE 128 ---
+IDAT – Uso eficiente Por región
+
+--- SLIDE 129 ---
+IDAT – Riesgos y peligros Por distribuidora
+
+--- SLIDE 130 ---
+IDAT – Riesgos y peligros Por país
+
+--- SLIDE 131 ---
+IDAT – Riesgos y peligros Por región
+
+--- SLIDE 132 ---
+IDAT – Derechos y deberes Por distribuidora
+
+--- SLIDE 133 ---
+IDAT – Derechos y deberes Por país
+
+--- SLIDE 134 ---
+IDAT – Derechos y deberes Por región
+
+--- SLIDE 135 ---
+IDAT – Medición del consumo de energía Por distribuidora
+
+--- SLIDE 136 ---
+IDAT – Medición del consumo de energía Por país
+
+--- SLIDE 137 ---
+IDAT – Medición del consumo de energía Por región
+
+--- SLIDE 138 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices
+
+--- SLIDE 139 ---
+IDAR – Información y Comunicación Por región
+
+--- SLIDE 140 ---
+IDAR – Información y Comunicación Por distribuidora
+
+--- SLIDE 141 ---
+IDAR – Información y Comunicación Por país
+
+--- SLIDE 142 ---
+FE – Factura
+
+--- SLIDE 143 ---
+Factura de Energía El atributo "Disponibilidad de canales de pago digitales (ej.: app, internet)", incluido en 2019, se mantiene en esa ronda. Ese atributo no es considerado en el cálculo del índice del área (IDAR), ni en el cálculo del ISCAL, IECP o IICP.
+
+--- SLIDE 144 ---
+Desempeño de atributos y del área Factura de Energía Escala agregada en 4 puntos, índices El atributo "Disponibilidad de canales de pago digitales" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 145 ---
+IDAT – Plazo entre la recepción y el vencimiento Por distribuidora
+
+--- SLIDE 146 ---
+IDAT – Plazo entre la recepción y el vencimiento Por país
+
+--- SLIDE 147 ---
+IDAT – Plazo entre la recepción y el vencimiento Por región
+
+--- SLIDE 148 ---
+IDAT – Factura sin errores Por distribuidora
+
+--- SLIDE 149 ---
+IDAT – Factura sin errores Por país
+
+--- SLIDE 150 ---
+IDAT – Factura sin errores Por región
+
+--- SLIDE 151 ---
+IDAT – Facilidad de comprensión Por distribuidora
+
+--- SLIDE 152 ---
+IDAT – Facilidad de comprensión Por país
+
+--- SLIDE 153 ---
+IDAT – Facilidad de comprensión  Por región
+
+--- SLIDE 154 ---
+IDAT – Locales para el pago Por distribuidora
+
+--- SLIDE 155 ---
+IDAT – Locales para el pago Por país
+
+--- SLIDE 156 ---
+IDAT – Locales para el pago Por región
+
+--- SLIDE 157 ---
+IDAT – Fecha para el vencimiento Por distribuidora
+
+--- SLIDE 158 ---
+IDAT – Fecha para el vencimiento Por país
+
+--- SLIDE 159 ---
+IDAT – Fecha para el vencimiento Por región
+
+--- SLIDE 160 ---
+IDAT – Disponibilidad de canales de pago digitales Por distribuidora
+
+--- SLIDE 161 ---
+IDAT – Disponibilidad de canales de pago digitales Por país
+
+--- SLIDE 162 ---
+IDAT – Disponibilidad de canales de pago digitales Por región
+
+--- SLIDE 163 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices El atributo "Disponibilidad de canales de pago digitales" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 164 ---
+IDAR – Factura de Energía Por región El atributo "Disponibilidad de canales de pago digitales " no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 165 ---
+IDAR – Factura de Energía Por distribuidora El atributo "Disponibilidad de canales de pago digitales" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 166 ---
+IDAR – Factura de Energía Por país El atributo "Disponibilidad de canales de pago digitales" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 167 ---
+Forma de recepción de la factura Análisis complementarias - Forma de recepción de la factura
+
+--- SLIDE 168 ---
+Forma de recepción de la factura Durante el abordaje, los clientes informaron cómo suelen recibir la factura de energía (P015): factura impresa, factura por correo electrónico, factura impresa y por correo electrónico, por la aplicación o página web de la empresa, o si hace el pago directamente en un punto de pago. Para cada manera de recibir la factura, se calculó el IDAR de Factura de Energía.
+
+--- SLIDE 169 ---
+Forma de recepción de la factura
+
+--- SLIDE 170 ---
+Forma de recepción de la factura
+
+--- SLIDE 171 ---
+Forma de recepción de la factura
+
+--- SLIDE 172 ---
+IDAR Factura X Medio de recepción de la factura
+
+--- SLIDE 173 ---
+Locales de pago de la factura También se les preguntó a los entrevistados en qué lugar o canal se realizó el pago de la factura de energía del domicilio, pensando en el mes anterior a la encuesta.  Las respuestas fueron agrupadas para entender qué tipo de lugar/canal más se utiliza, y se calcularon los índices del área “Factura” para cada tipo de lugar/canal. Esa pregunta no fue aplicada a Colombia y Uruguay.
+
+--- SLIDE 174 ---
+Lugar/canal de pago
+
+--- SLIDE 175 ---
+Lugar/canal de pago
+
+--- SLIDE 176 ---
+AT – Atención al Cliente
+
+--- SLIDE 177 ---
+Atención al Cliente El atributo "Habilidad (autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente", insertado en 2010, se mantiene en esa ronda. Ese atributo no es considerado en el cálculo del índice del área (IDAR), ni en el cálculo del ISCAL, IECP o IICP.
+
+--- SLIDE 178 ---
+Desempeño de atributos y del área Atención al Cliente Escala agregada en 4 puntos, índices El atributo "Autonomía/ flexibilidad del empleado" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 179 ---
+IDAT – Facilidad para contactarse Por distribuidora
+
+--- SLIDE 180 ---
+IDAT – Facilidad para contactarse Por país
+
+--- SLIDE 181 ---
+IDAT – Facilidad para contactarse Por región
+
+--- SLIDE 182 ---
+IDAT – Tiempo de espera hasta ser atendido Por distribuidora
+
+--- SLIDE 183 ---
+IDAT – Tiempo de espera hasta ser atendido Por país
+
+--- SLIDE 184 ---
+IDAT – Tiempo de espera hasta ser atendido Por región
+
+--- SLIDE 185 ---
+IDAT – Duración del tiempo de la atención Por distribuidora
+
+--- SLIDE 186 ---
+IDAT – Duración del tiempo de la atención Por país
+
+--- SLIDE 187 ---
+IDAT – Duración del tiempo de la atención Por región
+
+--- SLIDE 188 ---
+IDAT – Conocimiento sobre el tema Por distribuidora
+
+--- SLIDE 189 ---
+IDAT – Conocimiento sobre el tema Por país
+
+--- SLIDE 190 ---
+IDAT – Conocimiento sobre el tema Por región
+
+--- SLIDE 191 ---
+IDAT – Claridad en la información Por distribuidora
+
+--- SLIDE 192 ---
+IDAT – Claridad en la información Por país
+
+--- SLIDE 193 ---
+IDAT – Claridad en la información Por región
+
+--- SLIDE 194 ---
+IDAT – Calidad de la atención Por distribuidora
+
+--- SLIDE 195 ---
+IDAT – Calidad de la atención Por país
+
+--- SLIDE 196 ---
+IDAT – Calidad de la atención Por región
+
+--- SLIDE 197 ---
+IDAT – Plazo informado Por distribuidora
+
+--- SLIDE 198 ---
+IDAT – Plazo informado Por país
+
+--- SLIDE 199 ---
+IDAT – Plazo informado Por región
+
+--- SLIDE 200 ---
+IDAT – Solución definitiva del problema Por distribuidora
+
+--- SLIDE 201 ---
+IDAT – Solución definitiva del problema Por país
+
+--- SLIDE 202 ---
+IDAT – Solución definitiva del problema Por región
+
+--- SLIDE 203 ---
+IDAT – Cumplimiento del plazo Por distribuidora
+
+--- SLIDE 204 ---
+IDAT – Cumplimiento del plazo Por país
+
+--- SLIDE 205 ---
+IDAT – Cumplimiento del plazo Por región
+
+--- SLIDE 206 ---
+IDAT – Autonomía/ flexibilidad del empleado Por distribuidora
+
+--- SLIDE 207 ---
+IDAT – Autonomía/ flexibilidad del empleado Por país
+
+--- SLIDE 208 ---
+IDAT – Autonomía/ flexibilidad del empleado Por región
+
+--- SLIDE 209 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices El atributo "Autonomía/ flexibilidad del empleado" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 210 ---
+IDAR – Atención al Cliente Por región El atributo "Autonomía/ flexibilidad del empleado" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 211 ---
+IDAR – Atención al Cliente Por distribuidora El atributo "Autonomía/ flexibilidad del empleado" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 212 ---
+IDAR – Atención al Cliente Por país El atributo "Autonomía/ flexibilidad del empleado" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 213 ---
+Grupos de evaluación del área Atención al Cliente Grupos de evaluación del área Atención al Cliente
+
+--- SLIDE 214 ---
+Grupos de evaluación del área Atención al Cliente Otra forma de visualizar los resultados del área Atención al Cliente es repartir los atributos por similitud, conforme presentado a continuación. Habiendo más de un atributo por grupo, se calculó un índice para la subárea.  Así, se facilita la identificación del tema más crítico entre los cuatro abordados en la evaluación de la atención.
+
+--- SLIDE 215 ---
+Grupos de evaluación del área Atención al Cliente
+
+--- SLIDE 216 ---
+Grupos de evaluación del área Atención al Cliente Por región de la distribuidora
+
+--- SLIDE 217 ---
+Interacciones con la distribuidora Análisis complementarias - Interacciones  con la distribuidora
+
+--- SLIDE 218 ---
+Interacciones con la distribuidora Un cambio importante realizado en 2021, que se mantuvo en las rondas posteriores, se refiere a la investigación de posibles interacciones establecidas con la distribuidora. Después de conocer la satisfacción con todas las áreas de calidad, precio y satisfacción general, todos los clientes respondieron una serie de preguntas sobre los contactos realizados con la distribuidora en el último año. Se investigaron los motivos y formas de contacto utilizadas, así como la solución definitiva de los motivos que originaron las interacciones. Además, fue posible identificar el uso de canales digitales, así como conocer la satisfacción del cliente con dichos canales y / o la posibilidad de utilizarlos en el futuro. Primero, se aplicó una pregunta para identificar si los clientes hicieron contacto con la distribuidora en el último año identificando las razones. 
+
+--- SLIDE 219 ---
+Interacciones con la distribuidora
+
+--- SLIDE 220 ---
+Interacciones con la distribuidora Por región de la distribuidora
+
+--- SLIDE 221 ---
+Interacciones con la distribuidora Por país
+
+--- SLIDE 222 ---
+Motivos para contacto A continuación, vea cuál es el motivo más mencionado por aquellos que han realizado contacto con la distribuidora por una razón y por más de una. 
+
+--- SLIDE 223 ---
+Motivos para contacto
+
+--- SLIDE 224 ---
+Motivos para contacto Por región de la distribuidora
+
+--- SLIDE 225 ---
+Motivos para contacto Por país
+
+--- SLIDE 226 ---
+Interacciones con la distribuidora Todos los clientes encuestados evaluaron los atributos del área Atención al Cliente, independientemente de haber realizado contacto o no con la distribuidora. Por ese motivo, serán presentados los  IDATs  y el IDAR Atención los dos grupos de clientes, aquellos que tuvieron o no contacto. Y, a continuación, los principales índices de la encuesta calculados para los dos grupos. Además de la visualización gráfica de los resultados, se puso a disposición una tabla con los datos, además del test de promedios. Recordando que, cuando la línea de la tabla se llena de amarillo claro, indica que existe una diferencia significativa en el resultado obtenido para cada grupo. A continuación, observe cuál es el resultado del IDAR Atención al Cliente por motivo mencionado.
+
+--- SLIDE 227 ---
+Interacciones con la distribuidora IDATs  e IDAR Atención al Cliente
+
+--- SLIDE 228 ---
+Interacciones con la distribuidora Test de promedios:  IDATs  e IDAR Atención al Cliente
+
+--- SLIDE 229 ---
+Interacciones con la distribuidora Principales índices
+
+--- SLIDE 230 ---
+Interacciones con la distribuidora Test de promedios: Principales índices
+
+--- SLIDE 231 ---
+Interacciones con la distribuidora
+
+--- SLIDE 232 ---
+Interacciones con la distribuidora Todos los encuestados contestaron una pregunta sobre cuándo fue el último contacto con la distribuidora: si en 2025, en 2024 o el año anterior.  Se agruparon las respuestas de aquellos que se pusieron en contacto con la distribuidora más recientemente (en 2024 o 2025), las de quienes se pusieron en contacto en 2024 o antes y de los que no se pusieron en contacto con las distribuidoras. Para cada grupo, se calcularon los índices de Atención al Cliente. Observe los resultados a continuación.
+
+--- SLIDE 233 ---
+Interacciones con la distribuidora
+
+--- SLIDE 234 ---
+Motivos para contacto Por región de la distribuidora
+
+--- SLIDE 235 ---
+Motivos para contacto Por país
+
+--- SLIDE 236 ---
+Resolución de los motivos para contacto A todos que contactaron a la distribuidora en 2024 o 2025 fueron hechas preguntas para calificar la interacción con las empresas. Primero, se cuestionó sobre la resolución del contacto. Independientemente del motivo mencionado, los clientes respondieron si el problema se resolvió en el primer contacto o si tuvieron que hacer más de un contacto para abordar el mismo problema. Las opciones eran: todos los asuntos se resolvieron en el primer contacto, se necesitaba más de un contacto por el mismo motivo, y algunos motivos se resolvieron en el primer contacto, y para otros, se necesitaba más de un contacto. A continuación, vea cuál el resultado del IDAR Atención al Cliente por la solución en el primer contacto o no.
+
+--- SLIDE 237 ---
+Resolución de los motivos para contacto
+
+--- SLIDE 238 ---
+Resolución de los motivos para contacto Por región de la distribuidora
+
+--- SLIDE 239 ---
+Resolución de los motivos para contacto Por país
+
+--- SLIDE 240 ---
+Variación en la satisfacción por resolución en el primer contacto 
+
+--- SLIDE 241 ---
+Canal utilizado Finalmente, se le preguntó al encuestado cuál fue el primer canal utilizado para resolver el motivo más reciente de contacto con la distribuidora. Esa fue una respuesta única y espontánea. Las respuestas obtenidas fueron categorizadas en: telefónico, presencial, WhatsApp de la distribuidora, otros canales digitales y otros.  Observe primero el resultado completo de la variable, y después el resultado de las categorías creadas.
+
+--- SLIDE 242 ---
+Canal utilizado 
+
+--- SLIDE 243 ---
+Canal utilizado  Por región de la distribuidora
+
+--- SLIDE 244 ---
+Canal utilizado  Por país
+
+--- SLIDE 245 ---
+Canal utilizado
+
+--- SLIDE 246 ---
+Canal utilizado Por región de la distribuidora
+
+--- SLIDE 247 ---
+Canal utilizado Por país
+
+--- SLIDE 248 ---
+Canal utilizado Todos los clientes encuestados evaluaron los atributos del área Atención al Cliente y de la encuesta, independientemente del tipo de canal. Para investigar con más detalle el comportamiento de los clientes por tipo de canal, serán presentados los  IDATs  y el IDAR Atención de las categorías de la variable de canales utilizados, telefónico, presencial, digital y otros.  Y, a continuación, los principales índices de la encuesta calculados para cada grupo. 
+
+--- SLIDE 249 ---
+Canal utilizado IDAR e  IDATs  Atención al Cliente por Canal utilizado
+
+--- SLIDE 250 ---
+Canal utilizado Principales índices por Canal utilizado
+
+--- SLIDE 251 ---
+Indicador de esfuerzo del cliente Análisis complementarias - Indicador de esfuerzo del cliente
+
+--- SLIDE 252 ---
+Indicador de esfuerzo del cliente El encuestador también solicitó al encuestado que se recordase del contacto más reciente además del servicio recibido e indicar el nivel de esfuerzo realizado con relación al contacto. El cliente debería elegir la respuesta más adecuada, desde muy fácil a muy difícil (o de muy bajo a muy alto esfuerzo). El indicador de esfuerzo consiste en la suma de las respuestas "fácil” y “muy fácil”, en relación con el total de respuestas válidas (que es igual al número total de clientes que hicieron contacto con la distribuidora en el último año y que respondieron la pregunta). También es importante resaltar que cuanto más alto es el indicador, menor es el nivel de esfuerzo del cliente.
+
+--- SLIDE 253 ---
+Indicador de esfuerzo del cliente
+
+--- SLIDE 254 ---
+Indicador de esfuerzo del cliente Por región de la distribuidora
+
+--- SLIDE 255 ---
+Indicador de esfuerzo del cliente Por país
+
+--- SLIDE 256 ---
+Justificaciones para niveles de esfuerzo “difícil” o “muy difícil”  Aquellos que percibieron el nivel de esfuerzo como “difícil” o “muy difícil” contestaron una pregunta sobre los motivos para su opinión relativa al esfuerzo necesario para contactar la distribuidora. 
+
+--- SLIDE 257 ---
+Justificaciones para niveles de esfuerzo “difícil” o “muy difícil” 
+
+--- SLIDE 258 ---
+Justificaciones para niveles de esfuerzo “difícil” o “muy difícil”  Por región de la distribuidora
+
+--- SLIDE 259 ---
+Justificaciones para niveles de esfuerzo “difícil” o “muy difícil”  Por país
+
+--- SLIDE 260 ---
+Indicador de esfuerzo del cliente Para cada nivel de esfuerzo se representó el desempeño de los atributos del área Atención al Cliente y, después, el desempeño de los principales índices de la encuesta, calculados para los mismos contingentes. Al analizar estos datos, es importante poner atención a la base de encuestados.
+
+--- SLIDE 261 ---
+Indicador de esfuerzo del cliente X  IDATs  e IDAR Atención al Cliente
+
+--- SLIDE 262 ---
+Indicador de esfuerzo del cliente x Principales índices
+
+--- SLIDE 263 ---
+Canales digitales Análisis complementarias - Canales digitales
+
+--- SLIDE 264 ---
+Canales digitales A los clientes que utilizaron al menos uno de los canales digitales para hacer contacto con la distribuidora, se les hizo una pregunta para determinar el nivel de satisfacción con dichas interacciones (P194). Para contestar esa pregunta fueron considerados los canales:  Call  Center en contestadora automática, Oficina direccionada para otro canal, WhatsApp, mensajes de texto (SMS) a teléfonos celulares, correo electrónico, redes sociales, el sitio web de la distribuidora y la aplicación.  La respuesta consideró una escala que va desde "muy insatisfecho" (nota 1) hasta "muy satisfecho" (nota 10).
+
+--- SLIDE 265 ---
+Canales digitales Escala agregada en 4 puntos, índices y promedio
+
+--- SLIDE 266 ---
+Canales digitales Por región de la distribuidora
+
+--- SLIDE 267 ---
+Canales digitales Por país
+
+--- SLIDE 268 ---
+Motivos para insatisfacción con canales digitales Aquellos que no estaban satisfechos con los canales digitales, es decir, que dieron notas de 1 a 6 en la escala de satisfacción, informaron los principales motivos de insatisfacción. La respuesta fue múltiple y espontánea.
+
+--- SLIDE 269 ---
+Motivos para insatisfacción con canales digitales
+
+--- SLIDE 270 ---
+Motivos para insatisfacción con canales digitales Por región de la distribuidora
+
+--- SLIDE 271 ---
+Motivos para insatisfacción con canales digitales Por país
+
+--- SLIDE 272 ---
+IM – Imagen
+
+--- SLIDE 273 ---
+Imagen El atributo "Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves" fue excluido en 2020 pero regresó en 2021, y se mantiene en la encuesta desde entonces. Ese atributo no es considerado en el cálculo del índice del área (IDAR), ni tampoco en el cálculo del ISCAL, IECP o IICP.
+
+--- SLIDE 274 ---
+Desempeño de atributos y del área Imagen Escala agregada en 4 puntos, índices El atributo "Preparada para situaciones de emergencia" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 275 ---
+IDAT – Respeta los derechos de los clientes Por distribuidora
+
+--- SLIDE 276 ---
+IDAT – Respeta los derechos de los clientes Por país
+
+--- SLIDE 277 ---
+IDAT – Respeta los derechos de los clientes  Por región
+
+--- SLIDE 278 ---
+IDAT – Correcta con los clientes Por distribuidora
+
+--- SLIDE 279 ---
+IDAT – Correcta con los clientes Por país
+
+--- SLIDE 280 ---
+IDAT – Correcta con los clientes Por región
+
+--- SLIDE 281 ---
+IDAT – Invierte para proveer energía de calidad Por distribuidora
+
+--- SLIDE 282 ---
+IDAT – Invierte para proveer energía de calidad Por país
+
+--- SLIDE 283 ---
+IDAT – Invierte para proveer energía de calidad Por región
+
+--- SLIDE 284 ---
+IDAT – Informa a sus clientes con respecto a su actuación Por distribuidora
+
+--- SLIDE 285 ---
+IDAT – Informa a sus clientes con respecto a su actuación Por país
+
+--- SLIDE 286 ---
+IDAT – Informa a sus clientes con respecto a su actuación Por región
+
+--- SLIDE 287 ---
+IDAT – Se ocupa de evitar hurtos de energía Por distribuidora
+
+--- SLIDE 288 ---
+IDAT – Se ocupa de evitar hurtos de energía Por país
+
+--- SLIDE 289 ---
+IDAT – Se ocupa de evitar hurtos de energía  Por región
+
+--- SLIDE 290 ---
+IDAT – Ofrece atención sin discriminación Por distribuidora
+
+--- SLIDE 291 ---
+IDAT – Ofrece atención sin discriminación Por país                        
+
+--- SLIDE 292 ---
+IDAT – Ofrece atención sin discriminación Por región
+
+--- SLIDE 293 ---
+IDAT – Dispuesta a negociar con sus clientes (flexible) Por distribuidora
+
+--- SLIDE 294 ---
+IDAT – Dispuesta a negociar con sus clientes (flexible) Por país
+
+--- SLIDE 295 ---
+IDAT – Dispuesta a negociar con sus clientes (flexible) Por región
+
+--- SLIDE 296 ---
+IDAT – Se ocupa del medio ambiente Por distribuidora
+
+--- SLIDE 297 ---
+IDAT – Se ocupa del medio ambiente Por país
+
+--- SLIDE 298 ---
+IDAT – Se ocupa del medio ambiente Por región
+
+--- SLIDE 299 ---
+IDAT – Preparada para situaciones de emergencia Por distribuidora
+
+--- SLIDE 300 ---
+IDAT – Preparada para situaciones de emergencia Por país
+
+--- SLIDE 301 ---
+IDAT – Preparada para situaciones de emergencia Por región
+
+--- SLIDE 302 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices El atributo "Preparada para situaciones de emergencia" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 303 ---
+IDAR – Imagen Por región El atributo "Preparada para situaciones de emergencia" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 304 ---
+IDAR – Imagen Por distribuidora El atributo "Preparada para situaciones de emergencia" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 305 ---
+IDAR – Imagen Por país El atributo "Preparada para situaciones de emergencia" no es considerado en el cálculo del índice del área (IDAR).
+
+--- SLIDE 306 ---
+Recolección de la importancia Recolección de la importancia
+
+--- SLIDE 307 ---
+Hasta 2023, para las distribuidoras con más de 500 mil clientes las encuestas de importancia fueron contestadas por el 20% de la muestra patrón, correspondiendo a 125 casos. Para las distribuidoras con hasta 500 mil clientes son aplicados 100 casos.  En 2024 y en 2025, se utilizó el promedio de la importancia del 2022 y 2023, para las empresas argentinas la importancia utilizada fue la recolectada en la ronda de 2025. Es importante mencionar que se incluyó un nuevo atributo en el Índice de Satisfacción con la Calidad Percibida (ISCAL) y demás índices, de manera que las importancias relativas de cada atributo fueron recalculadas.  En la siguiente tabla, se puede observar el promedio  importancia relativa de los 30 atributos de las áreas de calidad (Suministro de Energía, Información y Comunicación, Factura de Energía, Atención al Cliente e Imagen), que son llevados en cuenta para el cálculo del ISCAL. Recolección de la importancia
+
+--- SLIDE 308 ---
+Recolección de la importancia
+
+--- SLIDE 309 ---
+ISCAL – Índice de Satisfacción con la Calidad Percibida ISCAL Índice de Satisfacción con la Calidad Percibida
+
+--- SLIDE 310 ---
+Índice de Satisfacción con la Calidad Percibida Este índice representa la percepción del cliente con relación a la calidad de los servicios prestados por la distribuidora y contempla todos los aspectos que podrían influenciar su nivel de satisfacción, ponderados por la importancia atribuida a cada uno de ellos. En 2025 el ISCAL fue calculado con 30 atributos de las cinco áreas de calidad a diferencia del ISCAL hasta 2024, que se calculaba con 29 atributos. El atributo “Informaciones brindadas por la distribuidora respecto a la medición del consumo de energía (ej.: cómo se hace, cómo leer el medidor)”, del área Información y comunicación, estaba siendo evaluado desde 2019, pero sólo en 2025 se integró al cálculo del ISCAL y demás índices. Los siguientes atributos evaluados siguen no considerados en los cálculos de los índices: Disponibilidad de canales de pago digitales (ej.: app, internet), incluido en el área Factura de energía en 2019; Autonomía/flexibilidad del empleado, incluido en el área Atención al cliente en 2010; Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves) incluido en el área Imagen.
+
+--- SLIDE 311 ---
+Índice de Satisfacción con la Calidad Percibida En la próxima tabla, se presentan, en la columna 2, los índices de satisfacción con cada atributo ( IDATs ) y, en la columna siguiente, la   relativa de cada atributo de calidad. La última columna enseña la tasa de satisfacción, que es el resultado de la multiplicación del IDAT por su respectiva importancia relativa, dividido por 100. El ISCAL es la suma de las tasas de satisfacción presentadas en la última columna. En seguida, se hace una evaluación comparativa del resultado CIER al mejor desempeño entre las 30 participantes de esa ronda.
+
+--- SLIDE 312 ---
+Importancia relativa x Satisfacción con los atributos de calidad
+
+--- SLIDE 313 ---
+ISCAL  	 Índice, resultado CIER y  benchmark
+
+--- SLIDE 314 ---
+ISCAL  	 Por región de la distribuidora 
+
+--- SLIDE 315 ---
+ISCAL	 Por distribuidora
+
+--- SLIDE 316 ---
+ISCAL Por país
+
+--- SLIDE 317 ---
+ISCAL Por región
+
+--- SLIDE 318 ---
+IECP – Índice de Excelencia de la Calidad Percibida IECP Índice de Excelencia de la Calidad Percibida
+
+--- SLIDE 319 ---
+Índice de Excelencia de la Calidad Percibida Ese índice fue incluido en 2010 y es calculado como el ISCAL, con la siguiente diferencia: para el cálculo de los  IDATs , se consideró solamente el porcentaje de encuestados que calificaron 9 o 10 para los atributos de calidad, correspondiendo a los clientes “muy satisfechos”, sin tomar en consideración aquellos que no supieron o se negaron a contestar las preguntas. En seguida, se hace una evaluación comparativa de la distribuidora que obtuvo el mejor desempeño y el resultado CIER.
+
+--- SLIDE 320 ---
+IECP Índice, resultado CIER y  benchmark
+
+--- SLIDE 321 ---
+IECP Por región de la distribuidora
+
+--- SLIDE 322 ---
+IECP Por distribuidora
+
+--- SLIDE 323 ---
+IECP Por país
+
+--- SLIDE 324 ---
+IECP Por región
+
+--- SLIDE 325 ---
+IICP – Índice de Insatisfacción de la Calidad Percibida IICP Índice de Insatisfacción de la Calidad Percibida
+
+--- SLIDE 326 ---
+Índice de Insatisfacción de la Calidad Percibida Este índice fue incluido en 2010 y es calculado como el ISCAL, con la siguiente diferencia: para el cálculo de los  IDATs , se consideró solamente el porcentaje de encuestados que calificaron desde 1 hasta 4 para los atributos de calidad, correspondiendo a los clientes “insatisfechos” o “muy insatisfechos”, sin tomar en consideración aquellos que no supieron o se negaron a contestar. En seguida, se hace una evaluación comparativa del resultado de la distribuidora que obtuvo el mejor desempeño y el resultado CIER.
+
+--- SLIDE 327 ---
+IICP	 Índice, resultado CIER y  benchmark
+
+--- SLIDE 328 ---
+IICP	 Por región de la distribuidora
+
+--- SLIDE 329 ---
+IICP	 Por distribuidora
+
+--- SLIDE 330 ---
+IICP Por país
+
+--- SLIDE 331 ---
+IICP Por región
+
+--- SLIDE 332 ---
+Evaluación del precio
+
+--- SLIDE 333 ---
+Evaluación del precio El IDAT de "Precio propiamente dicho" (o precio de la factura) es calculado considerando el porcentaje de clientes que asignaron calificaciones desde 7 hasta 10 en la escala de evaluación del precio (“barato” y “muy barato”). El resultado fue agregado en cuatro puntos.
+
+--- SLIDE 334 ---
+Evaluación del precio Escala agregada en 4 puntos, resultado CIER y  benchmark
+
+--- SLIDE 335 ---
+Evaluación del precio Escala agregada en 4 puntos, índices
+
+--- SLIDE 336 ---
+Evaluación del precio Por distribuidora
+
+--- SLIDE 337 ---
+Evaluación del precio Por país
+
+--- SLIDE 338 ---
+Evaluación del precio Por región
+
+--- SLIDE 339 ---
+Profundización relativa a la evaluación del precio Para cada grupo de respuesta de la variable de evaluación del precio (muy caro, caro, ni caro ni barato, barato/muy barato), fueron calculados los principales índices de la encuesta. Por último, para cada uno de los rangos de evaluación del atributo "precio" (muy caro, caro, ni caro ni barato, barato/muy barato), se calculó el gasto con energía per  capita  mensual, la participación de los gastos con energía eléctrica en el ingreso familiar y el promedio del valor de la factura.
+
+--- SLIDE 340 ---
+Principales índices x Grupos de evaluación de precio
+
+--- SLIDE 341 ---
+Precio de la factura
+
+--- SLIDE 342 ---
+RSA – Responsabilidad Socioambiental
+
+--- SLIDE 343 ---
+Responsabilidad Socioambiental Esta área es compuesta por nueve atributos, siendo siete  exclusivos y dos que son evaluados en el área Imagen, que son:  "Empresa que se ocupa de evitar fraudes como los hurtos de energía, etc." y  "Empresa que se ocupa del medio ambiente, de la preservación de la naturaleza". Se resalta que ese tema, aunque sea de importancia para la comprensión de la satisfacción del cliente, no es considerado en el cálculo de los índices compuestos de satisfacción, como el ISCAL. Sin embargo, deben ser monitoreados y, eventualmente, trabajados por la distribuidora, con la intención de obtener mejores niveles de satisfacción general.
+
+--- SLIDE 344 ---
+Responsabilidad Socioambiental Desde 2010 hasta 2023, fueron evaluados los atributos "Empresa que ofrece buenas condiciones de trabajo a sus empleados" y "Empresa honesta, que cumple con sus obligaciones con todos los públicos, sean ellos clientes, empleados, proveedores /suministradores, gobierno etc.". En 2024, se excluyó el atributo "Empresa que ofrece buenas condiciones de trabajo a sus empleados“.  De cualquier manera, estos atributos no componen el índice del área, ni tampoco el ISCAL.  Así, el índice del área de Responsabilidad Socioambiental considera en su cálculo los seis atributos tradicionales del área (sin los incluidos en 2010), y los dos atributos del área Imagen, como ya fue mencionado.
+
+--- SLIDE 345 ---
+Desempeño de atributos y del área Responsabilidad Socioambiental Escala agregada en 4 puntos, índices Los atributos "Ofrece buenas condiciones de trabajos" y "Honesta/ cumple con sus obligaciones“ no son considerados en el cálculo del índice del área (IDAR).
+
+--- SLIDE 346 ---
+IDAT – Promoción de programas sociales Por distribuidora
+
+--- SLIDE 347 ---
+IDAT – Promoción de programas sociales Por país
+
+--- SLIDE 348 ---
+IDAT – Promoción de programas sociales Por región
+
+--- SLIDE 349 ---
+IDAT – Promoción de acciones culturales Por distribuidora
+
+--- SLIDE 350 ---
+IDAT – Promoción de acciones culturales Por país
+
+--- SLIDE 351 ---
+IDAT – Promoción de acciones culturales Por región
+
+--- SLIDE 352 ---
+IDAT – Se ocupa de la prevención de accidentes Por distribuidora
+
+--- SLIDE 353 ---
+IDAT – Se ocupa de la prevención de accidentes Por país
+
+--- SLIDE 354 ---
+IDAT – Se ocupa de la prevención de accidentes Por región
+
+--- SLIDE 355 ---
+IDAT – Lleva energía a las regiones no atendidas Por distribuidora
+
+--- SLIDE 356 ---
+IDAT – Lleva energía a las regiones no atendidas Por país
+
+--- SLIDE 357 ---
+IDAT – Lleva energía a las regiones no atendidas Por región
+
+--- SLIDE 358 ---
+IDAT – Contribuye para el desarrollo  econ.  de la ciudad Por distribuidora
+
+--- SLIDE 359 ---
+IDAT – Contribuye para el desarrollo  econ.  de la ciudad Por país
+
+--- SLIDE 360 ---
+IDAT – Contribuye para el desarrollo  econ.  de la ciudad Por región
+
+--- SLIDE 361 ---
+IDAT – Facilita el acceso de ciudadanos con  neces .  espec Por distribuidora
+
+--- SLIDE 362 ---
+IDAT – Facilita el acceso de ciudadanos con  neces .  espec Por país
+
+--- SLIDE 363 ---
+IDAT – Facilita el acceso de ciudadanos con  neces .  espec   Por región
+
+--- SLIDE 364 ---
+IDAT – Honesta/cumple con sus obligaciones  Por distribuidora
+
+--- SLIDE 365 ---
+IDAT – Honesta/cumple con sus obligaciones  Por país
+
+--- SLIDE 366 ---
+IDAT – Honesta/Cumple con sus obligaciones Por región
+
+--- SLIDE 367 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices Los atributos "Ofrece buenas condiciones de trabajos" y "Honesta/ cumple con sus obligaciones“ no son considerados en el cálculo del índice del área (IDAR).
+
+--- SLIDE 368 ---
+IDAR – Responsabilidad Socioambiental Por región Los atributos "Ofrece buenas condiciones de trabajos" y "Honesta/ cumple con sus obligaciones“ no son considerados en el cálculo del índice del área (IDAR).
+
+--- SLIDE 369 ---
+IDAR – Responsabilidad Socioambiental Por distribuidora Los atributos "Ofrece buenas condiciones de trabajos" y "Honesta/ cumple con sus obligaciones“ no son considerados en el cálculo del índice del área (IDAR).
+
+--- SLIDE 370 ---
+IDAR – Responsabilidad Socioambiental Por país Los atributos "Ofrece buenas condiciones de trabajos" y "Honesta/ cumple con sus obligaciones“ no son considerados en el cálculo del índice del área (IDAR).
+
+--- SLIDE 371 ---
+Participación en  programas sociales Análisis complementarias - Participación en programas sociales
+
+--- SLIDE 372 ---
+Participación en programas sociales Al final de las preguntas sobre la responsabilidad socioambiental de la empresa, se les consultó a los encuestados si ellos ya habían participado de algún programa social o eventos culturales realizados o apoyados por la distribuidora, como programas de incentivo al deporte, a la mejora de la educación, conciertos, exposiciones, fechas festivas.  Observe a seguir los resultados. 
+
+--- SLIDE 373 ---
+Participación en programas sociales
+
+--- SLIDE 374 ---
+Participación en programas sociales Por región de la distribuidora
+
+--- SLIDE 375 ---
+Participación en programas sociales Por país Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 376 ---
+Igualdad de género Análisis complementarias - Igualdad de atención a hombres y mujeres
+
+--- SLIDE 377 ---
+Igualdad de género Para finalizar el tema de responsabilidad social, les fue preguntado a todos los encuestados si la distribuidora ofrece la misma atención a hombres y mujeres (P155). Para aquellos que dieron alguna respuesta (diferente de “no sabe” y “no responde”), se les fue preguntado el motivo para la opinión (P156 y P157). La pregunta fue de respuesta múltiple (hasta dos respuestas) y espontánea, y los resultados están presentados a continuación. Observe nuevamente que, para el tratamiento de las respuestas obtenidas, se adoptó el procedimiento de estandarización de respuestas espontáneas. La categoría “otros” es la suma de todas las respuestas que, en separado, no alcanzaron 2,5% de mención. 
+
+--- SLIDE 378 ---
+Igualdad de género
+
+--- SLIDE 379 ---
+Igualdad de género Por región de la distribuidora
+
+--- SLIDE 380 ---
+Igualdad de género Por país Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 381 ---
+Motivo para la opinión positiva
+
+--- SLIDE 382 ---
+Motivo para la opinión positiva Por región de la distribuidora
+
+--- SLIDE 383 ---
+Motivo para la opinión positiva Por país Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 384 ---
+Motivo para la opinión negativa Por región de la distribuidora
+
+--- SLIDE 385 ---
+Motivo para la opinión negativa Por país Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 386 ---
+AP – Alumbrado Público
+
+--- SLIDE 387 ---
+Desempeño de atributos y del área Alumbrado Público Escala agregada en 4 puntos, índices
+
+--- SLIDE 388 ---
+IDAT – Disponible en todo el municipio Por distribuidora
+
+--- SLIDE 389 ---
+IDAT – Disponible en todo el municipio Por país
+
+--- SLIDE 390 ---
+IDAT – Disponible en todo el municipio Por región
+
+--- SLIDE 391 ---
+IDAT – Calidad del Alumbrado Público Por distribuidora
+
+--- SLIDE 392 ---
+IDAT – Calidad del Alumbrado Público Por país
+
+--- SLIDE 393 ---
+IDAT – Calidad del Alumbrado Público Por región
+
+--- SLIDE 394 ---
+IDAT – Cuidados con mantenimiento en las calles Por distribuidora Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 395 ---
+IDAT – Cuidados con mantenimiento en las calles Por país
+
+--- SLIDE 396 ---
+IDAT – Cuidados con mantenimiento en las calles Por región
+
+--- SLIDE 397 ---
+IDAT – Cuidados con mantenimiento en las plazas Por distribuidora Esa pregunta no fue aplicada em Brasil.
+
+--- SLIDE 398 ---
+IDAT – Cuidados con mantenimiento en las plazas Por país
+
+--- SLIDE 399 ---
+IDAT – Cuidados con mantenimiento en las plazas Por región
+
+--- SLIDE 400 ---
+IDAR por región de la distribuidora Escala agregada en 4 puntos, índices
+
+--- SLIDE 401 ---
+IDAR – Alumbrado Público Por región
+
+--- SLIDE 402 ---
+IDAR – Alumbrado Público Por distribuidora
+
+--- SLIDE 403 ---
+IDAR – Alumbrado Público Por país
+
+--- SLIDE 404 ---
+Responsabilidad por el alumbrado Análisis complementarias - Responsabilidad del alumbrado
+
+--- SLIDE 405 ---
+Responsabilidad por el alumbrado Se les preguntó a los encuestados si ellos sabrían decir quién tiene la responsabilidad por el alumbrado de las calles y plazas de los municipios.  Se calculó también el índice de desempeño del área Alumbrado Público para cada categoría de respuesta: aquellos que creen que la responsabilidad es de la municipalidad, los que consideran que la responsabilidad es de la distribuidora y aquellos que dieron otra respuesta o no saben. Observe la base de las respuestas para analizar los resultados. Los resultados se presentan en la secuencia.
+
+--- SLIDE 406 ---
+Responsabilidad por el alumbrado
+
+--- SLIDE 407 ---
+Responsabilidad por el alumbrado Por región de la distribuidora
+
+--- SLIDE 408 ---
+Responsabilidad por el alumbrado Por país
+
+--- SLIDE 409 ---
+IDAR Alumbrado Público X Responsable por el AP
+
+--- SLIDE 410 ---
+Responsabilidad por el alumbrado Para finalizar, fueron calculados los principales índices de la metodología para cada grupo: clientes que dieron notas 7 hasta 10 para alumbrado público (satisfechos) y clientes que dieron nota de 1 hasta 6 (insatisfechos). En seguida, se aplicó el test de Kruskal-Wallis con el objetivo de verificar si los niveles de satisfacción de los grupos en análisis son significativamente iguales o diferentes. En la tabla de presentación de los resultados, la línea será llenada en amarillo cuando el test de promedios presenta diferencia significativa de resultados. En estos casos, se debe observar en que grupo la satisfacción es más alta. Si la línea no está llenada en amarillo, la variación de satisfacción observada entre los grupos no fue significativa.
+
+--- SLIDE 411 ---
+Responsabilidad por el alumbrado Test de promedios: Principales índices
+
+--- SLIDE 412 ---
+Eventos climáticos extremos Eventos climáticos extremos
+
+--- SLIDE 413 ---
+Eventos climáticos extremos ¿Por qué cada vez más los eventos meteorológicos extremos están dejando a más clientes sin electricidad? (respuesta múltiple y espontánea) A continuación, hay la estimulada (G202 y 209) ¿Quién es responsable de la poda de los árboles?  (P215) ¿La distribuidora ha estado invirtiendo en obras de mejora y refuerzo de la red eléctrica? (P216) Escenario más correcto para su casa en eventos climáticos frecuentes (P217) Perjuicio o problema debido a la falta de electricidad por fenómenos meteorológicos extremos (P218 Y G219) Última vez que faltó energía en su casa debido a eventos climáticos graves y el tiempo (P229 y G230) Evaluación del trabajo de la distribuidora para restablecer la energía en el menor tiempo posible en situaciones críticas (P234) ¿La distribuidora tiene un plan para lidiar con eventos climáticos extremos?  (P235)
+
+--- SLIDE 414 ---
+En 2025, la entrevista finalizó con una serie de preguntas sobre eventos climáticos extremos, como tormentas con muchos relámpagos y fuertes ráfagas de viento, ciclones, calor extremo, sequía e incendios, entre otros. Así se pidió que los encuestados pensaran sólo en eventos graves como los ejemplos puestos y contestaran por qué cada vez más los eventos meteorológicos extremos están dejando a más consumidores sin electricidad.  Las respuestas fueron espontáneas y se aceptó más de una (G202). En la presentación de los resultados, primero verifique cuántas personas sabían cómo responder la pregunta y cuántas mencionaron una, dos, tres o más razones. Después, observe los argumentos utilizados.  El porcentaje presentado para cada respuesta se calculó en relación con el número de encuestados. Vea lo que creen quienes presentaron sólo una razón para la interrupción del servicio energético debido a los eventos climáticos. Eventos climáticos extremos
+
+--- SLIDE 415 ---
+Eventos climáticos extremos Motivos para falta de energía por eventos climáticos
+
+--- SLIDE 416 ---
+Eventos climáticos extremos Motivos para falta de energía por eventos climáticos - Por región de la distribuidora
+
+--- SLIDE 417 ---
+Eventos climáticos extremos Motivos para falta de energía por eventos climáticos - Por país
+
+--- SLIDE 418 ---
+Eventos climáticos extremos Motivos para falta de energía por eventos climáticos - Por región de la distribuidora
+
+--- SLIDE 419 ---
+Eventos climáticos extremos Motivos para falta de energía por eventos climáticos - Por país
+
+--- SLIDE 420 ---
+Eventos climáticos extremos Primera mención
+
+--- SLIDE 421 ---
+Eventos climáticos extremos Primera mención - Por región de la distribuidora
+
+--- SLIDE 422 ---
+Eventos climáticos extremos Primera mención - Por país
+
+--- SLIDE 423 ---
+A los consumidores que no pudieron responder la pregunta, se les realizó una pregunta estimulada, con la siguiente afirmación: “Voy a leer algunas razones que suelen ser comentadas por la prensa para que usted me diga si cree que alguna puede ser motivo para que los eventos climáticos extremos dejen cada vez más consumidores sin energía eléctrica” (G209).  Para cada supuesta razón, el entrevistado debería decir si cree que es una razón o no.  Las respuestas “sí, es un motivo” de la representación anterior se trasladaron a la pregunta de respuesta espontánea y, para esta nueva variable creada (G202 junto a G209), es posible observar, desde la perspectiva de los clientes, por qué los fenómenos meteorológicos extremos han dejado a cada vez más clientes sin energía. En las próximas diapositivas, vea, primero, las respuestas estimuladas y, después, el conjunto de las causas indicadas (la soma de las respuestas espontáneas y estimuladas).  Eventos climáticos extremos
+
+--- SLIDE 424 ---
+Eventos climáticos extremos
+
+--- SLIDE 425 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 426 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 427 ---
+Eventos climáticos extremos
+
+--- SLIDE 428 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 429 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 430 ---
+A continuación, se les planteó la siguiente pregunta:” Hay personas que creen que una de las razones por las que los eventos climáticos extremos afectan cada vez más a los consumidores, es la falta de poda de los árboles. Por lo que usted sabe o ha oído, ¿quién es responsable de la poda de los árboles?”. (P215).  A los consumidores que ya habían mencionado la poda de árboles como motivo, ya sea de manera espontánea o inducida, se les aplicó directamente la pregunta sobre atribución de responsabilidad.  Esta fue una pregunta de respuesta espontánea. Eventos climáticos extremos
+
+--- SLIDE 431 ---
+Eventos climáticos extremos
+
+--- SLIDE 432 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 433 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 434 ---
+En el mismo sentido, también se investigó otra razón frecuentemente señalada a la falta de energía por motivos climáticos, que es la falta de inversión en obras para mejorar y reforzar la red eléctrica. Así, todos fueron sometidos a este estímulo: “Por lo que usted sabe o ha escuchado, ¿la distribuidora ha estado invirtiendo en obras de mejora y refuerzo de la red eléctrica, de manera que sea más resistente a eventos climáticos severos, o no?”. (P216).  Nuevamente, los consumidores que ya habían mencionado este tema fueron sometidos a una declaración ligeramente modificada, con el mismo contenido.  Esta fue una pregunta de respuesta espontánea. Eventos climáticos extremos
+
+--- SLIDE 435 ---
+Eventos climáticos extremos
+
+--- SLIDE 436 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 437 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 438 ---
+Continuando con la entrevista, se pidió a todos los consumidores que indicaran la situación de su hogar ante eventos climáticos extremos: “siempre hay una interrupción en el servicio, la mayoría de las veces, de vez en cuando, rara vez o nunca hay interrupción por eventos climáticos severos”. (P217). Este contingente se agrupó según el impacto que sufren por los eventos climático extremos: los más impactados son aquellos cuyos domicilios se encuentran sin energía eléctrica siempre o la mayor parte del tiempo cuando ocurren eventos climáticos extremos;  Los menos afectados son aquellos que ocasionalmente o raramente experimentan cortes de energía debido a fenómenos climáticos severos, o no los recuerdan.  Observe el resultado en las próximas diapositivas. Eventos climáticos extremos
+
+--- SLIDE 439 ---
+Eventos climáticos extremos
+
+--- SLIDE 440 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 441 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 442 ---
+A quienes manifestaron que hubo cortes de energía en sus hogares debido a eventos climáticos severos, sin importar su frecuencia, se les preguntó si hubo pérdidas o inconvenientes como resultados de la falta de servicio. Si la respuesta fue afirmativa, deberían reportar el tipo de pérdida, problema o inconveniente que experimentaron.  Se aceptaron respuestas múltiples, obtenidas de forma espontánea, es decir, sin presentar ningún estímulo a la muestra. Los porcentajes presentados fueron calculados con relación al total de encuestados (P218 y G219). Eventos climáticos extremos
+
+--- SLIDE 443 ---
+Eventos climáticos extremos
+
+--- SLIDE 444 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 445 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 446 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 447 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 448 ---
+A todos se les preguntó cuándo fue la última vez que sus hogares sufrieron un corte de energía debido a eventos climáticos severos (P229). Para el procesamiento de los datos, quienes no supieron cómo responder fueron agregados a la categoría “antes de 2024”. A quienes se quedaron sin electricidad por este motivo en 2025 o 2024 se les pidió que informaran por cuánto tiempo, considerando solo el último evento (G230.  El promedio y la mediana recortados se calcularon para el tiempo sin servicio (recordando que el tiempo calculado como la mediana indica que la mitad de las personas muestreadas estuvieron sin servicio durante un tiempo menor que esta métrica y la otra mitad durante un tiempo mayor).  Además de estos dos datos, las respuestas se agregaron en rangos de tiempo predeterminados. Para este mismo contingente (consumidores que se quedaron sin energía en 2024 o 2025 debido a eventos climáticos extremos), se calculó el tiempo de interrupción para quienes mencionaron la falla del servicio en 2025 y para quienes sufrieron el evento en 2024. Prestando atención a la base de encuestados, observe la variación en las respuestas. Eventos climáticos extremos
+
+--- SLIDE 449 ---
+Eventos climáticos extremos
+
+--- SLIDE 450 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 451 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 452 ---
+Eventos climáticos extremos
+
+--- SLIDE 453 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 454 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 455 ---
+Eventos climáticos extremos
+
+--- SLIDE 456 ---
+Luego de evaluar los atributos del área de suministro de energía, se preguntó a todos los consumidores sobre interrupciones del servicio en los últimos 30 días y, si las hubo, cuánto tiempo duró la interrupción. Al final de la entrevista, informaron si se habían quedado sin electricidad debido a eventos climáticos extremos, cuándo y por cuánto tiempo.  Las respuestas obtenidas en ambos momentos de la entrevista fueron cruzadas para identificar cuántos consumidores estuvieron sin energía en los últimos 30 días y atribuyeron la falla a eventos climáticos extremos y cuántos estuvieron sin energía, pero no debido a eventos climáticos extremos.  A continuación, observe los resultados, además del tiempo de interrupción para cada contingente. Eventos climáticos extremos
+
+--- SLIDE 457 ---
+Eventos climáticos extremos
+
+--- SLIDE 458 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 459 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 460 ---
+Continuando con la entrevista, se invitó a los consumidores a reflexionar sobre la restauración del servicio cuando la interrupción se debe a eventos climáticos severos. Para ello, consultaron una escala de 10 puntos, que va de “muy malo” a “muy bueno”, para elegir la respuesta más adecuada a su opinión a la pregunta: “¿Cómo evalúa usted el trabajo de la distribuidora, su esfuerzo y dedicación para restablecer la energía en el menor tiempo posible, en situaciones críticas como las que estamos hablando?”. (P234). Es importante destacar que para los consumidores que ya habían reportado que nunca se quedan sin luz en sus hogares por dichas circunstancias, el comunicado fue ligeramente adaptado: “Aunque no sea común que falte energía en su casa por causa de temporales, fuertes ráfagas de viento y otros eventos climáticos, ¿cómo evalúa usted el trabajo de la distribuidora, su esfuerzo, dedicación y empeño para restablecer el servicio en el menor tiempo posible, en situaciones críticas como éstas de las que estamos hablando?” Los resultados obtenidos fueron tratados de manera similar a los IDAT. A continuación, observe el desempeño del atributo “distribuidora preparada para situaciones de emergencia”, ya trabajado en el área de Imagen, para los contingentes que evalúan el desempeño de la distribuidora como muy malo/malo, regular y bueno/muy bueno. Eventos climáticos extremos
+
+--- SLIDE 461 ---
+Eventos climáticos extremos
+
+--- SLIDE 462 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 463 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 464 ---
+Eventos climáticos extremos
+
+--- SLIDE 465 ---
+Independientemente de la evaluación del trabajo de la distribuidora y como última pregunta sobre este tema, se aplicó la siguiente afirmación: “Según lo que usted sabe o ha escuchado, ¿la distribuidora tiene un plan para lidiar con eventos climáticos como los que estamos hablando, o no?” (P235). Se trataron las dos variables en conjunto, con el fin de identificar si quienes creen que la distribuidora tiene un plan para enfrentar eventos climáticos severos están o no satisfechos con el desempeño de la empresa en el restablecimiento del suministro eléctrico. Nuevamente, observe el desempeño del atributo “Empresa preparado para situaciones de emergencia” (del área de Imagen) para cada una de las categorías de la variable sobre si la empresa tiene o no un plan para lidiar con estas situaciones. Eventos climáticos extremos
+
+--- SLIDE 466 ---
+Eventos climáticos extremos
+
+--- SLIDE 467 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 468 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 469 ---
+Eventos climáticos extremos
+
+--- SLIDE 470 ---
+Eventos climáticos extremos
+
+--- SLIDE 471 ---
+Eventos climáticos extremos
+
+--- SLIDE 472 ---
+Una vez presentados los resultados de todas las preguntas de este tema, el objetivo ahora es seleccionar el contingente más afectado por los eventos climáticos severos. Para conformar el grupo de los “más impactados por eventos climáticos extremos”, se consideraron los consumidores que declararon que su hogar siempre o la mayor parte del tiempo se encuentra sin electricidad en situaciones como las ejemplificadas, que efectivamente se quedaron sin electricidad en el año 2024 o 2025 debido a dichos fenómenos y que, además, ya han sufrido pérdidas derivadas: perdieron equipos, alimentos, medicamentos, algún residente estuvo en riesgo de muerte y faltó a un compromiso (profesional o escolar), etc. Todos aquellos que no cumplan estas condiciones serán tratados como “menos afectados por eventos climáticos extremos”. Primero, observe el tamaño de cada grupo.  A continuación, se representará el desempeño del atributo “empresa preparada para situaciones de emergencia” (área Imagen) para cada uno de los dos contingentes. Eventos climáticos extremos
+
+--- SLIDE 473 ---
+Eventos climáticos extremos Por región de la distribuidora
+
+--- SLIDE 474 ---
+Eventos climáticos extremos Por país
+
+--- SLIDE 475 ---
+NPS - Net  Promoter  Score NPS –  Net  Promoter  Score
+
+--- SLIDE 476 ---
+Solicitamos a los clientes que informasen cuál sería la probabilidad de recomendar la distribuidora para algún familiar o amigo. Para indicar la respuesta, fue presentada la siguiente escala de 11 puntos, en la cual el punto cero quisiera decir que es "nada probable" y el punto 10 es igual a la respuesta "muy probable". Abajo la imagen de la escala utilizada: Con base en las respuestas es calculado el  Net  Promoter  Score  (NPS), metodología creada por el estratega Fred  Reichheld  y marca que fue registrada del autor,  Satmetrix   Systems  Inc. y Bain & Company. En general, la metodología es utilizada para medir el grado de satisfacción o lealtad de los clientes de una empresa. Su cálculo es simple: se sustrae la proporción de clientes que dieron notas 0 a 6 en esa evaluación de aquellos que dieron notas 9 y 10. Normalmente, aquellos que no supieron o escogieron no contestar a la pregunta no son considerados en el cálculo. NPS -  Net  Promoter  Score 0 1 2 3 4 5 6 7 8 9 10 Nada probable Muy probable
+
+--- SLIDE 477 ---
+Los clientes son divididos en tres grupos: promotores: clientes que indicaron notas 9 o 10. Son considerados más probables a promover una imagen positiva de la empresa por medio de sus acciones, por ejemplo, mantener su fidelidad de compra de productos de la empresa o indicar para amigos y familiares. pasivos o neutros: clientes que indicaron notas 7 u 8. Son considerados clientes con comportamiento indiferente, no poseen interés ni en promover ni en detractar la empresa. detractores: clientes que indicaron notas de 0 a 6. Son considerados los menos probables de promover la distribuidora. NPS - Net  Promoter  Score
+
+--- SLIDE 478 ---
+Las notas son divididas en cuatro zonas de clasificación, a saber: zona crítica: NPS entre -100 y 0, indica larga proporción de clientes detractores. zona de perfeccionamiento: NPS entre 1 y 50, indica larga proporción de clientes detractores y neutros. zona de calidad: NPS entre 51 y 75, indica más grande ocurrencia de clientes neutros y promotores, con relación a los clientes detractores. zona de excelencia: NPS entre 76 y 100, indica preponderancia de clientes promotores. NPS - Net  Promoter  Score
+
+--- SLIDE 479 ---
+NPS Escala agregada en 4 puntos, índice, resultado CIER y  benchmark
+
+--- SLIDE 480 ---
+NPS Por región de la distribuidora
+
+--- SLIDE 481 ---
+NPS Por distribuidora
+
+--- SLIDE 482 ---
+NPS Por país
+
+--- SLIDE 483 ---
+Fue realizado el cruce del NPS con la evaluación de calidad de los servicios. O sea, se buscó investigar el comportamiento del índice para cada uno de los puntos de respuesta al IAC. Se calcularon también los principales índices de la encuesta para cada uno de los contingentes de respuesta al NPS - detractores, neutros y promotores. En ese momento el interés es entender si el NPS está más asociado con el IAC, el ISG o incluso con ninguno de estos dos índices. Así, se calculó la correlación de las respuestas dadas a la escala a partir de la cual se calcula el NPS con la evaluación inicial del cliente y también con la satisfacción general. Observe los resultados en la secuencia. NPS x IAC y Principales índices
+
+--- SLIDE 484 ---
+NPS x IAC
+
+--- SLIDE 485 ---
+NPS x ISG
+
+--- SLIDE 486 ---
+Principales índices x NPS
+
+--- SLIDE 487 ---
+Matrices de apoyo a la definición de acciones de mejora Matrices de apoyo a la definición de acciones de mejora
+
+--- SLIDE 488 ---
+Matrices de apoyo a la definición de acciones de mejora La matriz de apoyo a la definición de acciones de mejora tiene la función de orientar los representantes de las distribuidoras en la elaboración de estrategias y acciones en busca de una mayor satisfacción del cliente. Analizándola, es posible percibir cuáles son los atributos prioritarios que deben ser trabajados. La matriz presenta simultáneamente tres resultados: en el eje horizontal se presenta la importancia relativa de los atributos; el eje vertical representa la satisfacción respecto a los atributos ( IDATs ); y el color de las bolillas (marcadores) representa el impacto del atributo en la satisfacción general del cliente (pregunta cuyos resultados generan el ISG). La correlación  bivariada  representa la asociación entre las dos variables (satisfacción con el atributo y satisfacción general) y fue presentado el Coeficiente Tau de Kendall. Para mayor facilidad de interpretación, los coeficientes de correlación fueron transformados en porcentajes, a partir de su multiplicación por 100. Cuanto mayor es el porcentaje derivado de la correlación, mayor es la asociación entre la satisfacción con el atributo y la satisfacción final. 
+
+--- SLIDE 489 ---
+Matrices de apoyo a la definición de acciones de mejora El resultado de la correlación se expresa en el color del marcador (punto/bolilla) del atributo señalado en la matriz. Aquellos atributos cuya correlación esté contenida en el intervalo, promedio ± 2,5%, son considerados “en el promedio” y serán representados en la matriz con el color  azul . Aquellos cuyas correlaciones fueron mayores que el promedio + 2,5% son considerados “por sobre el promedio”, y son representados en la matriz en color  rojo . Finalmente, aquellos atributos cuyas correlaciones fueron menores que el promedio – 2,5% son considerados “por debajo del promedio” y son representados en color  verde . Así, el primer aspecto a ser considerado para evaluar los atributos prioritarios dentro de cada área es la posición de los atributos. O sea: los atributos posicionados en el cuadrante inferior derecho son los que deben ser considerados en primer lugar en la determinación de acciones de mejora;  luego deberán ser considerados los atributos posicionados en el cuadrante inferior izquierdo (nivel de satisfacción y grado de importancia inferiores al promedio); siguiendo, los atributos posicionados en el cuadrante superior derecho (nivel de satisfacción y grado de importancia superiores al promedio); por último, deberán ser considerados los atributos posicionados en el cuadrante superior izquierdo (nivel de satisfacción superior al promedio y grado de importancia inferior al promedio).
+
+--- SLIDE 490 ---
+Matrices de apoyo a la definición de acciones de mejora Dentro de un mismo cuadrante, el orden de prioridades es determinado por el color con que están representados: el color  rojo  en primer lugar, seguidos por los atributos en color  azul  y, por último, los que se muestran en color  verde . En un mismo cuadrante, habiendo más de un atributo con el mismo color del “punto” (bolilla), la importancia relativa es la información que determinará la prioridad. Si dos o más atributos tienen aproximadamente el mismo desempeño y hay pequeña variación de importancia relativa, el marcador (el punto/la bolilla) o los números identificadores pueden estar superpuestos. Si es el caso, la tabla con la indicación del orden de prioridad ayudará en la comprensión del resultado. Para cada área de calidad, se presentan el gráfico de desempeño de los atributos x Importancia relativa, y después, la tabla con la indicación del orden de prioridad de acción.
+
+--- SLIDE 491 ---
+Matriz de apoyo del área Suministro de Energía Resultado general
+
+--- SLIDE 492 ---
+Matriz de apoyo del área Suministro de Energía Por región de la distribuidora
+
+--- SLIDE 493 ---
+Matriz de apoyo del área Suministro de Energía Por región de la distribuidora
+
+--- SLIDE 494 ---
+Matriz de apoyo del área Información y Comunicación Resultado general
+
+--- SLIDE 495 ---
+Matriz de apoyo del área Información y Comunicación Por región de la distribuidora
+
+--- SLIDE 496 ---
+Matriz de apoyo del área Información y Comunicación Por región de la distribuidora
+
+--- SLIDE 497 ---
+Matriz de apoyo del área Factura de Energía Resultado general
+
+--- SLIDE 498 ---
+Matriz de apoyo del área Factura de Energía Por región de la distribuidora
+
+--- SLIDE 499 ---
+Matriz de apoyo del área Factura de Energía Por región de la distribuidora
+
+--- SLIDE 500 ---
+Matriz de apoyo del área Atención al Cliente Resultado general
+
+--- SLIDE 501 ---
+Matriz de apoyo del área Atención al Cliente Por región de la distribuidora
+
+--- SLIDE 502 ---
+Matriz de apoyo del área Atención al Cliente Por región de la distribuidora
+
+--- SLIDE 503 ---
+Matriz de apoyo del área Imagen Resultado general
+
+--- SLIDE 504 ---
+Matriz de apoyo del área Imagen Por región de la distribuidora
+
+--- SLIDE 505 ---
+Matriz de apoyo del área Imagen Por región de la distribuidora
+
+--- SLIDE 506 ---
+Matriz conjunta de la definición de acciones de mejora Matriz conjunta de la definición de acciones de mejora
+
+--- SLIDE 507 ---
+Matriz conjunta de la definición de acciones de mejora Para cada una de las áreas de calidad, con excepción de Responsabilidad Socioambiental y Alumbrado Público, se presentó una matriz de apoyo a acciones de mejora. Ahora, el objetivo de este ítem es presentar un resumen de todos los atributos encuestados. La matriz considera: la importancia relativa del atributo: para la elaboración de esta matriz, se recalculó la importancia relativa de los atributos de las cinco áreas de calidad (Suministro de Energía, Información y Comunicación, Factura, Atención al Cliente e Imagen), considerandos los que hacen parte del cálculo del ISCAL y los que no hacen. Al igual que para las demás matrices, la importancia relativa está representada por el eje horizontal; la satisfacción con el atributo (respectivos  IDATs ): este resultado está representado por el eje vertical de la matriz. Los cuadrantes se generan a partir del promedio de las importancias relativas y por el promedio de los  IDATs . De esta manera: los atributos posicionados en el cuadrante inferior derecho son los que deben ser considerados en primer lugar en la determinación de acciones de mejora (importancia relativa por sobre el promedio y satisfacción con el atributo por debajo del promedio);
+
+--- SLIDE 508 ---
+Matriz conjunta de la definición de acciones de mejora luego deberán ser considerados los atributos posicionados en el cuadrante inferior izquierdo (nivel de satisfacción y grado de importancia por debajo del promedio); siguiendo, los atributos posicionados en el cuadrante superior derecho (nivel de satisfacción y grado de importancia por sobre el promedio); por último, deberán ser considerados los atributos posicionados en el cuadrante superior izquierdo (nivel de satisfacción por sobre el promedio y grado de importancia por debajo del promedio). Si dos o más atributos tienen aproximadamente el mismo desempeño y hay pequeña variación de importancia relativa, los marcadores (del punto/de la “bolilla”) o los números identificadores pueden superponerse. En estos casos, la tabla con la indicación del orden de prioridad ayudará en la comprensión del resultado. Es presentado el orden de prioridad para todos los atributos, incluso para aquellos que no están localizados en el cuadrante foco. Para identificación de los valores de importancia de cada atributo considerados en la matriz, vea la tabla presentada en seguida a la información del orden de prioridad. En el gráfico, los atributos están señalados con el color de sus respectivas áreas, y con numeración secuencial.
+
+--- SLIDE 509 ---
+Matriz conjunta de la definición de acciones de mejora Resultado general
+
+--- SLIDE 510 ---
+Matriz conjunta de la definición de acciones de mejora Resultado general
+
+--- SLIDE 511 ---
+Matriz conjunta de la definición de acciones de mejora Región de la distribuidora
+
+--- SLIDE 512 ---
+Matriz conjunta de la definición de acciones de mejora Región de la distribuidora
+
+--- SLIDE 513 ---
+Matriz conjunta de la definición de acciones de mejora Región de la distribuidora
+
+--- SLIDE 514 ---
+Matriz conjunta de la definición de acciones de mejora Región de la distribuidora
+
+--- SLIDE 515 ---
+Caracterización sociodemográfica Caracterización sociodemográfica
+
+--- SLIDE 516 ---
+Género – Edad – Escolaridad 
+
+--- SLIDE 517 ---
+Género Por región de la distribuidora
+
+--- SLIDE 518 ---
+Género Por país
+
+--- SLIDE 519 ---
+Edad Por región de la distribuidora
+
+--- SLIDE 520 ---
+Edad Por país
+
+--- SLIDE 521 ---
+Escolaridad Por región de la distribuidora
+
+--- SLIDE 522 ---
+Escolaridad Por país
+
+--- SLIDE 523 ---
+Principal ocupación
+
+--- SLIDE 524 ---
+Principal ocupación Por región de la distribuidora
+
+--- SLIDE 525 ---
+Principal ocupación Por país
+
+--- SLIDE 526 ---
+Durante la aplicación de la encuesta, se presentó al encuestado una tarjeta con diferentes rangos de ingresos familiares para que identificara aquel que correspondía a su hogar. Al finalizar el cuestionario, se solicitó nuevamente la información sobre el ingreso familiar mensual; no obstante, en esta segunda ocasión, el encuestado debía proporcionar un valor específico mediante respuesta abierta, en lugar de seleccionar un rango predeterminado..  Cuando preguntados sobre el valor del ingreso familiar mensual, hay algunas reacciones posibles a la pregunta, como, por ejemplo: hay aquellos que no tienen problemas para informar el valor; aquellos que contestan que no es posible o es difícil estimarlo, porque el ingreso varía mucho por mes; y aquellos que se niegan a contestar el valor abierto. Fue creada una variable para enseñar el porcentaje de encuestados que contestaron un valor, aunque aproximado, y los que no contestaron. Después, fue calculado el promedio de ingresos familiares basado en los valores informados, aunque aproximados.  Ingreso familiar	
+
+--- SLIDE 527 ---
+Ingreso familiar 	
+
+--- SLIDE 528 ---
+Ingreso familiar Por región de la distribuidora
+
+--- SLIDE 529 ---
+Ingreso familiar 	 Por país
+
+--- SLIDE 530 ---
+Ingreso familiar mensual Por región de la distribuidora
+
+--- SLIDE 531 ---
+Ingreso familiar mensual Por país
+
+--- SLIDE 532 ---
+También se preguntó el número de personas que viven en el domicilio.  Con esta información y utilizando la respuesta del valor del ingreso familiar mensual, fue posible crear una variable de ingreso  per  capita   del domicilio. Vea en la secuencia el número de personas que viven en los domicilios, su promedio recortado y el promedio de ingreso  per  capita . Número de personas en el domicilio
+
+--- SLIDE 533 ---
+Número de personas en el domicilio	
+
+--- SLIDE 534 ---
+Número de personas en el domicilio Por región de la distribuidora
+
+--- SLIDE 535 ---
+Número de personas en el domicilio	 Por país
+
+--- SLIDE 536 ---
+Para verificar si la satisfacción con la distribuidora sufre variación en función del perfil de los respondientes, los principales índices fueron calculados por género, por clase de edad, nivel de escolaridad y rango del ingreso familiar.  Las respuestas de cada variable de caracterización fueron organizadas en dos categorías: género: masculino y femenino. edad: inferior al promedio y superior al promedio de edad de la distribuidora. nivel de escolaridad: en nivel básico y nivel medio/universitario. ingreso familiar: ingreso inferior al promedio e ingreso superior al promedio del ingreso familiar de la distribuidora. Satisfacción en función del perfil de los respondientes
+
+--- SLIDE 537 ---
+En la secuencia, fue aplicado un test estadístico con el objetivo de verificar si los principales índices de la metodología varían significativamente en función de las variables de caracterización de los respondientes. Por ejemplo: ¿La satisfacción general varía significativamente cuando comparamos el contingente femenino con el masculino? Se aplicó el test de Kruskal-Wallis. En las tablas de presentación de los resultados, la línea será llenada en amarillo cuando el test de promedios presenta diferencia significativa de resultados. En estos casos, se debe observar en que grupo el índice es más alto. Si la línea no está llenada en amarillo, la variación de satisfacción observada entre los grupos no fue significativa. Satisfacción en función del perfil de los respondientes
+
+--- SLIDE 538 ---
+Satisfacción en función del perfil de los respondientes Test de promedios: Principales índices
+
+--- SLIDE 539 ---
+Satisfacción en función del perfil de los respondientes Test de promedios: Principales índices
+
+--- SLIDE 540 ---
+Satisfacción en función del perfil de los respondientes Test de promedios: Principales índices
+
+--- SLIDE 541 ---
+Satisfacción en función del perfil de los respondientes Test de promedios: Principales índices
+
+--- SLIDE 542 ---
+Valor de la factura de energía Valor de la factura de energía
+
+--- SLIDE 543 ---
+La presentación de la factura de energía es obligatoria en la Encuesta CIER, con excepción de Costa Rica y República Dominicana, que no necesariamente entregan sus facturas impresas. En todos los demás países, los valores de la cuenta y del consumo promedio mensual fueron copiados de la factura presentada por el encuestado en el momento de la entrevista. Las informaciones de precio y consumo de encuestados que no presentaron la factura fueron tratadas junto a las de los clientes que presentaron la factura impresa. Además, es importante mencionar que para los países que envían las facturas bimensualmente, los resultados presentados fueron convertidos para valores mensuales. Los resultados fueron organizados en rangos de valores que contienen, cada uno, aproximadamente el 25% de las respuestas obtenidas y, además, se calculó el promedio recortado del conjunto de datos. Los valores fueron colectados en la moneda local y convertidos para la cotización del Dólar Comercial del día 31 de marzo de 2025. Factura de energía
+
+--- SLIDE 544 ---
+Valor de la factura	
+
+--- SLIDE 545 ---
+Valor de la factura Por región de la distribuidora
+
+--- SLIDE 546 ---
+Valor de la factura Por país
+
+--- SLIDE 547 ---
+Con la información del valor de la factura y la cantidad de moradores en el domicilio, se calculó el gasto con energía  per  capita   mensual. Con las informaciones de ingreso familiar y valor de la factura, se calculó la participación de los gastos con energía eléctrica en el ingreso familiar. Gasto  per  capita   y participación en el ingreso familiar
+
+--- SLIDE 548 ---
+Gasto  per  capita   y participación en el ingreso familiar
+
+--- SLIDE 549 ---
+Gasto  per  capita Por región de la distribuidora
+
+--- SLIDE 550 ---
+Gasto  per  capita Por país
+
+--- SLIDE 551 ---
+Participación en el ingreso familiar Por región de la distribuidora
+
+--- SLIDE 552 ---
+Participación en el ingreso familiar Por país
+
+--- SLIDE 553 ---
+Consumo de energía Consumo de energía
+
+--- SLIDE 554 ---
+En la presentación de resultado abajo fue utilizada la información del consumo en kWh/mes copiado de la factura, con excepción de Costa Rica y República Dominicana.  Para estos países, se combinan la información recolectada de la factura y la declarada por aquellos que no la mostraron. Para esa variable, observe los resultados agregados en clases, además de la información del promedio recortado de los valores obtenidos. Consumo de energía
+
+--- SLIDE 555 ---
+Consumo de energía
+
+--- SLIDE 556 ---
+Consumo de energía Por región de la distribuidora
+
+--- SLIDE 557 ---
+Consumo de energía Por país
+
+--- SLIDE 558 ---
+Análisis de Conglomerados Análisis de Conglomerados
+
+--- SLIDE 559 ---
+Análisis de Conglomerados El análisis de conglomerados (o  cluster ) es un método de análisis multivariante que, en términos generales, segmenta un grupo de datos. Ese tipo de análisis permite agrupar individuos basado en las semejanzas y disimilitudes entre ellos. El grupo inicial es dividido en agrupamientos menores que son relativamente semejantes internamente, pero desemejantes de los demás grupos – los individuos de un mismo grupo son lo más homogéneos posible y, más similares entre sí que entre individuos de otros grupos. Para eso es necesaria la definición previa de las variables que serán utilizadas para agrupar los individuos. En ese estudio en específico, el análisis será empleado para localizar los grupos de clientes más satisfechos o menos satisfechos con la distribuidora que les atiende. Así que serán utilizadas las informaciones de los atributos que componen las cinco áreas de calidad consideradas en el cálculo del ISCAL. El método utilizado es conocido como Análisis de Conglomerados en Dos Fases. Luego de la definición de los grupos, ellos serán segmentados de acuerdo con las variables creadas en la investigación y presentadas anteriormente el informe.
+
+--- SLIDE 560 ---
+Análisis de Conglomerados Las principales etapas del proceso se resumen a continuación: Etapa 1: En esta etapa se hace la construcción de un Árbol de Características de Conglomerados ( Cluster   Features  - CF). Se empieza el árbol eligiendo un caso del banco de datos como raíz de árbol, y después son creados “nodos”, generados desde las informaciones de las variables involucradas en el análisis. Cada caso subsiguiente es comparado con el inicial y una de dos: o es añadido a ese nodo, basado en su similitud al caso inicial; o es añadido a un nuevo nodo. Cuando un caso nuevo es agregado a un nodo, su información es actualizada con los datos del caso, descritos en forma de estadísticas de  sumarización  (promedio, desviación estándar, cantidad de casos, etc.). Al final, el árbol será un resumen del banco de datos, con varios casos encapsulados en los nodos, y puede ser considerado un análisis de conglomerados previo; Etapa 2: Los nodos del árbol se agrupan utilizando un algoritmo que genera un intervalo de agrupaciones posibles. Para definir cuál es la mejor cantidad de conglomerados, cada agrupación es comparada utilizando el Criterio de Información Bayesiano ( Schwarz’s   Bayesian   Criterion  - BIC); Calidad del conglomerado: Además de la estadística BIC, también se generan la Razón de Cambio de BIC y la Razón de las Medidas de Distancia.  Un modelo considerado bueno es aquél que tiene valores altos para estas estadísticas.
+
+--- SLIDE 561 ---
+Análisis de Conglomerados Las variables seleccionadas para calificación de los conglomerados son: género, escolaridad, edad; consumo y participación de la factura en el Ingreso familiar; si hubo interrupción, cuántas veces hubo falta de luz en el hogar en los últimos 30 días anteriores a la encuesta y el tiempo promedio sin luz; si el cliente hizo contacto con la distribuidora o no y el motivo, y en caso positivo, el % de resolución en el primer contacto, tipo de canal utilizado; evaluación de la calidad de los servicios prestados por la distribuidora (IAC); Satisfacción intermedia (IIS); Evaluación de la satisfacción general (ISG); NPS. Primero, vea cuántos grupos se formaron para esta distribuidora, la proporción de cada grupo y el promedio de las notas de satisfacción de las variables que se utilizaron para la segmentación.
+
+--- SLIDE 562 ---
+Análisis de Conglomerados
+
+--- SLIDE 563 ---
+Análisis de Conglomerados
+
+--- SLIDE 564 ---
+Análisis de Conglomerados
+
+--- SLIDE 565 ---
+Análisis de Conglomerados
+
+--- SLIDE 566 ---
+Productos Generados Productos generados
+
+--- SLIDE 567 ---
+Productos generados Los resultados obtenidos fueron organizados en seis informes, dos presentaciones y el histórico de la encuesta. Todos los productos estarán disponibles en el sitio web de Innovare Pesquisa en agosto de 2025. Los informes son: INFORMES INDIVIDUALES Informe de Análisis de Regiones de la Distribuidora:   las empresas que tengan un mínimo de 100 encuestas realizadas por región recibirán los análisis realizados para cada una de estas unidades espaciales. Informe Individual:  presenta los índices y los resultados obtenidos de cada distribuidora.
+
+--- SLIDE 568 ---
+Productos generados INFORMES COMPARATIVOS Informe Comparativo de Índices entre Distribuidoras:   presenta los índices generados para cada una de las distribuidoras en esta ronda de la encuesta, permitiendo la comparación entre ellas Informe Comparativo de Índices entre Países:  presenta los índices generados y otros datos recolectados durante la investigación para cada país, permitiendo la comparación entre ellos. Para los países en que más de una distribuidora participa de la encuesta, se presenta un gráfico adicional con los resultados de las distribuidoras que los componen.
+
+--- SLIDE 569 ---
+Productos generados PRESENTACIONES Presentación Individual:  presenta los resultados de cada distribuidora (nivel general y por región), de forma comparativa al resultado CIER, incluyendo serie histórica del desempeño de la empresa. Presentación Analítica:  presenta los resultados de todas las distribuidoras de manera comparativa, así como un análisis detallado de los resultados obtenidos.
+
+--- SLIDE 570 ---
+Otros productos Además de los informes y presentaciones, otros productos de la encuesta  estarán disponibles en el sitio web de Innovare Pesquisa. Son ellos:  Tablas con todos los resultados obtenidos – frecuencia simple (entregado en Excel).  Planilla de índices (general y por regiones).  Base de datos (entregado en Excel y SPSS).  Tabla de distribución  de la muestra por municipio.  Cronograma de recolección de datos.  Cuestionario utilizado.
+
+--- SLIDE 571 ---
+Otros productos Los productos listados abajo están incluidos en el informe individual: Cálculo de los principales índices por caracterización de los encuestados. Matriz de importancia. Gráficos de escalas abiertas. Es importante resaltar que  las distribuidoras pueden publicar sus propios resultados cuando lo deseen . Sin embargo, los datos comparativos entre distribuidoras que no forman parte del grupo empresarial respectivo, incluidos los puntos de referencia, requieren la autorización previa de CIER para su divulgación.
+
+--- SLIDE 572 ---
+Ficha Técnica Período de Campo:  25 de abril a 08 de junio de 2025. Periodo de Campo Argentina:  18 de agosto a 10 de octubre de 2025. Tamaño de la muestra:  La muestra patrón está compuesta por 14.400 casos, aplicados en 465 municipios de 27 distribuidoras, en 10 países de América Latina. Entre las empresas, 11 tienen hasta 500 mil clientes y, 16, más de 500 mil clientes. El resultado general CIER es un promedio que considera 28 empresas evaluadas en esta ronda de la Encuesta CIER y también 3 empresas brasileñas asociadas al Comité Brasileiro da CIER (BRACIER) evaluadas en la 27ª ronda de la investigación de la  Associação  Brasileira de Distribuidores de  Energia   Elétrica  (ABRADEE). La muestra patrón de esas empresas suma 1.875 casos, que fueron aplicados en 106 municipios del territorio brasileño. Todas las empresas brasileñas tienen más de 500 mil clientes. El periodo de recolecta de datos de la encuesta ABRADEE fue de 11 de marzo a 30 de abril de 2025. Margen de error:  El margen de error del resultado CIER es de ± 2,1 puntos porcentuales para un nivel de confianza de 95,0%. El margen de error, por distribuidora, incluso para las asociadas al BRACIER, es de ± 5 puntos porcentuales para las empresas con hasta 500 mil clientes, y de ± 4 puntos porcentuales para las empresas con más de 500 mil clientes. De esa manera, es posible la comparación de los resultados entre las distribuidoras. Profesionales aplicados: Fueron entrenados responsables de 12 empresas prestadoras de servicios de recolecta de datos que comprenden los 11 países, 73 supervisores y coordinadores de equipo, 735 encuestadores para la recolección de datos propiamente dicha, 117 verificadores y revisores del cumplimiento de las normas establecidas para dicha recolección y respuestas recogidas.
+
+--- SLIDE 573 ---
+

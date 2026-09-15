@@ -1,0 +1,985 @@
+===========================================================
+DISTRIBUTOR REPORT ANALYSIS - YEAR 2025
+===========================================================
+
+
+------------------ PAGE 1 ------------------
+23ª RONDA DE LA INVESTIGACIÓN CIER DE 
+SATISFACCIÓN DEL CLIENTE RESIDENCIAL DE 
+ENERGÍA ELÉCTRICA 
+ 
+INFORME COMPARATIVO ENTRE DISTRIBUIDORAS 
+ 
+ 
+ 
+NOVIEMBRE 2025
+
+------------------ PAGE 3 ------------------
+SUMÁRIO 
+1. Presentación ............................................................................................................................................................. 5 
+2. Productos Generados ............................................................................................................................................... 7 
+3. Metodología ............................................................................................................................................................. 9 
+3.1. Recolección de la importancia ....................................................................................................................... 10 
+3.2. Recolección de la satisfacción con los atributos de calidad .......................................................................... 11 
+3.3. Recolección de la evaluación del precio ........................................................................................................ 13 
+3.4. Recolección de la satisfacción intermedia y de la satisfacción general  ......................................................... 13 
+4. Presentación de los resultados ............................................................................................................................... 15 
+5. Índices generales simples ....................................................................................................................................... 16 
+5.1. IAC - Índice de Aprobación del Cliente .......................................................................................................... 16 
+5.2. IIS – Índice Intermedio de Satisfacción .......................................................................................................... 17 
+5.3. ISG - Índice de Satisfacción General .............................................................................................................. 18 
+6. Índices de desempeño de los atributos y áreas de calidad .................................................................................... 19 
+6.1. Suministro de Energía .................................................................................................................................... 19 
+6.2. Información y Comunicación ......................................................................................................................... 22 
+6.3. Factura de Energía ......................................................................................................................................... 26 
+6.4. Atención al Cliente ......................................................................................................................................... 30 
+6.5. Imagen ........................................................................................................................................................... 36 
+7. Índices generales compuestos ................................................................................................................................ 42 
+7.1. ISCAL - Índice de Satisfacción con la Calidad Percibida ................................................................................. 42 
+7.2. IECP - Índice de Excelencia de la Calidad Percibida ....................................................................................... 43 
+7.3. IICP - Índice de Insatisfacción con la Calidad Percibida ................................................................................. 44 
+8. Evaluación del precio .............................................................................................................................................. 45 
+9. Índices de desempeño de las demás áreas de calidad ........................................................................................... 46 
+9.1. Responsabilidad Socioambiental ................................................................................................................... 46 
+9.2. Alumbrado Público ........................................................................................................................................ 51 
+10. Posición de las distribuidoras por índice (Ranking) ............................................................................................ 54 
+11. NPS Net Promoter Score .................................................................................................................................... 55
+
+------------------ PAGE 5 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+5 
+1. Presentación 
+La Comisión de Integración Energética Regional (CIER) coordinó la realización de la 23ª Encuesta de Satisfacción del 
+Cliente Residencial de Energía Eléctrica. 
+A través de un convenio realizado entre la CIER y la Associação Brasileira de Distribuidores de Energia Elétrica 
+(ABRADEE), la metodología de la investigación fue desarrollada tomando como referencia ABRADEE, utilizada desde 
+1999 en Brasil. De esa manera, los resultados generados por las dos investigaciones pueden ser comparados 
+directamente, siendo los índices obtenidos por las empresas que participaron de la investigación CIER presentados 
+juntamente con los índices de las distribuidoras brasileñas asociad as al Comitê Brasileiro da CIER (BRACIER), que 
+participaron de la investigación anual A BRADEE. 
+La encuesta CIER es realizada anualmente desde 2003, y ofrece a las distribuidoras instrumentos e incentivos destinados 
+a mejorar su desempeño. Entre los objetivos del trabajo, se destacan: 
+▪ medición del nivel de satisfacción de los clientes con respecto a la calidad del producto y de los servicios 
+prestados por la distribuidora; 
+▪ generación de índices que permitan la comparación de los resultados entre todas las distribuidoras;  
+▪ generación de matrices de apoyo a la definición de acciones de mejora.  
+ 
+ 
+Esta investigación fue ejecutada por Innovare Pesquisa junto a 30 distribuidoras, en 1 1 países de 
+América Latina. Considerando la muestra patrón y los casos adicionales para los análisis de región, 
+fueron entrevistados 19.442 clientes residenciales, siendo 14.972 en el universo de la investigación 
+CIER y 4.4 70 en el universo de la investigación ABRADEE (BRACIER). La recolección de datos de la 
+investigación ABRADEE (BRACIER) tuvo lugar de 11 de marzo a 30 de abril de 202 5, y la de CIER, de 
+25 de abril hasta 08 de junio de 2025 y para las dos empresas de Argentina 18 de agosto hasta 10 de 
+octubre de 2025. 
+Tanto en la Investigación ABRADEE (BRACIER) como en la CIER, las distribuidoras están organizadas 
+en dos grupos en función del número total de clientes: hasta 500 mil (11 empresas) y más de 500 mil 
+(19 empresas).
+
+------------------ PAGE 6 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+6 
+Participantes de la 23ª  Ronda por número de Clientes
+
+------------------ PAGE 7 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+7 
+2. Productos Generados 
+Los resultados obtenidos fueron organizados en seis informes, dos presentaciones y el histórico de la encuesta. Todos 
+los productos estarán disponibles en el sitio web de Innovare Pesquisa en noviembre de 2025. 
+ 
+ Informe Individual Presenta los índices y los resultados obtenidos para cada 
+distribuidora. 
+ 
+Informe Comparativo de Índices 
+entre Distribuidoras 
+Presenta los índices generados para cada  una de las  
+distribuidoras participante de esta ronda, permitiendo la 
+comparación entre ellas. 
+ 
+Informe Comparativo de índices 
+entre Países 
+Presenta los índices generados y otros datos recolectados 
+durante la investigación para los países, permitiendo la 
+comparación entre ellos y entre las distribuidoras que los 
+componen. 
+ 
+Informe de Análisis de Regiones 
+de la Distribuidora 
+Toda empresa que tenga un mínimo de 100 encuestas 
+realizadas por región recibirá los análisis realizados para 
+cada una de esas unidades espaciales. 
+ 
+Presentación Individual 
+Este producto presenta resultados de cada distribuidora 
+(nivel general y por región), de forma comparativa a CIER, 
+incluyendo serie histórica del desempeño de la empresa. 
+Presentación Analítica 
+Este producto presenta resultados de todas las 
+distribuidoras de manera comparativa, así como también 
+un análisis detallado de los resultados obtenidos. 
+ 
+Elaborado en Word 
+  
+Entregue en PDF 
+ 
+Entregue en PowerPoint 
+  
+Entregue en Excel
+
+------------------ PAGE 8 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+8 
+Además de los informes y presentaciones, otros productos  de la encuesta estarán disponibles en el sitio web de 
+Innovare Pesquisa en noviembre de 2025. Son ellos: 
+ 
+Tablas con todos los resultados obtenidos – Frecuencia Simple 
+Planilla de índices (general y por regiones) 
+Base de datos (entregado en Excel y SPSS) 
+Tabla con la distribución de la muestra por municipio 
+Cronograma de recolección de datos 
+ Cuestionario utilizado (elaborado en Word y entregado en formato PDF)  
+Los productos listados abajo fueron incluidos en el Informe individual:  
+ 
+ 
+Cálculo de los principales índices por caracterización de los encuestados  
+Matriz de correlación 
+Gráficos de escalas abiertas 
+ 
+ 
+Es importante resaltar que las distribuidoras pueden publicar sus propios resultados cuando lo 
+deseen. Sin embargo, los datos comparativos entre distribuidoras que no forman parte del grupo 
+empresarial respectivo, incluidos los puntos de referencia, requie ren la autorización previa de CIER 
+para su divulgación.
+
+------------------ PAGE 9 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+9 
+3. Metodología 
+ 
+Para una mejor comprensión de los índices que serán presentados, haremos una breve descripción de 
+la rutina de aplicación de la encuesta y de los índices calculados. 
+ 
+La primera pregunta de evaluación se refiere a la calidad de los servicios prestados por la distribuidora (P0 38). Se pide 
+al entrevistado que los califique utilizando una escala de 10 puntos, variando de "muy mala" hasta "muy buena", de 
+acuerdo con el modelo abajo. 
+ 
+ 
+ 
+El resultado obtenido es expresado por el IAC (Índice de Aprobación del Cliente).  
+ 
+ 
+IAC Es el porcentaje de clientes cuya evaluación haya sido mayor o igual a 7 ("buena" 
+o "muy buena") para la calidad de los servicios de la distribuidora.  
+ 
+Una respuesta válida para el IAC es necesaria para que el entrevistado avance en el cuestionario. O sea, sólo los que 
+informaron una nota de evaluación pasaron a la siguiente pregunta; las entrevistas de los que no quisieron o no supieron 
+responder a esta pregunta fueron finalizadas.  
+Luego, después de formulada la pregunta que genera el IAC, se da comienzo a la evaluación de la distribuidora 
+organizada en el cuestionario en áreas de calidad y de valor percibido, que serán detallados en las próximas secciones 
+del informe. 
+La aplicación del cuestionario se divide en dos momentos. Primero, para cada área de calidad y para el área de valor, es 
+recolectada la importancia atribuida por el cliente a cada uno de los atributos. En seguida, los entrevistados son 
+invitados a responder sobre su satisfacción relativa a cada atributo de las áreas de calidad y precio en evaluación.  
+En 2020, por la pandemia de COVID 2019, fue necesario hacer algunos cambios en la forma de aplicación de la encuesta. 
+Primero, la aplicación se dio por medio telefónico, y no cara a cara, como solía anteriormente. La segunda: no se realizó 
+la recolección de importancia con los atributos. En 2021, se retomó la aplicación de importancia solamente de las cinco 
+áreas de calidad, después de conocer la satisfacción con el área de Imagen. En 2022, con el regreso a la recopilación 
+presencial de datos, se retomó la aplicación de importancia de los atributos, además de la importancia de las cinco áreas 
+de calidad, que también se realizó en 2023. En 2024, la importancia utilizada fue el promedio de los últimos dos años 
+(2022 y 2023). En 2025 también se consideró la importancia de 2024, o sea, el promedio de 2022 y 2023  para todas las 
+empresas que participaron de estas rondas. Para las empresas argentinas se recolectó la importancia en 2025.
+
+------------------ PAGE 10 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+10 
+Además, algunos cambios realizados en el cuestionario para cumplir los requisitos de una encuesta telefónica fueron 
+descontinuados con el regreso a la recopilación de datos presencial, después de la pandemia de COVID -19.  Sin 
+embargo, algunos cambios se mantuvieron: 
+ 
+ 
+Exclusión de la evaluación de los atributos del precio, manteniendo sólo la evaluación del precio 
+propiamente dicho (con esto, los índices ISC, ISPRE, IESC e IIC no son calculados);  
+3.1. Recolección de la importancia 
+Hasta 2023, para las distribuidoras con más de 500 mil clientes las encuestas de importancia fueron contestadas por el 
+20% de la muestra patrón, correspondiendo a 125 casos. Para las distribuidoras con hasta 500 mil clientes son aplicados 
+100 casos. En 2024 y en 2025, se utilizó el promedio de  la importancia del 2022 y 2023  para todas las empresas que 
+participaron de estas rondas. Para las empresas argentinas se recolectó la importancia en 2025. . 
+La recolección de la importancia es realizada en tres etapas como será presentado en seguida. Antes de las aclaraciones, 
+se debe señalar que la recolección de la importancia cuenta con un material de apoyo, elaborado exclusivamente para 
+este fin, y que se entrega a cada uno de los encues tados, con el objetivo de facilitar la ejecución de las tareas que le 
+serán solicitadas. 
+ 
+Importancia de las áreas y atributos de calidad 
+Son cinco las áreas de calidad encuestadas que componen el ISCAL: Suministro de Energía, Información y Comunicación, 
+Factura de Energía, Atención al Cliente) e Imagen, cada una con su conjunto de atributos. 
+Para cada una de las áreas evaluadas, se pide al encuestado que observe los atributos enseñados en el material de 
+apoyo y que , le solicita que laos ordene del más importante al menos importante, según su percepción.  
+Terminada la tarea de ordenación, se pide al encuestado que asigne un grado de importancia para cada uno de los 
+atributos investigados a partir de una escala de 10 puntos que varía de “muy baja importancia” hasta “muy alta 
+importancia”. 
+ 
+ 
+ 
+Así, al término de la evaluación, son obtenidos el ranking y la evaluación de la importancia para cada atributo en cada 
+una de las áreas de calidad. 
+Al final de las preguntas de importancia, se solicita que el encuestado ordene las cinco áreas y evalúe la importancia 
+de cada una. Con estos datos, se calcula la importancia relativa de las áreas evaluadas.  
+ 
+ 
+Importancia 
+relativa 
+Es la transformación del promedio de la importancia de cada atributo en valores 
+porcentuales, de manera que, al final, cada atributo asuma un valor correspondiente 
+a su importancia en el total de atributos investigados.
+
+------------------ PAGE 11 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+11 
+Con la importancia relativa de las áreas de calidad y sus atributos, se generan los índices compuestos, como el ISCAL 
+(Índice de Satisfacción con la Calidad Percibida), que será explicado más adelante.  
+La importancia de los atributos y áreas, además de ser utilizada para el cálculo del ISCAL (Índice de Satisfacción con la 
+Calidad Percibida), también es utilizada en las matrices de identificación de acciones de prioridad para la mejora del 
+desempeño de la distribuidora. 
+Importancia de las áreas “calidad percibida” y “valor percibido” 
+Después de atribuir importancia a los atributos y áreas de calidad, se solicita al encuestado que diga cuál es más 
+importante: la calidad o el precio. Para eso, se pide al encuestado que distribuya 100 puntos entre estos dos conjuntos 
+de temas. 
+La calidad se presenta como siendo el conjunto de atributos que componen las cinco áreas: Suministro de Energía, 
+Información y Comunicación, Factura de Energía, Atención al Cliente e Imagen. El precio se presenta como el valor de 
+la factura. 
+Con estos datos es calculada la importancia relativa de la calidad percibida y del precio.  
+ 
+3.2. Recolección de la satisfacción con los atributos de calidad 
+Terminada la asignación de la importancia a los atributos de los diversos aspectos investigados, se da comienzo al 
+conjunto de preguntas que tienen por objetivo recolectar el grado de satisfacción de los clientes en relación a cada uno 
+de los atributos enc uestados para las siete áreas: Suministro de Energía (P081 a P083), Información y Comunicación 
+(P105 a P109) , Factura de Energía (P110 a P115) , Atención al Cliente (P127 a P136) , Imagen (P137 a P145) , 
+Responsabilidad Socioambiental (P146 a P152)  y Alumbrado  Público (P197 a P200). Las dos últimas áreas no son 
+consideradas en el cálculo del ISCAL. 
+Para que el cliente conteste sobre su grado de satisfacción con los ítems en cuestión, se explica una escala de 10 puntos, 
+que varía de "muy insatisfecho" hasta "muy satisfecho". 
+ 
+ 
+ 
+El resultado de la recolección de la satisfacción del cliente para cada uno de los atributos es expresado por el IDAT 
+(Índice de Desempeño del Atributo). 
+ 
+ 
+IDAT 
+Es el porcentaje de clientes cuya evaluación haya sido igual o mayor que 7 
+("satisfecho" o "muy satisfecho") para cada uno de los atributos investigados, sin 
+tomar en consideración a aquellos que no supieron o se negaron a contestar.
+
+------------------ PAGE 12 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+12 
+Con esos mismos datos, además del cálculo del IDAT, también se calcula el IDAR (Índice de Desempeño del Área):  
+ 
+ 
+IDAR 
+Es el porcentaje de clientes cuya evaluación haya sido igual o mayor que 7 
+("satisfecho" o "muy satisfecho") para cada uno de los atributos investigados, sin 
+tomar en consideración a aquellos que no supieron o se negaron a contestar.  
+ 
+Vea el ejemplo abajo: 
+ 
+TABLA AGREGADA (5 puntos) 1+2 3+4 5+6 7+8 9+10 NS/NR Índice Base (n) 
+IDAT 
+Sin interrupción 1,4 3,8 18,5 42,2 33,2 0,9 76,1 64 
+Sin variación de voltaje 2,5 4,5 18,4 45,0 29,3 0,3 74,5 64 
+Rapidez en la reanudación 
+de la energía cuando falta 5,0 7,4 20,3 36,9 30,4 0,1 67,3 64 
+          
+IDAR Suministro de energía 2,9 5,0 20,2 41,0 30,5 0,4 71,8 192 
+Base: 100%          
+ 
+Ponderando cada IDAT por la importancia relativa del respectivo atributo, se calcula su tasa de satisfacción, que es la 
+información necesaria para el cálculo del ISCAL (Índice de Satisfacción con la Calidad Percibida) . 
+ 
+ 
+ISCAL Es la suma de la tasa de satisfacción de cada atributo de calidad percibida, 
+obtenida por la multiplicación de IDAT por su respectiva importancia relativa.  
+ 
+En 2010, fueron incluidos dos índices, que son el IECP (Índice de Excelencia de la Calidad Percibida) y el IICP (Índice de 
+Insatisfacción con la Calidad Percibida). 
+ 
+ 
+IECP 
+Es la suma de la tasa de satisfacción de cada atributo de calidad percibida, 
+obtenida por la multiplicación del IDAT, calculado solamente con las calificaciones 
+9 y 10 (“muy satisfecho”), por su respectiva importancia relativa.  
+ 
+IICP 
+Es la suma de la tasa de satisfacción de cada atributo de calidad percibida, 
+obtenida por la multiplicación del IDAT, calculado solamente con las calificaciones 
+1 hasta 4 (“muy insatisfecho” e “insatisfecho”), por su respectiva importancia 
+relativa.
+
+------------------ PAGE 13 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+13 
+3.3. Recolección de la evaluación del precio 
+A continuación, y a efectos de que el cliente evalúe el precio propiamente dicho, se le presenta y explica una escala de 
+10 puntos, variando de "muy caro" hasta "muy barato" (P163). 
+ 
+ 
+ 
+Desde la ronda de 2020, solo se recolecta el precio propiamente dicho. Los otros atributos de precio - precio comparado 
+con los beneficios, atención, suministro - no son más aplicados en la encuesta. De este modo, también se excluyeron 
+los índices compuestos cuyos cálculos dependen del conjunto de atributos de precio y de la importancia entre la calidad 
+y el precio: ISPRE (Índice de Satisfacción con el Precio Percibido) e ISC (Índice de Satisfacción del Cliente). 
+Además, los índices compuestos IESC (Índice de Excelencia) e IIC (Índice de Insatisfacción del Cliente), los cuales siguen 
+la misma lógica que el ISC y requieren la satisfacción del cliente y la importancia relativa entre la calidad y el precio, 
+tampoco son calculados. 
+ 
+3.4. Recolección de la satisfacción intermedia y de la satisfacción general 
+Después de realizadas todas las preguntas relativas a la satisfacción con atributos de calidad, con excepción del área 
+Alumbrado Público, se le solicitó al encuestado una respuesta de satisfacción intermedia, también a partir de una escala 
+de 10 puntos (misma escala utilizada para la evaluación de los atributos de calidad) (P158). Las respuestas obtenidas en 
+esa pregunta son utilizadas para el cálculo del IIS (Índice Intermedio de Satisfacción). 
+ 
+ 
+IIS 
+Es el porcentaje de clientes cuya satisfacción intermedia haya sido igual o mayor 
+que 7, sin tener en consideración a aquellos que no supieron o se negaron a 
+contestar. 
+ 
+Después de responder sobre la satisfacción intermedia y de evaluar el precio pagado por la energía, se le solicitó al 
+encuestado una respuesta general de satisfacción, también a partir de una escala de 10 puntos (misma escala utilizada 
+para la evaluación d e los atributos de calidad) (P1 64). Las respuestas obtenidas en esa pregunta son utilizadas para el 
+cálculo del ISG (Índice de Satisfacción General). 
+ 
+ 
+ISG 
+Es el porcentaje de clientes cuya evaluación final de la distribuidora haya sido igual 
+o mayor que 7, sin tener en consideración a aquellos que no supieron o se negaron 
+a contestar. 
+ 
+Al final, es generado el IAOP (Índice de Aprovechamiento de Oportunidades), definido como la diferencia relativa entre 
+el índice obtenido en esa ronda de la encuesta y el obtenido en la ronda anterior, es decir, es la variación porcentual 
+con relación al resultado anterior. 
+El IAOP es calculado para cada uno de los índices generados por esa metodología y es presentado en la Planilla de 
+Índices, en el Informe Individual y en la Presentación Individual. Ese índice solamente será presentado a las 
+distribuidoras que participaron de dos años consecutivos de la encuesta.
+
+------------------ PAGE 14 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+14 
+Vea todos los índices generados con la metodología utilizada para este trabajo de investigación:  
+ 
+ 
+IAC – índice de Aprobación 
+del Cliente 
+ 
+ISCAL – Índice de Satisfacción 
+con la Calidad Percibida 
+ 
+IDAT – Índice de Desempeño 
+del Atributo 
+ 
+IECP – Índice de Excelencia de 
+la Calidad Percibida 
+ 
+IDAR - Índice de Desempeño 
+del Área 
+ 
+IICP – Índice de Insatisfacción 
+con la Calidad Percibida 
+ 
+IIS – Índice Intermedio 
+de Satisfacción 
+ 
+ISG – Índice de Satisfacción 
+General 
+ 
+IAOP – Índice de Aprovechamiento 
+de Oportunidades
+
+------------------ PAGE 15 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+15 
+4. Presentación de los resultados 
+Los resultados presentados en este informe se refieren a aquellos obtenidos en la muestra patrón de la distribuidora.  
+ 
+ 
+Muestra 
+Patrón 
+La muestra patrón es utilizada para el cálculo del resultado general de la 
+distribuidora, utilizando los 400 casos (para distribuidoras hasta 500 mil clientes) 
+o los 625 casos (para distribuidoras con más de 500 mil clientes). De esa manera, 
+es mantenida la comparabilidad entre los resultados de esa distribuidora y de las 
+otras participantes de esa encuesta. 
+ 
+Los casos adicionales, o sea, los casos que ultrapasan la muestra patrón son utilizados específicamente para generación 
+de índices por región y son presentados en los productos: "Informe de Análisis de Regiones de la Distribuidora" y 
+"Presentación Individual". 
+La metodología para cálculo y distribución de la muestra respeta las particularidades del mercado de cada distribuidora 
+en lo que se refiere al número y al tamaño de los municipios atendidos, resultando en una muestra consistente, que 
+reproduce las características de cada empresa participante. 
+Para el planeamiento de la muestra, los municipios atendidos por la distribuidora son agrupados de acuerdo con su 
+localización y número de clientes y en cada grupo, son sorteados municipios para componer la muestra.  
+En este informe son presentados todos los índices previstos por la metodología CIER para 30 distribuidoras participantes 
+de la 23ª ronda de la encuesta CIER y de la 27ª ronda de la encuesta ABRADEE (BRACIER). El objetivo es que cada 
+distribuidora tenga la posibilidad de evaluar sus resultados de manera comparativa a las otras participantes y al 
+resultado CIER. 
+Para el cálculo del resultado CIER son consideradas 28 empresas participantes de la 23ª Encuesta CIER, incluyendo las 
+BRACIER que participaron de la 27ª ronda de la encuesta ABRADEE en 2025. 
+ 
+ 
+Resultado 
+CIER 
+El resultado CIER es generado a partir de la ponderación de los datos obtenidos 
+entre las distribuidoras asociadas a la CIER. Como las distribuidoras poseen 
+tamaños diferentes y se calculó una muestra independiente para cada una de 
+ellas, la suma simple de  las muestras no refleja el universo de clientes 
+residenciales. Para resumir los datos obtenidos en el estudio en un solo índice, es 
+necesario un procedimiento de "ajuste", que se denomina "ponderación".  
+ 
+El objetivo de la ponderación es corregir la proporción de casos de cada distribuidora, para que ellos asuman, a partir 
+de la aplicación de un peso, la real proporción que poseen cuando se trata del total de unidades clientes de las 
+distribuidoras participantes del estudio. Se adoptó el total de clientes de cada distribuidora como información para los 
+cálculos. 
+Los índices son presentados en cada gráfico de la siguiente manera:  
+▪ las distribuidoras participantes están agrupadas según su tamaño (hasta 500 mil o más de 500 mil clientes);  
+▪ en cada grupo, ellas están dispuestas en orden decreciente del índice en evaluación;  
+▪ hay una línea horizontal, paralela al eje de las distribuidoras, que es el resultado CIER;  
+▪ esa distribuidora está indicada de manera que sobresalga de las otras.  
+Primero, serán presentados los índices generales simples (IAC, IIS e ISG). A seguir, los resultados obtenidos para los 
+atributos y áreas de calidad que componen el ISCAL. Después, los índices compuestos, es decir, los que consideran la 
+percepción del cliente con relación a la calidad de los servicios prestados por la distribuidora y contemplan los aspectos 
+que podrían influenciar su nivel de satisfacción. Por fin, la evaluación del precio y de los atributos y áreas de calidad que 
+no hacen parte del cálculo del ISCAL.
+
+------------------ PAGE 16 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+16 
+5. Índices generales simples 
+5.1. IAC - Índice de Aprobación del Cliente 
+La aprobación del cliente consiste en el índice generado a partir de la respuesta dada a la pregunta: "¿Cómo califica 
+usted la calidad de los servicios prestados actualmente por la distribuidora para el municipio?". El índice de la evaluación 
+inicial de aprobación es presentado abajo.
+
+------------------ PAGE 17 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+17 
+5.2. IIS – Índice Intermedio de Satisfacción 
+Después de realizadas todas las preguntas relativas a la satisfacción con atributos de calidad, con excepción del área 
+Alumbrado Público, se le solicitó al encuestado una respuesta de satisfacción intermedia.  
+El resultado está presentado abajo:
+
+------------------ PAGE 18 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+18 
+5.3. ISG - Índice de Satisfacción General 
+Después de contestar la satisfacción intermedia y evaluar el precio propiamente dicho, se le solicitó al encuestado una 
+respuesta general de satisfacción. El resultado está presentado abajo:
+
+------------------ PAGE 19 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+SUMINISTRO DE ENERGÍA 
+19 
+ 
+6. Índices de desempeño de los atributos y áreas de calidad 
+6.1. Suministro de Energía 
+Esta área está compuesta por tres atributos (* 1), que son: 
+▪ Suministro de energía sin interrupción, es decir, que no falte energía en su domicilio;  
+▪ Suministro de energía sin variación de voltaje en su domicilio, es decir, sin bajones o parpadeos/pestañeo s; 
+▪ Agilidad/Rapidez en la reanudación/restablecimiento del servicio eléctrico cuando falta, es decir, el tiempo que 
+tarda en volver la energía en su domicilio. 
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.  
+ 
+ 
+  
+ 
+(*) Nótese que, en los gráficos, los atributos se encuentran resumidos.
+
+------------------ PAGE 20 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+SUMINISTRO DE ENERGÍA 
+20
+
+------------------ PAGE 21 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+SUMINISTRO DE ENERGÍA 
+21
+
+------------------ PAGE 22 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+INFORMACIÓN Y COMUNICACIÓN 
+22 
+6.2. Información y Comunicación 
+Esta área está compuesta por cinco atributos (*), que son: 2 
+▪ Comunicación previa en el caso de interrupciones debido a mantenimiento programado para mejora en la red;  
+▪ Orientaciones brindadas por la distribuidora respecto al uso eficiente de la energía, para que no se desperdicie;  
+▪ Orientaciones brindadas por la distribuidora respecto a los riesgos eléctricos y peligros en el uso de la energía 
+eléctrica;  
+▪ Orientaciones brindadas por la distribuidora respecto a sus derechos y deberes como cliente de energía 
+eléctrica; 
+▪ Informaciones brindadas por la distribuidora respecto a la medición del consumo de energía (ej.: cómo se hace, 
+cómo leer el medidor). 
+A partir del 2025, el atributo "Informaciones brindadas por la distribuidora respecto a la medición del consumo de energía 
+(ej.: cómo se hace, cómo leer el medidor pasa a ser. Ese atributo no es considerado en el cálculo del índice del área (IDAR), 
+ni tampoco en y del cálculo del ISCAL, IECP o IICP. Incluido en la ronda del 2019, hasta el 2024 no se consideraba en los 
+cálculos de los índices.  
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.  
+ 
+ 
+  
+ 
+2 (*) Observe que, en los gráficos, los atributos se encuentran resumidos.
+
+------------------ PAGE 23 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+INFORMACIÓN Y COMUNICACIÓN 
+23
+
+------------------ PAGE 24 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+INFORMACIÓN Y COMUNICACIÓN 
+24
+
+------------------ PAGE 25 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+INFORMACIÓN Y COMUNICACIÓN 
+25
+
+------------------ PAGE 26 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+FACTURA DE ENERGÍA 
+26 
+6.3. Factura de Energía 
+Esta área está compuesta por seis atributos (* 3), que son: 
+▪ Plazo entre la entrega de la factura de energía y su fecha límite de pago (número de días entre la recepción de 
+la factura y el vencimiento); 
+▪ Factura sin errores (con la lectura del contador/medidor y los cálculos correctos);  
+▪ Facilidad de comprensión de las informaciones (conceptos y contenidos) que están en la factura;  
+▪ Disponibilidad de puntos de pago, tales como bancos, internet, o similares;  
+▪ La fecha del vencimiento de la factura es adecuada, es decir, el día que tiene que pagar la factura;  
+▪ Disponibilidad de canales de pago digitales (ej.: app, internet). 
+El atributo "Disponibilidad de canales de pago digitales (ej.: app, internet)", insertado en 2019, se mantiene en esa ronda. 
+Ese atributo no es considerado en el cálculo del índice del área (IDAR), ni en el cálculo del ISCAL, IECP o IICP.  
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.  
+ 
+ 
+  
+ 
+(*) Observe que, en los gráficos, los atributos se encuentran resumidos.
+
+------------------ PAGE 27 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+FACTURA DE ENERGÍA 
+27
+
+------------------ PAGE 28 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+FACTURA DE ENERGÍA 
+28
+
+------------------ PAGE 29 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+FACTURA DE ENERGÍA 
+29 
+ 
+ 
+Nota: Ese atributo solo fue aplicado a las distribuidoras de CIER
+
+------------------ PAGE 30 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+30 
+6.4. Atención al Cliente 
+Esta área está compuesta por diez atributos (* 4), que son: 
+▪ Facilidad para contactar la distribuidora cuando necesita pedir informaciones o servicios;  
+▪ Tiempo de espera hasta ser atendido, es decir, el tiempo en filas o esperando en un teléfono u otro canal de 
+atención ofrecido por la distribuidora; 
+▪ El tiempo que dura la atención - agilidad de los empleados en el momento de la atención al cliente; 
+▪ Conocimiento que los empleados tienen sobre el tema; 
+▪ Facilidad de comprensión de las informaciones dadas por las personas que atienden (Claridad de la información 
+brindada por el personal que atiende); 
+▪ Calidad de la atención, en cuanto a la cortesía, respeto y amabilidad con el cliente;  
+▪ Plazo informado para la resolución del problema reportado o realización de los servicios solicitados;  
+▪ Solución definitiva del problema (no necesita hacer el pedido otra vez);  
+▪ Cumplimiento de los plazos informados para resolver las solicitudes de los clientes;  
+▪ Habilidad (autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente/ usuario.  
+El atributo "Habilidad (autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente", 
+insertado en 2010, se mantiene en esa ronda, pero no es considerado en el cálculo del índice del área (IDAR), ni en el 
+cálculo del ISCAL, IECP o IICP. 
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.  
+ 
+ 
+  
+ 
+(*) Nótese que, en los gráficos, los atributos se encuentran resumidos.
+
+------------------ PAGE 31 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+31
+
+------------------ PAGE 32 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+32
+
+------------------ PAGE 33 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+33
+
+------------------ PAGE 34 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+34
+
+------------------ PAGE 35 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ATENCIÓN AL CLIENTE 
+35 
+ 
+ 
+Nota: Ese atributo solo fue aplicado a las distribuidoras de CIER
+
+------------------ PAGE 36 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+36 
+6.5. Imagen 
+Esta área está compuesta por nueve atributos (* ), que son: 
+▪ Empresa que respeta los derechos de los clientes; 
+▪ Empresa correcta con sus clientes, si comete errores los corregirá - empresa justa; 
+▪ Ser una empresa que invierte para proveer energía a más clientes y con calidad;  
+▪ Empresa que busca informar y aclarar a sus clientes con respecto a su actuación;  
+▪ Empresa que se ocupa de evitar fraudes como los hurtos de energía, etc.;  
+▪ Empresa que ofrece la misma atención a todos los clientes, que no promueve ningún tipo de discriminación;  
+▪ Empresa flexible, o sea, que está dispuesta a negociar/escuchar sus clientes para resolver sus inquietudes;  
+▪ Empresa que se ocupa del medio ambiente, de la preservación de la naturaleza;  
+▪ Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, terremotos, 
+vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves.  
+El atributo "Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, 
+terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves" fue excluido en 2020 
+pero regresó en 2021, y se manti ene en la encuesta desde entonces. Ese atributo no es considerado en el cálculo del 
+índice del área (IDAR), ni tampoco en el cálculo del ISCAL, IECP o IICP. 
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.
+
+------------------ PAGE 37 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+ 
+37
+
+------------------ PAGE 38 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+38
+
+------------------ PAGE 39 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+ 
+39
+
+------------------ PAGE 40 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+40
+
+------------------ PAGE 41 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+IMAGEN 
+ 
+41
+
+------------------ PAGE 42 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+42 
+7. Índices generales compuestos 
+Los índices compuestos generales son todos aquellos que no implican una pregunta directa, pero que consideran la 
+satisfacción con los atributos presentados hasta ahora. 
+7.1. ISCAL - Índice de Satisfacción con la Calidad Percibida 
+Este índice representa la percepción del cliente con relación a la calidad de los servicios prestados por la distribuidora y 
+contempla todos los aspectos que podrían influenciar su nivel de satisfacción, ponderados por la importancia atribuida a 
+cada uno de ellos. 
+El ISCAL fue calculado con 30 atributos de las cinco áreas de calidad, o sea, no fueron considerados los siguientes 
+atributos: 
+▪ Disponibilidad de canales de pago digitales (ej.: app, internet), incluido en el área Factura de energía en 2019;  
+▪ Autonomía/flexibilidad del empleado, incluido en el área Atención al cliente en 2010;  
+▪ Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, terremotos, 
+vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves) incluido en el área Imagen.
+
+------------------ PAGE 43 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+43 
+7.2. IECP - Índice de Excelencia de la Calidad Percibida 
+Este índice fue incluido en 2010 y es calculado como el ISCAL, con la siguiente diferencia: para el cálculo de los IDATs, se 
+consideró solamente el porcentaje de encuestados que calificaron 9 o 10 para los atributos de calidad, correspondiendo 
+a los encuestados "muy satisfechos", sin tomar en consideración aquellos que no supieron o se negaron a contestar.
+
+------------------ PAGE 44 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+44 
+7.3. IICP - Índice de Insatisfacción con la Calidad Percibida  
+Ese índice fue incluido en 2010 y es calculado como el ISCAL con la siguiente diferencia: los IDATs consideran solamente 
+el porcentaje de encuestados cuya evaluación fue desde 1 hasta 4 para los atributos de calidad, correspondiendo a los 
+clientes "insatisfechos" o "muy insatisfechos", excluyendo aquellos que no supieron o se negaron a contestar.  
+En el gráfico abajo, es posible ver la posición relativa de la distribuidora, una vez que solamente esa empresa está 
+destacada y no es informado el nombre de las otras.
+
+------------------ PAGE 45 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+PRECIO 
+45 
+8. Evaluación del precio 
+El IDAT de "Precio propiamente dicho" (o precio de la factura – P163) es calculado considerando el porcentaje de clientes que 
+asignaron calificaciones desde 7 hasta 10 en la escala de evaluación del precio (“barato” y “muy barato”).
+
+------------------ PAGE 46 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+RESPONSABILIDAD SOCIOAMBIENTAL 
+46 
+9. Índices de desempeño de las demás áreas de calidad 
+9.1. Responsabilidad Socioambiental 
+Esta área está compuesta por siete atributos (* ), que son: 
+▪ Empresa que ofrece apoyo o realiza programas sociales, como, por ejemplo, programa de incentivo al deporte, 
+a la mejora de la educación y las condiciones de salud; 
+▪ Empresa que realiza u ofrece apoyo a eventos culturales, como, por ejemplo, la realización de conciertos, 
+exhibición de películas, obras de teatro, exposiciones, etc.; 
+▪ Empresa que se ocupa de la prevención de accidentes con la red eléctrica y seguridad de la población;  
+▪ Empresa que invierte para llevar energía eléctrica a zonas/regiones que no cuentan con el servicio de energía 
+eléctrica; 
+▪ Empresa que contribuye para el desarrollo económico de su ciudad/municipio/comuna;  
+▪ Empresa que facilita el acceso de los ciudadanos con edad avanzada o discapacitados en sus puntos de atención 
+y medios de comunicación con clientes; 
+▪ Empresa honesta, que cumple con sus obligaciones con todos los públicos, sean ellos clientes, empleados, 
+proveedores /suministradores, gobierno etc. 
+ 
+Desde 2010 hasta 2023, fueron evaluados los atributos "Empresa que ofrece buenas condiciones de trabajo a sus 
+empleados" y "Empresa honesta, que cumple con sus obligaciones con todos los públicos, sean ellos clientes, empleados, 
+proveedores /suministradores, gobierno etc.". En 2024, se excluyó el atributo “Empresa que ofrece buenas condiciones 
+de trabajo a sus empleados”. De cualquier manera, estos atributos no componen el índice del área ni tampoco el ISCAL.  
+En el cálculo del IDAR de Responsabilidad Socioambiental, se consideran no solamente las notas de satisfacción de los 
+atributos exclusivos del área, sino también dos atributos que componen el área Imagen, que son: "Empresa que se ocupa 
+de evitar fraudes, como los hurtos de energía, etc." y "Empresa que se ocupa del medio ambiente, de la preservación de 
+la naturaleza". 
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.
+
+------------------ PAGE 47 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+RESPONSABILIDAD SOCIOAMBIENTAL 
+47
+
+------------------ PAGE 48 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+RESPONSABILIDAD SOCIOAMBIENTAL 
+48
+
+------------------ PAGE 49 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+RESPONSABILIDAD SOCIOAMBIENTAL 
+49
+
+------------------ PAGE 50 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+RESPONSABILIDAD SOCIOAMBIENTAL 
+50
+
+------------------ PAGE 51 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ALUMBRADO PÚBLICO 
+ 
+51 
+9.2. Alumbrado Público 
+Esta área está compuesta por cuatro atributos (* 5), que son: 
+▪ Alumbrado público disponible en toda la ciudad/municipio/comuna;  
+▪ Calles y plazas bien alumbradas (Alumbrado público de calidad); 
+▪ El mantenimiento que le hacen al alumbrado público en calles y avenidas (cambio de lámparas, postes etc.);  
+▪ El mantenimiento que le hacen al alumbrado público en plazas, parques, lugares emblemáticos (cambio de 
+lámparas, postes etc.). 
+Es importante destacar que el atributo "El mantenimiento que le hacen al alumbrado público en calles y plazas (cambio 
+de lámparas, postes etc.)" fue dividido en dos, separando la evaluación de calles y avenidas de la evaluación de plazas y 
+parques. En los gráficos que presentan los resultados de estos dos atributos las distribuidoras de BRACIER no son 
+presentadas, pues estos dos temas son un atributo único. 
+Primero son presentados los IDATs y, después del último atributo del área, el IDAR.  
+ 
+ 
+  
+ 
+(*) Observe que, en los gráficos, los atributos se encuentran resumidos.
+
+------------------ PAGE 52 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ALUMBRADO PÚBLICO 
+52 
+ 
+ 
+ 
+ 
+ 
+Nota: Ese atributo solo fue aplicado a las distribuidoras de CIER
+
+------------------ PAGE 53 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+ALUMBRADO PÚBLICO 
+ 
+53 
+ 
+ 
+Nota: Ese atributo solo fue aplicado a las distribuidoras de CIER.
+
+------------------ PAGE 54 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+54 
+10. Posición de las distribuidoras por índice (Ranking) 
+En la siguiente tabla se encuentran las empresas que participaron de la investigación CIER y BRACIER, con sus respectivas 
+posiciones obtenidas para cada uno de los índices. Fueron relacionados los índices generales simples (IAC e ISG), índices 
+generales compuestos (ISCAL e IECP), además de los índices de las áreas de calidad: SE (IDAR Suministro de Energía), IC 
+(IDAR Información y Comunicación), FE (IDAR Factura de Energía), AT (IDAR Atención al Cliente), IM (IDAR Imagen), RSA 
+(IDAR Responsabilidad Socioambiental), AP (IDAR Alumbrado Público) y PR1 (IDAT Precio propiamente dicho).  
+El ranking fue establecido dentro de cada grupo de distribuidoras: empresas con más de 500 mil clientes y empresas con 
+hasta 500 mil clientes.
+
+------------------ PAGE 55 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+55 
+11. NPS Net Promoter Score 
+Solicitamos a los clientes que informasen cuál sería la probabilidad de recomendar la distribuidora para algún familiar o 
+amigo. 
+Para indicar la respuesta, fue presentada la siguiente escala de 11 puntos, en la cual el punto cero quisiera decir que es 
+"nada probable" y el punto 10 "muy probable". Abajo la imagen de la escala utilizada:  
+ 
+ 
+ 
+Con base en las respuestas es calculado el Net Promoter Score (NPS), metodología creada por el estratega Fred Reichheld 
+y marca que fue registrada del autor, Satmetrix Systems Inc. y Bain & Company 6. En general, la metodología es utilizada 
+para medir el grado de satisfacción o lealtad de los clientes de una empresa. Su cálculo es simple: se sustrae la proporción 
+de clientes que dieron notas 0 a 6 en esa evaluación de aquellos que dieron notas 9 y 10. Normalmente, aquellos que no 
+supieron o escogieron no contestar a la pregunta no son considerados en el cálculo.  
+Los clientes son divididos en tres grupos: 
+▪ promotores: clientes que indicaron notas 9 o 10. Son considerados más probables a promover una imagen 
+positiva de la empresa por medio de sus acciones, por ejemplo, mantener su fidelidad de compra de productos 
+de la empresa o indicar para amigos y familiares; 
+▪ pasivos o neutros: clientes que indicaron notas 7 o 8. Son considerados clientes con comportamiento 
+indiferente, no poseen interés ni en promover ni en detractar la empresa;  
+▪ detractores: clientes que indicaron notas de 0 a 6. Son considerados los menos probables de promover la 
+distribuidora. 
+Para finalizar este resumen de la metodología NPS, las notas son divididas en cuatro zonas de clasificación, a saber:  
+▪ zona crítica: NPS entre -100 y 0, indica larga proporción de clientes detractores; 
+▪ zona de perfeccionamiento: NPS entre 1 y 50, indica larga proporción de clientes detractores y neutros;  
+▪ zona de calidad: NPS entre 51 y 75, indica más grande ocurrencia de clientes neutros y promotores, con relación 
+a los clientes detractores; 
+▪ zona de excelencia: NPS entre 76 y 100, indica preponderancia de clientes promotores.  
+ 
+  
+ 
+6 La introducción más completa al índice puede ser encontrada en la siguiente dirección disponible en Bain & Company: 
+https://www.bain.com/insights/introducing-the-net-promoter-system-loyalty-insights/
+
+------------------ PAGE 56 ------------------
+Informe Comparativo entre Distribuidoras 2025 
+ 
+ 
+56 
+ 
+Nota: Ese atributo solo fue aplicado a las distribuidoras de CIER

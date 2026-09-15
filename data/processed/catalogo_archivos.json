@@ -1,0 +1,322 @@
+[
+  {
+    "year": 2025,
+    "zip_source": "Banco de Datos_KpRCy.zip",
+    "file_name": "Banco de Datos.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 527.77,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\4_Microdatos_Frecuencias\\Banco de Datos.xlsx"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Carta  - AR_zrWHZ.zip",
+    "file_name": "Carta  - AR.pdf",
+    "file_extension": ".pdf",
+    "category": "1_Metodologia_Instrumentos",
+    "size_kb": 417.16,
+    "modified_date": "2025-08-15",
+    "local_path": "data\\classified\\2025\\1_Metodologia_Instrumentos\\Carta  - AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Cronograma de campo EPEC-AR_g7VmD.zip",
+    "file_name": "Cronograma de campo EPEC-AR.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 47.5,
+    "modified_date": "2025-08-08",
+    "local_path": "data\\classified\\2025\\2_Operacion_Campo_Muestreo\\Cronograma de campo EPEC-AR.xls"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Cuestionario CIER_2025_ARGENTINA_CzIR8.zip",
+    "file_name": "Cuestionario CIER_2025_ARGENTINA.pdf",
+    "file_extension": ".pdf",
+    "category": "1_Metodologia_Instrumentos",
+    "size_kb": 655.91,
+    "modified_date": "2025-08-14",
+    "local_path": "data\\classified\\2025\\1_Metodologia_Instrumentos\\Cuestionario CIER_2025_ARGENTINA.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Cuestionario CIER_2025_ARGENTINA_uMBx9.zip",
+    "file_name": "Cuestionario CIER_2025_ARGENTINA.pdf",
+    "file_extension": ".pdf",
+    "category": "1_Metodologia_Instrumentos",
+    "size_kb": 655.91,
+    "modified_date": "2025-08-14",
+    "local_path": "data\\classified\\2025\\1_Metodologia_Instrumentos\\Cuestionario CIER_2025_ARGENTINA.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Dicionario de Datos_CuyPI.zip",
+    "file_name": "Dicion rio de Datos.xlsx",
+    "file_extension": ".xlsx",
+    "category": "3_Diccionarios_Metadatos",
+    "size_kb": 64.38,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\3_Diccionarios_Metadatos\\Dicion rio de Datos.xlsx"
+  },
+  {
+    "year": 2025,
+    "zip_source": "EPEC-AR - 20% Catastro de encuestados_j2cqm.zip",
+    "file_name": "EPEC-AR - 20% Catastro de encuestados.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 72.0,
+    "modified_date": "2025-10-13",
+    "local_path": "data\\classified\\2025\\2_Operacion_Campo_Muestreo\\EPEC-AR - 20% Catastro de encuestados.xls"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Entrenamiento EPEC-AR_segunda capacitacion_G2mv3.zip",
+    "file_name": "Entrenamiento EPEC-AR_segunda capacitaci¢n.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 47.0,
+    "modified_date": "2025-09-03",
+    "local_path": "data\\classified\\2025\\2_Operacion_Campo_Muestreo\\Entrenamiento EPEC-AR_segunda capacitaci¢n.xls"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Entrevistador EPEC-AR_H5pxN.zip",
+    "file_name": "Entrevistador EPEC-AR.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 54.0,
+    "modified_date": "2025-09-09",
+    "local_path": "data\\classified\\2025\\2_Operacion_Campo_Muestreo\\Entrevistador EPEC-AR.xls"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Inf Comp Paises 2025 - EPEC-AR_cP8Er.zip",
+    "file_name": "Inf Comp Paises 2025 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 8487.88,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Inf Comp Paises 2025 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Informe Comp entre Distrib 2025 - EPEC-AR_sL5xe.zip",
+    "file_name": "Informe Comp entre Distrib 2025 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 8829.39,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Informe Comp entre Distrib 2025 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Informe Individual 2025 - EPEC-AR_d2XYh.zip",
+    "file_name": "Informe Individual 2025 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 12518.85,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Informe Individual 2025 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Informe Individual 2025 - EPEC-AR_tTjF3.zip",
+    "file_name": "Informe Individual 2025 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 12518.85,
+    "modified_date": "2025-11-17",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Informe Individual 2025 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Informe Regiones 2025 - EPEC-AR_7lGkC.zip",
+    "file_name": "Informe Regiones 2025 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 11654.95,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Informe Regiones 2025 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Piloto EPEC-AR_xjriX.zip",
+    "file_name": "Piloto EPEC-AR.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 45.5,
+    "modified_date": "2025-08-08",
+    "local_path": "data\\classified\\2025\\2_Operacion_Campo_Muestreo\\Piloto EPEC-AR.xls"
+  },
+  {
+    "year": 2025,
+    "zip_source": "Presentacion Individual 2025 - EPEC-AR_S8OUi.zip",
+    "file_name": "Presentacion Individual 2025 - EPEC-AR.pptx",
+    "file_extension": ".pptx",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 55522.16,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\5_Informes_Presentaciones\\Presentacion Individual 2025 - EPEC-AR.pptx"
+  },
+  {
+    "year": 2025,
+    "zip_source": "[xlsx] BD EPEC-AR_gul67.zip",
+    "file_name": "[xlsx] BD EPEC-AR.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 643.19,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\4_Microdatos_Frecuencias\\[xlsx] BD EPEC-AR.xlsx"
+  },
+  {
+    "year": 2025,
+    "zip_source": "[xlsx] Frec EPEC-AR 2024_Op2Hx.zip",
+    "file_name": "[xlsx] Frec EPEC-AR 2024.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 147.83,
+    "modified_date": "2025-11-14",
+    "local_path": "data\\classified\\2025\\4_Microdatos_Frecuencias\\[xlsx] Frec EPEC-AR 2024.xlsx"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Analisis de Conglomerados 2026 - EPEC-AR_nm1Hn.zip",
+    "file_name": "An lisis de Conglomerados 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 840.35,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\An lisis de Conglomerados 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Clientes Residenciales _ Domiciliares - V4 AR_inGN5.zip",
+    "file_name": "Clientes Residenciales _ Domiciliares - V4 AR.pdf",
+    "file_extension": ".pdf",
+    "category": "1_Metodologia_Instrumentos",
+    "size_kb": 673.87,
+    "modified_date": "2026-04-20",
+    "local_path": "data\\classified\\2026\\1_Metodologia_Instrumentos\\Clientes Residenciales _ Domiciliares - V4 AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "EPEC-AR - Plano de muestra 2026 - calculo_WOgNh.zip",
+    "file_name": "EPEC-AR - Plano de muestra 2026 - c lculo.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 55.5,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\2_Operacion_Campo_Muestreo\\EPEC-AR - Plano de muestra 2026 - c lculo.xls"
+  },
+  {
+    "year": 2026,
+    "zip_source": "EPEC-AR - Plano de muestra 2026 - sorteo_NNUhW.zip",
+    "file_name": "EPEC-AR - Plano de muestra 2026 - sorteo.xls",
+    "file_extension": ".xls",
+    "category": "2_Operacion_Campo_Muestreo",
+    "size_kb": 53.0,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\2_Operacion_Campo_Muestreo\\EPEC-AR - Plano de muestra 2026 - sorteo.xls"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Inf Comp Paises 2026 - EPEC-AR_yANpd.zip",
+    "file_name": "Inf Comp Paises 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 9166.74,
+    "modified_date": "2026-09-11",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Inf Comp Paises 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Informe Com entre Rondas 2026 - EPEC-AR_OSeqD.zip",
+    "file_name": "Informe Com entre Rondas 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 37064.97,
+    "modified_date": "2026-09-11",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Informe Com entre Rondas 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Informe Comp entre Distrib 2026 - EPEC-AR_3veKZ.zip",
+    "file_name": "Informe Comp entre Distrib 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 9082.01,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Informe Comp entre Distrib 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Informe Individual 2026 - EPEC-AR_JRy1I.zip",
+    "file_name": "Informe Individual 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 14371.61,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Informe Individual 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Informe Regiones 2026 - EPEC-AR_TllgK.zip",
+    "file_name": "Informe Regiones 2026 - EPEC-AR.pdf",
+    "file_extension": ".pdf",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 12589.31,
+    "modified_date": "2026-09-11",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Informe Regiones 2026 - EPEC-AR.pdf"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Planilla de Indices CIER 2026 - EPEC-AR_reNg1.zip",
+    "file_name": "Planilla de Índices CIER 2026 - EPEC-AR.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 617.43,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\4_Microdatos_Frecuencias\\Planilla de Índices CIER 2026 - EPEC-AR.xlsx"
+  },
+  {
+    "year": 2026,
+    "zip_source": "Presentacion analitica 2026_v12.09_2jWtO.zip",
+    "file_name": "Presentacion analitica 2026_v12.09.pptx",
+    "file_extension": ".pptx",
+    "category": "5_Informes_Presentaciones",
+    "size_kb": 63677.66,
+    "modified_date": "2026-09-12",
+    "local_path": "data\\classified\\2026\\5_Informes_Presentaciones\\Presentacion analitica 2026_v12.09.pptx"
+  },
+  {
+    "year": 2026,
+    "zip_source": "[xlsx] BD EPEC-AR_Km1qi.zip",
+    "file_name": "[xlsx] BD EPEC-AR.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 244.01,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\4_Microdatos_Frecuencias\\[xlsx] BD EPEC-AR.xlsx"
+  },
+  {
+    "year": 2026,
+    "zip_source": "[xlsx] Diccionario de datos 2026_dpbTn.zip",
+    "file_name": "[xlsx] Diccion rio de datos 2026.xlsx",
+    "file_extension": ".xlsx",
+    "category": "3_Diccionarios_Metadatos",
+    "size_kb": 57.17,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\3_Diccionarios_Metadatos\\[xlsx] Diccion rio de datos 2026.xlsx"
+  },
+  {
+    "year": 2026,
+    "zip_source": "[xlsx] Frec EPEC-AR 2026_KwkYH.zip",
+    "file_name": "[xlsx] Frec EPEC-AR 2026.xlsx",
+    "file_extension": ".xlsx",
+    "category": "4_Microdatos_Frecuencias",
+    "size_kb": 299.35,
+    "modified_date": "2026-09-10",
+    "local_path": "data\\classified\\2026\\4_Microdatos_Frecuencias\\[xlsx] Frec EPEC-AR 2026.xlsx"
+  }
+]

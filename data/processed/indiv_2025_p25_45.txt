@@ -1,0 +1,450 @@
+
+==================== PAGE 25 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+25 
+ 
+Para verificar si la satisfacción con la distribuidora sufre variación en función del perfil de los respondientes, los principales 
+índices fueron calculados por género, por clase de edad, nivel de escolaridad y rango del ingreso familiar. En el apéndice 
+1 se presentan las tablas con los índices calculados para esas variables de caracterización de los encuestados, 
+posibilitando la visualización de los resultados de manera comparativa.  
+Las respuestas de cada variable de caracterización fueron organizadas en dos categorías : 
+▪ Nivel de escolaridad: en nivel básico y nivel medio/universitario.  
+▪ Edad: fue calculado el promedio de la distribuidora para la creación de las categorías. Así, tenemos un grupo 
+formado por encuestados cuyo resultado es inferior al promedio y otro cuyo resultado es superior al promedio 
+de edad de la distribuidora. 
+▪ Ingreso familiar: fue calculado el promedio de la distribuidora para la creación de las categorías. Así, tenemos 
+un grupo formado por encuestados cuyo resultado es inferior al promedio y otro cuyo resultado es superior al 
+promedio de ingreso familiar de la distribuidora. 
+En la secuencia, fue aplicado un  test estadístico con el objetivo de verificar si los principales índices de la metodología 
+varían significativamente en función de las variables de caracterización de los respondientes. Por ejemplo: ¿La 
+satisfacción general varía significativamente cuando comparamos el contingente femenino con el masculino? 
+Se aplicó la prueba de Kruskal -Wallis. En las tablas de presentación de los resultados, la línea será llenada en amarillo 
+cuando el  test de promedios presenta diferencia significativa de resultados. En estos casos, se debe observar en que 
+grupo el índice es más alto. Si la línea no está llenada en amarillo, la variación de satisfacción observada entre los grupos 
+no fue significativa. En el apéndice 2 se presenta una explicación más detallada sobre la lectura de tablas de cruces y del 
+test de promedios. 
+
+==================== PAGE 26 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+26 
+ 
+  
+
+==================== PAGE 27 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+27 
+ 
+ 
+ 
+  
+
+==================== PAGE 28 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+28 
+6.2. Consumo mensual de energía y valor de la factura de energía  
+La presentación de la factura de energía es obligatoria en la Encuesta CIER, con excepción de Costa Rica  y República 
+Dominicana, que no necesariamente entregan sus facturas impresas. En todos los países (excepto los dos mencionados), 
+los valores de la cuenta y del consumo promedio mensual fueron copiados de la factura presentada por el encuestado 
+en el momento de la entrevista. 
+En los casos en que no se entrega la factura , el encuestado que no tuviese la factura impresa debería contestar las 
+siguientes preguntas: 
+▪ ¿Cuál es, aproximadamente (puede ser un promedio), el valor de su factura de energía?; y  
+▪ ¿Usted sabría decir cuál es el consumo mensual de energía eléctrica, de este domicilio? (en kWh/mes).  
+Las informaciones de precio y consumo de encuestados que no presentaron la factura fueron tratadas junto a las de los 
+clientes que presentaron la factura. 
+Además, es importante mencionar que para los países que envían las facturas bimensualmente, los resultados 
+presentados fueron convertidos para valores mensuales. 
+ 
+Valor de la factura 
+Los resultados fueron organizados en rangos de valores y, además, se calculó el promedio recortado del conjunto de 
+datos. Los valores fueron colectados en la moneda local y convertidos para la cotización del dólar Comercial del día 31 de 
+marzo de 2025. 
+ 
+  
+
+==================== PAGE 29 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+29 
+Con la información del valor de la factura y la cantidad de moradores en el domicilio fue calculado el gasto con energía 
+per capita mensual. Con las informaciones de ingreso familiar y valor de la factura, fue calculada la participación de los 
+gastos con energía eléctrica en el ingreso familiar. 
+ 
+ 
+Consumo de energía 
+En la presentación de resultado abajo fue utilizada la información del consumo en kWh/mes copiado de la factura, con 
+excepción de Costa Rica  y República Dominicana , como ya mencionado. Para es tos países, se combina la información 
+recolectada de la factura y la declarada por aquellos que no la mostraron.  
+Para esa variable, observe los resultados agregados en clases, además de la información del promedio recortado de los 
+valores obtenidos. 
+ 
+  
+
+==================== PAGE 30 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+30 
+7. Principales resultados 
+Primero se presenta al lector un resumen de los índices, para facilitarle la elaboración de una opinión acerca de la 
+situación general de la distribuidora. 
+En el siguiente gráfico, se puede realizar una lectura comparativa del resultado CIER, de la distribuidora y del benchmark 
+obtenido entre las distribuidoras que pertenecen al mismo grupo (más o menos de 500 mil clientes).  
+ 
+Resultado 
+CIER 
+El resultado CIER es generado a partir de la ponderación de los datos obtenidos 
+entre las distribuidoras asociadas a la CIER. Como las distribuidoras poseen 
+tamaños diferentes y se calculó una muestra independiente para cada una de 
+ellas, la suma simple de  las muestras no refleja el universo de clientes 
+residenciales. Para resumir los datos obtenidos en el estudio en un solo índice, es 
+necesario un procedimiento de "ajuste", que se denomina "ponderación".  
+El objetivo de la ponderación es corregir la proporción de casos de cada distribuidora, para que ellos asuman, a partir de 
+la aplicación de un peso, la real proporción que poseen cuando se trata del total de unidades clientes de las distribuidoras 
+participantes del estudio y asociadas a la CIER. En la 23ª ronda de la encuesta CIER, se consideran los resultados obtenidos 
+por 28 distribuidoras. Se adoptó el total de clientes de cada distribuidora como información para los cálculos.  
+Los principales índices generados por la metodología serán presentados con sus colores característicos y fueron 
+resumidos de la siguiente manera: 
+ 
+ 
+ 
+  
+
+==================== PAGE 31 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+31 
+ 
+Además, para ayudar al lector en la evaluación de los índices y formulación de hipótesis explicativas, se presenta la 
+diferencia en puntos porcentuales entre los resultados obtenidos en 2025 y 2024 y los resultados desde 2023 para cada 
+índice. 
+En la tabla siguiente, es posible observar los atributos de la encuesta. Las marcaciones indican diferencias significativas 
+con relación al año anterior, o sea, por encima o abajo del margen de error. Resultados más favorables en la ronda más 
+reciente están marcados en verde, y resultados menos favorables en la ronda más reciente, en rojo. 
+Note que los índices son calculados con más decimales de los presentados, por eso puede haber divergencia de redondeo 
+en la diferencia entre los resultados de las rondas . Para distribuidoras que no han participado en los últimos 2 años, la 
+tabla se presentará con las columnas de 2023 y/o 2024 vacías. 
+
+==================== PAGE 32 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+32 
+  
+-  
+*Nota: los atributos FE “Disponibilidad de canales de pago digitales (ej.: app, internet)”, IM “Empresa preparada y con buena organización para atender 
+su región/zona en casos de tormentas, terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves”, AT “Habilidad 
+(autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente/ usuario” no son considerados en el cálculo del ISCAL, IECP, 
+IICP, ni de los IDARs de las áreas.  
+
+==================== PAGE 33 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+33 
+En la próxima tabla, observe cómo se distribuyen las notas recibidas por la distribuidora, en la escala de 10 puntos (que 
+fue agrupada en cinco puntos para la presentación). En el apéndice 3 será posible observar las variaciones ocurridas en 
+la distribución de las notas del año pasado para esa ronda. 
+Observe que, cuando hay encuestados que no supieron o no quisieron contestar a alguna de las cuestiones, la suma de 
+las notas 7 a 10 no coincide con el índice obtenido por la distribuidora.  
+Para cada uno de los atributos y áreas de calidad, fueron calculados el promedio aritmético y la desviación estándar. La 
+desviación estándar cumple la función de informar la dispersión de las notas obtenidas por la distribuidora con relación 
+al promedio ca lculado. Esa medida es presentada, visto que algunas situaciones interfieren en el valor del promedio, 
+como, por ejemplo, la proporción de clientes que no supieron o se negaron a contestar sobre determinado atributo. 
+Cuanto mayor la desviación estándar más dispersas estarán las notas individuales con relación al promedio calculado. 
+  
+
+==================== PAGE 34 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+34 
+ 
+* Nota: los atributos FE "Disponibilidad de canales de pago digitales (ej.: app, internet)", IM "Empresa preparada y con buena organización para atender 
+su región/zona en casos de tormentas, terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves", AT "Habilidad 
+(autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente/ usuario" no son considerados en el cálculo del ISCAL, IECP, 
+IICP, ni de los IDARs de las áreas.  
+
+==================== PAGE 35 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+35 
+8. Índices generales simples 
+8.1. IAC - Índice de Aprobación del Cliente 
+Como ya se ha presentado en la metodología, la evaluación de la calidad de los servicios prestados por la distribuidora 
+(P038) representa el nivel de satisfacción inicial del cliente, dado que fue aplicada antes de la evaluación de los atributos 
+y áreas de calidad. 
+Para la obtención de la respuesta, fue presentada y explicada al encuestado una escala de 10 puntos, variando desde 
+"muy mala" hasta "muy buena", de acuerdo con el modelo abajo.  
+ 
+Los resultados obtenidos fueron agrupados y presentados a continuación.  
+Además del índice y del promedio obtenidos,  el siguiente gráfico muestra la distribución de las respuestas en la escala 
+agrupada, así como el resultado CIER y el mejor resultado obtenido entre las distribuidoras de su mismo tamaño 
+(benchmark). 
+ 
+ 
+ 
+  
+
+==================== PAGE 36 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+36 
+8.2. IIS – Índice Intermedio de Satisfacción  
+Después de las preguntas sobre la satisfacción del c liente con todas las áreas de calidad, y antes de la evaluación de 
+precio, los entrevistados informaron su nivel de satisfacción con la distribuidora hasta aquel momento de la entrevista. 
+La pregunta aplicada fue la siguiente ( P158): “Pensando en todo lo que hemos hablado hasta ahora, ¿cuál es su nivel de 
+satisfacción con la distribuidora de una manera general?” 
+Los resultados obtenidos fueron agrupados y se presentan a continuación. Es importante tomar en consideración que, 
+para el cálculo del IIS, no se consideran a aquellos encuestados que no quisieron o no supieron contestar la pregunta.  
+ 
+ 
+En seguida, fue realizado el cruce entre las respuestas obtenidas a partir de la escala de satisfacción intermedia y las 
+obtenidas a partir de la escala de evaluación de calidad de los servicios (IAC). De esa manera, será posible observar, por 
+ejemplo, ent re el grupo de clientes que tienen una opinión muy favorable sobre los servicios prestados por la 
+distribuidora, la proporción de aquellos que están muy satisfechos después de estimulados por las preguntas relativas a 
+la calidad del servicio, con excepción del precio y del alumbrado público. 
+Para auxiliar en la conclusión de la asociación entre las dos variables, observe también la correlación entre ellas.  
+La correlación bivariada representa la asociación entre las respuestas dadas por los clientes a las dos variables, y se 
+presentó el coeficiente de correlación Tau de Kendall. Para más fácil interpretación, los coeficientes de correlación se 
+transformaron en porcentajes multiplicándolos por 100. Cuanto mayor es el porcentaje encontrado en la correlación, 
+mayor es la asociación entre la evaluación inicial y la satisfacción final.  
+
+==================== PAGE 37 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+37 
+ 
+ 
+8.2.1. Justificaciones para la insatisfacción intermedia 
+Los encuestados que dieron notas de 1 a 6 a la pregunta sobre satisfacción intermedia contestaron una pregunta sobre 
+los motivos para la nota informada.  
+Esta respuesta fue múltiple y espontánea, y los resultados están presentados a continuación. Observe que, para el 
+tratamiento de las respuestas obtenidas, se adoptó el procedimiento de estandarización de respuestas espontáneas. La 
+categoría “otros” es la suma de todas las respuestas que, en separado, no alcanzaron 2,5% de mención.  
+ 
+ 
+  
+
+==================== PAGE 38 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+38 
+8.3. ISG - Índice de Satisfacción General  
+Después responder sobre la satisfacción intermedia y sobre el precio propiamente dicho, se solicitó al encuestado una 
+respuesta general de satisfacción (P164), con base en la misma escala de satisfacción de 10 puntos ya presentada.  
+Los resultados obtenidos fueron agrupados y se presentan a continuación. Es importante tomar en consideración que, 
+para el cálculo del ISG, tampoco se consideran  a aquellos encuestados que no quisieron o no supieron contestar la 
+pregunta. 
+ 
+ 
+En seguida, observe el cruce entre el resultado de la pregunta de satisfacción general del cliente por el IAC. El objetivo 
+con ese cruce es enseñar la migración entre las respuestas iniciales y las finales, es decir, permite verificar si los estímulos 
+dados al cliente durante la entrevista lo llevaron a cambiar de nivel de satisfacción cuando comparadas a las principales 
+evaluaciones generales de la distribuidora. Observe también la correlación de las dos variables.  
+ 
+  
+
+==================== PAGE 39 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+39 
+8.4. Comparación de índices: IAC X  IIS X ISG 
+En esta sección, se presentan los análisis que permiten verificar si los estímulos dados al cliente a lo largo de la entrevista 
+lo llevaron a cambiar de nivel de satisfacción, al comparar las principales evaluaciones generales de la distribuidora: IAC, 
+IIS e ISG.  
+Entre la evaluación de la calidad de los servicios (que genera el IAC)  y la satisfacción intermedia (que genera el IIS) , los 
+entrevistados fueron expuestos a las preguntas sobre todas las áreas de calidad que componen el ISCAL– Suministro de 
+Energía, Información y Comunicación, Factura, Atención al Cliente  e Imagen – además de Responsabilidad 
+Socioambiental. Por su vez, entre la satisfacción intermedia y la satisfacción general (que genera el ISG), los encuestados 
+evalúan el precio pagado por la energía.  
+La verificación de la diferencia entre los resultados para el IAC, IIS e ISG es un análisis importante, ya que el encuestado 
+puede cambiar su evaluación a lo largo de la encuesta, en función de la aplicación del cuestionario.   
+Para la comparación de las notas, se analizó el camino recorrido por los clientes durante la aplicación del cuestionario , 
+teniendo como base las notas informadas a las preguntas sobre la evaluación de la calidad de los servicios (que genera el 
+IAC), la satisfacción intermedia (que genera el IIS) y la satisfacción general (que genera el ISG).  Así, fueron criadas tres 
+variables para entender cómo fue la trayectoria de notas de los encuestados.  
+Inicialmente, utilizando como punto de partida la nota contestada para la evaluación de la calidad de servicios (IAC) y, 
+como punto final, la nota contestada para la satisfacción intermedia (ISG), el camino recorrido fue establecido de acuerdo 
+con la siguiente clasificación: 
+▪ disminuyó la nota (la nota dada al IAC fue más alta que la nota dada al IIS);  
+▪ mantuvo la nota (la nota dada al IAC fue igual a la nota dada al IIS);  
+▪ aumentó la nota (la nota dada al IAC fue más baja que la nota dada al IIS).  
+En el apéndice 2 se presenta una explicación más detallada sobre la lectura del camino recorrido.  
+Dado que los índices están compuestos a partir de un rango de calificaciones (desde 7 hasta 10), un cambio en la 
+calificación puede no implicar alteración en el índice. De esta manera será presentado el promedio aritmético de 
+resultados obtenidos, calculado para cada contingente, o sea, aquellos que disminuyeron, aumentaron o mantuvieron la 
+nota. 
+ 
+  
+
+==================== PAGE 40 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+40 
+La segunda variable de camino recorrido fue creada para comparar la nota dada a la satisfacción intermedia (IIS como 
+punto de partida) y la nota dada a la satisfacción general (ISG como punto final). Esa sigue los mismos criterios 
+presentados para la variable anterior:  
+▪ disminuyó la nota (la nota dada en el IIS fue más alta que la nota dada en el ISG);  
+▪ mantuvo la nota (la nota dada en el IIS fue igual a la nota dada en el ISG);  
+▪ aumentó la nota (la nota dada en el IIS fue más baja que la nota dada en el ISG)  
+Observe también el promedio (cajas en naranja) del IIS y del ISG calculado para cada contingente (porcentuales presentes 
+en la barra del gráfico), o sea, aquellos que disminuyeron, mantuvieron o aumentaron la nota.  
+ 
+Finalmente, utilizando como punto de partida la nota contestada para la evaluación de la calidad de servicios (que genera 
+el IAC) y, como punto final, la nota contestada para la satisfacción general (que genera el ISG), el camino recorrido fue 
+establecido de acuerdo con la siguiente clasificación: 
+▪ disminuyó la nota (la nota dada al IAC fue más alta que la nota dada al ISG);  
+▪ mantuvo la nota (la nota dada al IAC fue igual a la nota dada al ISG);  
+▪ aumentó la nota (la nota dada al IAC fue más baja que la nota dada al ISG).  
+  
+
+==================== PAGE 41 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+41 
+Para cada uno de los contingentes presentados en el "camino recorrido entre el IAC y el ISG”, fueron calculados los índices 
+de la encuesta: IAC, IDAR de las áreas evaluadas, precio propiamente dicho,  IIS, ISG, ISCAL. El resultado es presentado a 
+seguir. 
+ 
+Por fin, se observa el resultado del cruce entre dos variables creadas de camino recorrido: “del IAC al IS G” versus “del IIS 
+al ISG”. Como se debe leer la tabla siguiente: en las columnas, tenemos el resultado del camino recorrido entre la 
+evaluación inicial de la calidad del servicio de la distribuidora (IAC) y la satisfacción general (ISG). En las líneas, tenemos 
+el camino recorrido entre la satisfacción intermedia  (IIS) y la satisfacción general (ISG), es decir, la evaluación de la 
+distribuidora después del tratamiento de precio y alumbrado público.  
+ 
+  
+
+==================== PAGE 42 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+42 
+9. Trayectoria de la distribuidora 
+Después de la evaluación intermedia y antes de evaluar el precio, los entrevistados contestaron cómo perciben la 
+trayectoria de la distribuidora en el último año, si la calidad de su servicio está mejorando mucho, mejorando, ni 
+mejorando ni empeorando, empeorando o empeorando mucho. En seguida, ellos justificaron sus respuestas.  
+ 
+La variable de percepción de la trayectoria de la distribuidora y la de satisfacción intermedia fueron cruzadas. Así, es 
+posible observar cómo evalúan la trayectoria aquellos usuarios que expresan diferentes niveles de satisfacción con el 
+servicio actual. 
+ 
+
+==================== PAGE 43 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+43 
+ 
+ 
+  
+
+==================== PAGE 44 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+44 
+10. Importancia de los atributos de calidad y precio 
+Como mencionado  en las aclaraciones iniciales del informe , en 2025 para las empresas argentinas fue realizada la 
+recolecta de la importancia . Esa fue calculada considerando el nuevo atributo que pasó a ser considerado en el ISCAL y 
+demás índices. 
+Con esa información, se calculó la importancia relativa de los atributos de calidad. 
+ 
+Importancia 
+relativa 
+Es la transformación del promedio de la importancia de cada atributo en valores 
+porcentuales, de manera que, al final, cada atributo asuma un valor 
+correspondiente a su importancia en el total de atributos investigados.  
+En la siguiente tabla, se puede observar la importancia relativa promedia de los 30 atributos de las áreas de calidad 
+(Suministro de Energía, Información y Comunicación, Factura de Energía, Atención al Cliente e Imagen), que son llevados 
+en cuenta para el cálculo del ISCAL y de otros índices compuestos. Como se mencionó, los valores se refieren al promedio 
+calculado con los resultados de los últimos años.  
+  
+Para la recolección de esa información en rondas pasadas, se solicitó al encuestado que apuntase la importancia para las 
+dos grandes áreas: “calidad percibida” y “valor percibido” (precio). Se les aclaró que calidad incluye los atributos de las 
+áreas Suministro de Energía, Información y Comunicación, Factura de Energía, Atención al Cliente e Imagen . 
+Además, se solicitó al encuestado que ordenase las dos grandes áreas (“calidad percibida” y “valor percibido”) según su 
+importancia, distribuyendo 100 puntos entre ellas, de manera tal que la cantidad de puntos asignados a cada bloque 
+correspondiera a la importancia que les es atribuida.  
+Para 2025, como mencionado, fue calculado el promedio de la importancia.  Observe el promedio obtenido: 
+  
+
+==================== PAGE 45 ====================
+ 
+ 
+ Informe Individual 2025  
+ 
+45 
+11. Satisfacción con los atributos de calidad 
+Para la recolección del grado de satisfacción, fue presentada y explicada al encuestado una escala de 10 puntos, variando 
+desde "muy insatisfecho" hasta "muy satisfecho". 
+ 
+En este capítulo serán presentados los resultados para todas las cinco áreas evaluadas, o sea, las cinco áreas que 
+componen el ISCAL. En próximos capítulos serán presentados los resultados de Responsabilidad Socioambiental y 
+Alumbrado Público, que no hacen parte del ISCAL, pero son áreas de calidad evaluadas en la encuesta. 
+Para todas ellas, la presentación de los resultados sigue la misma secuencia:  
+▪ IDATs e IDAR presentados de manera comparativa al resultado CIER y a los respectivos benchmarks.  
+o  En el informe, el benchmark es el mejor resultado entre las empresas de mismo tamaño de la distribuidora. 
+▪ Matriz de apoyo a la definición de acciones de mejora de los atributos del área; 
+▪ Preguntas complementarias, relativas al área evaluada. 
+En el apéndice 1, los índices de los atributos y el área a la que pertenecen serán presentados por características de los 
+clientes en la muestra siendo ellas: género, edad, educación e ingresos familiares.  
+En todos los gráficos y tablas se reducirá el texto de los atributos. Caso necesario verifique cómo se le hizo la pregunta 
+completa al encuestado mirando en el cuestionario. 
+Observe la explicación de la matriz de apoyo a la definición de acciones de mejora.  
+ 
+Matrices de apoyo a la definición de acciones de mejora 
+La matriz de apoyo a la definición de acciones de mejora tiene la función de orientar los representantes de las 
+distribuidoras en la elaboración de estrategias y acciones en busca de una mayor satisfacción del cliente. Analizándola, 
+es posible notar cuáles son los atributos prioritarios que deben ser trabajados. 
+La matriz presenta simultáneamente tres resultados: 
+▪ en el eje horizontal se presenta la importancia relativa de los atributos ; 
+▪ el eje vertical representa la satisfacción respecto a los atributos (IDATs); y  
+▪ el color de las bolillas (marcadores) representa el impacto del atributo en la satisfacción general del cliente 
+(pregunta cuyos resultados generan el ISG). 
+Habiendo expuesto y explicado los dos primeros anteriormente, a continuación, presentaremos el último resultado (el 
+impacto del atributo): con el objetivo de identificar los atributos más fuertemente asociados a la satisfacción general del 
+cliente, fue realizada una correlación entre cada IDAT y la satisfacción general.  
+La correlación bivariada representa la asociación entre las dos variables (satisfacción con el atributo y satisfacción 
+general) y fue presentado el Coeficiente Tau de Kendall. Para mayor facilidad de interpretación, los coeficientes de 
+correlación fueron t ransformados en porcentajes, a partir de su multiplicación por 100. Cuanto mayor es el porcentaje 
+derivado de la correlación, mayor es la asociación entre la satisfacción con el atributo y la satisfacción final.  
+El resultado de la correlación (la asociación del atributo con la satisfacción general) se expresa en el color del marcador 
+(punto/bolilla) del atributo señalado en la matriz.  
