@@ -1,61 +1,68 @@
-﻿Area_Dimension,Sigla,Tipo_Indice,Atributo_Indicador,Indice_2025,Indice_2026,Diferencia_Puntos,Variacion_IAOP_Pct
-Índices Globales,IAC,-,Índice de aprobación del cliente,75.68,77.6,1.92,2.54%
-Suministro de energía,SE,IDAR,Suministro de energía,75.79,78.48,2.7,3.56%
-Suministro de energía,,IDAT,Sin interrupción,83.52,85.92,2.4,2.87%
-Suministro de energía,,IDAT,Sin variación de voltaje,73.4,77.4,4.01,5.46%
-Suministro de energía,,IDAT,Rapidez en la reanudación de la energía cuando falta,70.42,72.12,1.7,2.41%
-Información y comunicación,IC,IDAR,Información y comunicación,46.46,52.03,5.57,11.99%
-Información y comunicación,,IDAT,Notificación de interrupción,59.48,58.86,-0.62,-1.04%
-Información y comunicación,,IDAT,Uso eficiente,50.17,57.81,7.64,15.23%
-Información y comunicación,,IDAT,Riesgos y peligros,42.52,50.08,7.56,17.78%
-Información y comunicación,,IDAT,Derechos y deberes,40.4,48.37,7.97,19.72%
-Información y comunicación,,IDAT,Medición del consumo de energía(1),39.15,44.52,5.37,13.71%
-Factura de energía,FE,IDAR,Factura de energía,70.21,70.38,0.17,0.24%
-Factura de energía,,IDAT,Plazo entre la recepción y el vencimiento,60.48,63.12,2.64,4.36%
-Factura de energía,,IDAT,Factura sin errores,72.46,69.56,-2.9,-4.0%
-Factura de energía,,IDAT,Facilidad de comprensión,65.58,62.19,-3.39,-5.17%
-Factura de energía,,IDAT,Locales para el pago,88.89,85.97,-2.92,-3.28%
-Factura de energía,,IDAT,Fechas para el vencimiento,64.57,70.97,6.39,9.9%
-Factura de energía,,IDAT,Disponibilidad de canales de pago digitales(2),89.4,89.2,-0.2,-0.22%
-Atención al cliente,AT,IDAR,Atención al cliente,66.63,68.1,1.47,2.2%
-Atención al cliente,,IDAT,Facilidad para contactarse,57.86,58.32,0.46,0.8%
-Atención al cliente,,IDAT,Tiempo de espera hasta ser atendido,54.48,55.59,1.11,2.04%
-Atención al cliente,,IDAT,Duración de la atención,66.67,69.46,2.8,4.19%
-Atención al cliente,,IDAT,Conocimiento sobre el tema,71.61,74.52,2.91,4.06%
-Atención al cliente,,IDAT,Claridad en la información,72.62,73.08,0.46,0.63%
-Atención al cliente,,IDAT,Calidad de la atención,75.22,77.63,2.41,3.21%
-Atención al cliente,,IDAT,Plazo informado,64.81,66.44,1.63,2.51%
-Atención al cliente,,IDAT,Solución definitiva del problema,69.03,68.71,-0.32,-0.47%
-Atención al cliente,,IDAT,Cumplimiento del plazo,67.49,69.16,1.67,2.48%
-Atención al cliente,,IDAT,Autonomía/ flexibilidad del empleado(2),67.89,70.95,3.06,4.5%
-Imagen,IM,IDAR,Imagen,56.54,60.53,3.99,7.05%
-Imagen,,IDAT,Respeta los derechos de los clientes,56.49,59.87,3.37,5.97%
-Imagen,,IDAT,Correcta con los clientes,55.01,60.27,5.27,9.57%
-Imagen,,IDAT,Invierte para proveer energía con calidad,58.79,61.67,2.88,4.9%
-Imagen,,IDAT,Informa a sus clientes con respecto a su actuación,52.67,55.0,2.33,4.43%
-Imagen,,IDAT,Se ocupa de evitar hurtos de energía,57.07,59.25,2.18,3.83%
-Imagen,,IDAT,Ofrece atención sin discriminación,63.25,68.43,5.18,8.19%
-Imagen,,IDAT,Dispuesta a negociar con sus clientes (flexible),52.99,56.72,3.73,7.04%
-Imagen,,IDAT,Se ocupa del medio ambiente,56.31,63.46,7.15,12.7%
-Imagen,,IDAT,Preparada para situaciones de emergencia(2),61.71,68.14,6.43,10.41%
-Imagen,ISCAL,-,Índice de satisfacción con la calidad percibida,63.69,65.96,2.27,3.56%
-Imagen,IECP,-,Índice de excelencia de la calidad percibida,21.61,27.15,5.54,25.65%
-Imagen,IICP,-,Índice de insatisfacción con la calidad percibida,17.66,15.19,-2.47,-13.97%
-Imagen,IIS,-,Índice intermedio de satisfacción,70.24,77.56,7.32,10.43%
-Responsabilidad socioambiental,RSA,IDAR,Responsabilidad socioambiental,55.34,59.57,4.23,7.65%
-Responsabilidad socioambiental,,IDAT,Promoción de programas sociales,46.54,53.85,7.31,15.7%
-Responsabilidad socioambiental,,IDAT,Promoción de acciones culturales,48.71,52.93,4.21,8.65%
-Responsabilidad socioambiental,,IDAT,Se ocupa de la prevención de accidentes,57.25,60.92,3.68,6.42%
-Responsabilidad socioambiental,,IDAT,Lleva energía a regiones no atendidas,57.52,60.77,3.25,5.65%
-Responsabilidad socioambiental,,IDAT,Contribuye para el desarrollo econ. de la ciudad,59.51,63.27,3.76,6.32%
-Responsabilidad socioambiental,,IDAT,Facilita el acceso de ciudadanos con neces. espec.,56.63,59.41,2.78,4.91%
-Responsabilidad socioambiental,,IDAT,Honesta/ cumple con sus obligaciones,54.12,59.12,5.0,9.23%
-Responsabilidad socioambiental,,IDAT,Se ocupa de evitar hurtos de energía,57.07,59.25,2.18,3.83%
-Responsabilidad socioambiental,,IDAT,Se ocupa del medio ambiente,56.31,63.46,7.15,12.7%
-Alumbrado público,AP,IDAR,Alumbrado público,58.33,57.46,-0.87,-1.49%
-Alumbrado público,,IDAT,Disponible en todo el municipio,53.45,55.57,2.12,3.97%
-Alumbrado público,,IDAT,Calidad del AP,61.07,61.07,0.0,0.0%
-Alumbrado público,,IDAT,"Mantenimiento del alumbrado público en calles, avenidas",56.82,54.71,-2.11,-3.71%
-Alumbrado público,,IDAT,"Mantenimiento del alumbrado público en plazas, parques, etc",61.98,58.5,-3.48,-5.62%
-Alumbrado público,PR,IDAT,Precio de la factura,10.75,9.28,-1.47,-13.71%
-Alumbrado público,ISG,-,Índice de satisfacción general,61.12,65.6,4.48,7.33%
+Unnamed: 0,Série Histórica,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Índice,Índice.1,Diferencia,IAOP
+,Sigla,Tipo,,Descripción resumida,Descripción completa,2025,2026.0,2026 - 2025,(2026-2025) / (2025)
+,IAC,-,,Índice de aprobación del cliente,Índice de aprobación del cliente,75.68,77.6,1.92,0.0253699788583509
+,SE,IDAR,,Suministro de energía,Suministro de energía,75.78834847675,78.483715963695,2.695367486945,0.0355644045703393
+,,IDAT,,Sin interrupción,"Suministro de energía sin interrupción, es decir, que no falte energía en su domicilio",83.52,85.92,2.4,0.028735632183908
+,,IDAT,,Sin variación de voltaje,"Suministro de energía sin variación de voltaje en su domicilio, es decir, sin bajones o parpadeos",73.397435897436,77.403846153846,4.00641025641,0.0545851528384243
+,,IDAT,,Rapidez en la reanudación de la energía cuando falta,"Agilidad en la reanudación/restablecimiento del servicio eléctrico cuando falta, es decir, el tiempo que tarda en volver la energía en su domicilio",70.418006430868,72.115384615385,1.697378184517,0.0241043203372049
+,IC,IDAR,,Información y comunicación,Información y comunicación,46.460618145563,52.032247228754,5.571629083191,0.119921544430056
+,,IDAT,,Notificación de interrupción,Comunicación previa en el caso de interrupciones debido a mantenimiento programado para mejora en la red,59.481361426256,58.861788617886,-0.61957280837,-0.0104162513014793
+,,IDAT,,Uso eficiente,"Orientaciones brindadas por la distribuidora respecto al uso eficiente de la energía, para que no se desperdicie",50.16501650165,57.8073089701,7.64229246845,0.15234306696976
+,,IDAT,,Riesgos y peligros,Orientaciones brindadas por la distribuidora respecto a los riesgos eléctricos y peligros en el uso de la energía eléctrica,42.524916943522,50.084317032041,7.559400088519,0.177764017706577
+,,IDAT,,Derechos y deberes,Orientaciones brindadas por la distribuidora respecto a sus derechos y deberes como cliente de energía eléctrica,40.40404040404,48.370497427101,7.966457023061,0.197169811320761
+,,IDAT,,Medición del consumo de energía(1),"Informaciones brindadas por la distribuidora respecto a la medición del consumo de energía (ej.: cómo se hace, cómo leer el medidor) (1)",39.152542372881,44.520547945206,5.368005572325,0.137104904228215
+,,🆕,IDAT,Comunicación por diferentes medios(2),"Comunicación de información importante a través de diferentes medios (WhatsApp, página web, SMS, radio, internet, televisión o la factura de electricidad)(2)",-,63.333333333333,-,-
+,,🆕,IDAT,Facilidad de comprensión de la información dada(2),Facilidad de comprensión de la información dada por la distribuidora a los clientes (lenguaje sencillo utilizado en las orientaciones y en las aclaraciones brindadas a los clientes)(2),-,66.942148760331,-,-
+,FE,IDAR,,Factura de energía,Factura de energía,70.208540218471,70.379067427038,0.170527208567,0.00242886703008441
+,,IDAT,,Plazo entre la recepción y el vencimiento,Plazo entre la recepción de la factura de energía y su fecha de vencimiento (número de días entre la recepción de la factura y el vencimiento),60.483870967742,63.12292358804,2.639052620298,0.0436323366555935
+,,IDAT,,Factura sin errores,Factura sin errores (con la lectura del contador/medidor y los cálculos correctos),72.456140350877,69.557195571956,-2.898944778921,-0.0400096494911616
+,,IDAT,,Facilidad de comprensión,Facilidad de comprensión de las informaciones (conceptos y contenidos) que están en la factura,65.584415584416,62.193126022913,-3.391289561503,-0.0517087715318275
+,,IDAT,,Locales para el pago,"Disponibilidad de puntos de pago, tales como bancos, internet, supermercados o similares",88.888888888889,85.973597359736,-2.915291529153,-0.0327970297029712
+,,IDAT,,Fechas para el vencimiento,"Conveniencia de la fecha del vencimiento de la factura, es decir, el día que tiene que pagar la factura",64.573268921095,70.967741935484,6.394473014389,0.0990266269809368
+,,IDAT,,Disponibilidad de canales de pago digitales(2),"Disponibilidad de canales de pago digitales (ej.: app, internet)(2)",89.399293286219,89.203539823009,-0.19575346321,-0.00218965336317905
+,,🆕,IDAT,Aviso de facturas atrasadas o deudas(2),Avisar a los clientes cuando haya facturas atrasadas o deudas con la distribuidora(2),-,66.493055555556,-,-
+,,🆕,IDAT,Aviso de corte por falta de pago(2),"Avisar a los clientes sobre el corte de la energía del domicilio, en caso de que alguna factura no haya sido pagada(2)",-,61.759082217973,-,-
+,AT,IDAR,,Atención al cliente,Atención al cliente,66.627725856698,68.096768096768,1.46904224007,0.0220485124050248
+,,IDAT,,Facilidad para contactarse,Facilidad para contactar la distribuidora cuando necesita pedir informaciones o servicios,57.858376511226,58.319327731092,0.460951219866,0.00796688824783328
+,,IDAT,,Tiempo de espera hasta ser atendido,"Tiempo de espera hasta ser atendido, es decir, el tiempo en filas o esperando en un teléfono u otro canal de atención ofrecido por la distribuidora",54.481546572935,55.593220338983,1.111673766048,0.0204045926735906
+,,IDAT,,Duración de la atención,El tiempo que dura la atención - agilidad de los empleados en el momento de la atención al cliente,66.666666666667,69.463087248322,2.796420581655,0.0419463087248247
+,,IDAT,,Conocimiento sobre el tema,Conocimiento que los empleados tienen sobre el tema,71.609403254973,74.520069808028,2.910666553055,0.0406464293898841
+,,IDAT,,Claridad en la información,Facilidad de comprensión de las informaciones dadas por las personas que atienden (Claridad de la información brindada por el personal que atiende),72.61698440208,73.076923076923,0.459938674843,0.0063337617036852
+,,IDAT,,Calidad de la atención,"Calidad de la atención, en cuanto a la cortesía, respeto y amabilidad con el cliente",75.21815008726,77.62938230384,2.41123221658,0.0320565211160171
+,,IDAT,,Plazo informado,Plazo para la resolución del problema reportado o realización de los servicios solicitados,64.808362369338,66.43598615917,1.627623789832,0.0251144100904184
+,,IDAT,,Solución definitiva del problema,Solución definitiva del problema reportado (no necesita hacer el pedido otra vez),69.031141868512,68.707482993197,-0.323658875315,-0.00468859222887394
+,,IDAT,,Cumplimiento del plazo,Cumplimiento de los plazos informados para resolver las solicitudes de los clientes,67.491166077739,69.163763066202,1.672596988463,0.0247824579965981
+,,IDAT,,Autonomía/ flexibilidad del empleado(2),"Habilidad (autonomía, flexibilidad) del empleado (persona que atiende) para dar respuesta al cliente/ usuario(2)",67.888307155323,70.945945945946,3.057638790623,0.0450392551934955
+,IM,IDAR,,Imagen,Imagen,56.537873826675,60.526315789474,3.988441962799,0.0705446047551441
+,,IDAT,,Respeta los derechos de los clientes,Empresa que respeta los derechos de los clientes,56.492411467116,59.865092748735,3.372681281619,0.0597014925373158
+,,IDAT,,Correcta con los clientes,"Empresa correcta con sus clientes, que si comete errores los corregirá - Empresa justa",55.008488964346,60.27397260274,5.265483638394,0.0957212920683359
+,,IDAT,,Invierte para proveer energía con calidad,Empresa que invierte para proveer energía a más clientes y con calidad,58.792184724689,61.672473867596,2.880289142907,0.0489910207690829
+,,IDAT,,Informa a sus clientes con respecto a su actuación,Empresa que busca informar y aclarar a sus clientes con respecto a su actuación,52.667814113597,55.0,2.332185886403,0.0442810457516388
+,,IDAT,,Se ocupa de evitar hurtos de energía,"Empresa que se ocupa de evitar fraudes como los hurtos de energía, etc",57.068062827225,59.252669039146,2.184606211921,0.0382807143556799
+,,IDAT,,Ofrece atención sin discriminación,"Empresa que ofrece la misma atención a todos los clientes, que no promueve ningún tipo de discriminación",63.250883392226,68.430335097002,5.179451704776,0.0818874208073525
+,,IDAT,,Dispuesta a negociar con sus clientes (flexible),"Empresa flexible, o sea, que está dispuesta a negociar/escuchar a sus clientes para resolver sus inquietudes",52.991452991453,56.724137931035,3.732684939582,0.0704393770856603
+,,IDAT,,Se ocupa del medio ambiente,"Empresa que se ocupa del medio ambiente, de la preservación de la naturaleza",56.308851224105,63.461538461539,7.152687237434,0.127025984049414
+,,IDAT,,Preparada para situaciones de emergencia(2),"Empresa preparada y con buena organización para atender su región/zona en casos de tormentas, terremotos, vientos huracanados, incendios, inundaciones u otras emergencias climáticas graves (2)",61.709401709402,68.135593220339,6.426191510937,0.104136344429311
+,,🆕,IDAT,Enfoca en las necesidades de sus clientes(2),Ser una empresa que enfoca en las necesidades de sus clientes(2),-,58.833333333333,-,-
+,,🆕,IDAT,Invierte en modernización e innovación(2),Ser una empresa que invierte en modernización e innovación(2),-,62.056737588653,-,-
+,ISCAL,-,,Índice de satisfacción con la calidad percibida,Índice de satisfacción con la calidad percibida,63.694188530306,65.963198467743,2.269009937437,0.0356235001935442
+,IECP,-,,Índice de excelencia de la calidad percibida,Índice de excelencia de la calidad percibida,21.611347938157,27.15366748742,5.542319549263,0.256454135351616
+,IICP,-,,Índice de insatisfacción con la calidad percibida,Índice de insatisfacción con la calidad percibida,17.657716710378,15.190645325527,-2.467071384851,-0.139716330560509
+,IIS,-,,Índice intermedio de satisfacción,Índice intermedio de satisfacción,70.24,77.564102564103,7.324102564103,0.104272530810122
+,RSA,IDAR,,Responsabilidad socioambiental,Responsabilidad socioambiental,55.3417221811,59.572864321608,4.231142140508,0.0764548332388722
+,,IDAT,,Promoción de programas sociales,"Empresa que ofrece apoyo o realiza programas sociales, como, por ejemplo, programa de incentivo al deporte, de formación profesional, de educación ambiental, a la mejora de la educación y las condiciones de salud",46.53937947494,53.846153846154,7.306774371214,0.157001972386599
+,,IDAT,,Promoción de acciones culturales,"Empresa que realiza u ofrece apoyo a eventos culturales, como, por ejemplo, la realización de conciertos, exhibición de películas, obras de teatro, exposiciones, fechas festivas, torneos, patrocinios, etc.",48.711943793911,52.926829268293,4.214885474382,0.0865267354596689
+,,IDAT,,Se ocupa de la prevención de accidentes,Empresa que se ocupa de la prevención de accidentes con la red eléctrica y seguridad de la población,57.246376811594,60.923623445826,3.677246634232,0.0642354475346857
+,,IDAT,,Lleva energía a regiones no atendidas,Empresa que invierte para llevar energía eléctrica a zonas/regiones que no cuentan con el servicio de energía eléctrica,57.520325203252,60.772357723577,3.252032520325,0.0565371024734947
+,,IDAT,,Contribuye para el desarrollo econ. de la ciudad,Empresa que contribuye para el desarrollo económico del municipio,59.510357815443,63.269230769231,3.758872953788,0.0631633398247282
+,,IDAT,,Facilita el acceso de ciudadanos con neces. espec.,Empresa que facilita el acceso de los ciudadanos con edad avanzada o personas con discapacitad/capacidades especiales en sus puntos de atención y medios de comunicación con clientes ,56.628787878788,59.411764705882,2.782976827094,0.0491442061774457
+,,IDAT,,Honesta/ cumple con sus obligaciones,"Empresa honesta, que cumple con sus obligaciones con todos los públicos, sean ellos clientes, empleados, proveedores /suministradores, gobierno etc.",54.119850187266,59.116022099448,4.996171912182,0.0923168097268229
+,,IDAT,,Se ocupa de evitar hurtos de energía,"Empresa que se ocupa de evitar fraudes como los hurtos de energía, etc",57.068062827225,59.252669039146,2.184606211921,0.0382807143556799
+,,IDAT,,Se ocupa del medio ambiente,"Empresa que se ocupa del medio ambiente, de la preservación de la naturaleza",56.308851224105,63.461538461539,7.152687237434,0.127025984049414
+,AP,IDAR,,Alumbrado público,Alumbrado público,58.333333333333,57.464212678937,-0.869120654396,-0.0148992112182172
+,,IDAT,,Disponible en todo el municipio,Alumbrado público disponible en todo el municipio,53.453947368421,55.573770491803,2.119823123382,0.0396569987389617
+,,IDAT,,Calidad del AP,Calles y plaza bien alumbradas (Alumbrado público de calidad),61.066235864297,61.066235864297,0,0
+,,IDAT,,"Mantenimiento del alumbrado público en calles, avenidas","El mantenimiento que le hacen al alumbrado público en calles y avenidas (cambio de lámparas, postes etc.)",56.818181818182,54.707792207792,-2.11038961039,-0.0371428571428638
+,,IDAT,,"Mantenimiento del alumbrado público en plazas, parques, etc","El mantenimiento que le hacen al alumbrado público en plazas, parques, lugares emblemáticos (cambio de lámparas, postes etc.)",61.98347107438,58.5,-3.48347107438,-0.0561999999999974
+,PR,IDAT,,Precio de la factura,Precio de la factura,10.754414125201,9.28,-1.474414125201,-0.137098507462715
+,ISG,-,,Índice de satisfacción general,Índice de satisfacción general,61.12,65.6,4.48,0.0732984293193717

@@ -9,3 +9,7 @@ __pycache__/
 .venv/
 env/
 venv/
+
+# Respaldo local
+data/backup_dashboard/
+data/backup_ssot/

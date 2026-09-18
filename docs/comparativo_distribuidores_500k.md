@@ -91,3 +91,55 @@ IAOP: Índice de Aprovechamiento de Oportunidades Positivas
 1. **Evolución Positiva y Sostenida:** EPEC no solo creció en todas las áreas de servicio entre 2025 y 2026, sino que **creció a un ritmo superior al promedio regional** en sus áreas de mayor oportunidad (IC +11.99%, IM +7.05%, SE +3.56%).
 2. **Liderazgo Técnico Consolidado:** La percepción de la calidad del producto técnico (continuidad y nivel de tensión) se consolida como la principal ventaja competitiva de la distribuidora cordobesa.
 3. **Hoja de Ruta hacia el Liderazgo CIER:** Para acercarse a los benchmarks líderes del segmento (>80 puntos de ISCAL), el plan de acción debe focalizarse en la **omnicanalidad digital**, la **comunicación predictiva de eventos de red** y la **simplificación de trámites comerciales**.
+
+
+---
+
+## 6. Modelo de Segmentación de Demanda y Radiografía de Detractores Críticos
+
+### 6.1. Segmentación en 3 Grupos de Clientes por Tolerancia al Tiempo de Interrupción
+
+A partir del análisis cuantitativo y cualitativo de la muestra auditada ($N=1.250$), se establecen tres patrones claros de percepción según la duración del corte del servicio:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ MODELO DE TOLERANCIA A INTERRUPCIONES - EPEC                                          │
+├─────────────────────────┬────────────────────────────┬─────────────────────────────────┤
+│ 1. Grandes Inconformes   │ 2. Clientes Neutrales      │ 3. Clientes Conformes           │
+│    (15.19% - Notas 1-4) │    (57.66% - Notas 5-8)   │    (27.15% - Notas 9-10)        │
+│    Cortes >2 a 4+ horas │    Cortes hasta 2 horas    │    Cortes hasta 90 minutos      │
+│    Viralización activa  │    Sensibilidad moderada   │    Promotores netos (+5.54%)    │
+└─────────────────────────┴────────────────────────────┴─────────────────────────────────┘
+```
+
+1. **Grupo 1: Los Grandes Inconformes / Detractores Críticos (15.19% / Notas 1 a 4):**
+   - **Tiempo de corte:** Supera las **2 a 4+ horas** o sufren eventos reiterados sin aviso.
+   - **Comportamiento:** Alta propensión a exteriorizar y viralizar su malestar en redes sociales (Twitter/X, Instagram), grupos comunitarios y medios periodísticos.
+   - **Impacto:** Arrastran a la baja la percepción global en todas las dimensiones no técnicas.
+
+2. **Grupo 2: Clientes Neutrales / Pasivos (57.66% / Notas 5 a 8):**
+   - **Tiempo de corte tolerado:** En torno a las **2 horas (120 minutos)**.
+   - **Comportamiento:** Tolerancia intermedia. No viralizan espontáneamente, pero si el corte supera los 120 minutos sin información del tiempo estimado de restitución, migran al grupo de grandes inconformes.
+
+3. **Grupo 3: Clientes Conformes / Promotores Netos (27.15% / Notas 9 y 10):**
+   - **Tiempo de corte experimentado:** Menor o igual a **90 minutos**.
+   - **Comportamiento:** Alto respaldo institucional y fidelidad. Valoran la estabilidad técnica en tensión (+77.40) y continuidad (+85.92).
+
+---
+
+### 6.2. Radiografía Causal: ¿Por Qué se Originan los Grandes Inconformes?
+
+El análisis cruzado de variables demográficas, habitacionales y de ocupación revela que este núcleo detractor presenta un perfil muy definido:
+
+* **Estructura Familiar:** **Familias jóvenes** (parejas de 25 a 45 años con hijos pequeños o en edad escolar), con rutinas intensivas de cuidado, climatización integral y conservación de alimentos.
+* **Localización Geográfica:** **Barrios de expansión urbanística** (loteos nuevos, countries, barrios cerrados y corredores metropolitanos en la periferia de Córdoba, Sierras Chicas y Punilla) donde las redes de distribución se encuentran en etapas de extensión y anillado.
+* **Capacidad Económica:** **Nivel socioeconómico medio-alto y alto**. Poseen ingresos que absorben sin dificultad el costo de la factura eléctrica. **Su insatisfacción NO se debe al precio de la tarifa**, sino a la falta de continuidad, calidad e información del servicio.
+* **Dependencia Laboral y Tecnológica:** Alta prevalencia de **Teletrabajo / Home Office**, profesionales del conocimiento, software, finanzas y servicios digitales. Una interrupción prolongada paraliza su jornada laboral y genera pérdidas económicas directas.
+
+---
+
+### 6.3. Hoja de Ruta Táctica para EPEC
+
+1. **Automatización de Redes en Zonas de Expansión:** Instalar reconectadores y telecontrol (*Smart Grids*) para aislar fallas en menos de 5 minutos y reducir la duración del corte por debajo de 90 minutos.
+2. **Alertas Proactivas Vía WhatsApp / App Móvil:** Informar al usuario en el momento exacto en que se detecta el corte en el transformador con el horario estimado de normalización.
+3. **Meta Operativa de Despacho <90 Minutos:** Establecer 90 minutos como umbral máximo de intervención para evitar que el 57.66% de clientes neutrales cruce la línea hacia los detractores.

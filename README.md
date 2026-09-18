@@ -5,113 +5,81 @@
 [![EPEC](https://img.shields.io/badge/Distribuidora-EPEC_C%C3%B3rdoba-005691?style=for-the-badge)](https://www.epec.com.ar)
 [![CIER](https://img.shields.io/badge/Organismo-CIER_Regional-f39c12?style=for-the-badge)](https://www.cier.org)
 [![Muestra](https://img.shields.io/badge/Muestra_Auditada-N%3D1.250-blue?style=for-the-badge)]()
+[![SSOT](https://img.shields.io/badge/SSOT-100%25_Auditado-success?style=for-the-badge)]()
 
 ---
 
-## 📌 Resumen Ejecutivo y Metodología
+## 📌 Resumen Ejecutivo y Alcance
 
-Este repositorio alberga el ecosistema completo de **análisis, microdatos, ingeniería de datos, modelos analíticos y visualización directiva interactiva** correspondiente a las encuestas anuales de satisfacción de clientes residenciales de la **Comisión de Integración Energética Regional (CIER)** para la **Empresa Provincial de Energía de Córdoba (EPEC - Argentina)** durante los períodos **2025 y 2026**.
+Este repositorio alberga el ecosistema completo de **análisis cuantitativo, microdatos auditados ($N=1.250$), modelos analíticos, documentación técnica (SSOT) y tablero interactivo de control de gestión** correspondiente a la **Encuesta de Satisfacción de Clientes Residenciales CIER** para la **Empresa Provincial de Energía de Córdoba (EPEC)**.
 
-### 🎯 Ficha Metodológica de la Muestra
-* **Población Objetivo**: Clientes residenciales / domiciliares urbanos de la provincia de Córdoba atendidos por EPEC.
-* **Tamaño Muestral**: $N = 1.250$ encuestas efectivas y presenciales ($625$ en 2025 y $625$ en 2026).
-* **Nivel de Confianza**: $95\%$ con un margen de error global de $\pm 3,92\%$.
-* **Segmento Competitivo**: **Empresas de Gran Porte (>500.000 clientes)** en América Latina (comparativa con Edenor, Edesur, Enel, Neoenergia, CPFL, Copel, etc.).
+### Indicadores Clave Consolidados (2025 vs 2026):
 
----
-
-## 📊 Indicadores Principales y Evolución Interanual EPEC
-
-```
-Escala CIER: 0 (Pésimo) a 100 (Excelente)
-IAOP: Índice de Aprovechamiento de Oportunidades Positivas
-```
-
-| Indicador Macro | EPEC 2025 | EPEC 2026 | Variación IAOP | Benchmark >500k (2026) | Diagnóstico Competitivo |
-| :--- | :---: | :---: | :---: | :---: | :--- |
-| **ISCAL Global (Calidad Percibida)** | **63,69** | **65,96** | **+3,56%** | 70,15 | 📈 **Brecha acortada en 0,52 pts** respecto al promedio |
-| **Aprobación del Cliente (IAC)** | **75,68** | **77,60** | **+2,54%** | 78,50 | 🟢 **A solo 0,90 pts del Promedio Regional** |
-| **Excelencia en Calidad (IECP - Notas 9-10)** | **21,61%** | **27,15%** | **+25,65%** | 32,50% | 🚀 **+5,54% de promotores netos ganados** |
-| **Insatisfacción (IICP - Notas 1-4)** | **17,66%** | **15,19%** | **-13,97%** | 13,20% | 📉 **Reducción favorable de detractores** |
+* **Índice de Satisfacción General (ISG):** **`65.60 pts`** (+4.48 pts vs. 61.12 en 2025).
+* **Índice de Aprobación del Cliente (IAC):** **`77.60 pts`** (+1.92 pts vs. 75.68 en 2025).
+* **Calidad Percibida (ISCAL):** **`65.96 pts`** (+2.27 pts vs. 63.69 en 2025).
+* **Índice de Excelencia (IECP - Promotores):** **`27.15%`** (+5.54% vs 2025).
+* **Índice de Insatisfacción (IICP - Detractores):** **`15.19%`** (-2.47% vs 2025).
 
 ---
 
-## ⚡ Desempeño por Áreas de Servicio (EPEC vs. Benchmark Regional)
+## 🚀 Arquitectura y Módulos del Tablero Local (`index.html`)
 
-| Dimensión / Atributo Clave | Sigla | EPEC 2025 | EPEC 2026 | Var. IAOP | Prom. >500k | Posicionamiento |
-| :--- | :---: | :---: | :---: | :---: | :---: | :--- |
-| **Suministro de Energía** | **SE** | **75,79** | **78,48** | **+3,56%** | 77,80 | 🟢 **SUPERIOR AL PROMEDIO (+0,68 pts)** |
-| ↳ Continuidad (Sin interrupciones) | - | **83,52** | **85,92** | **+2,87%** | 84,30 | 🟢 **FORTALEZA LÍDER REGIONAL (+1,62 pts)** |
-| ↳ Calidad de Tensión (Sin variaciones) | - | **73,40** | **77,40** | **+5,46%** | 76,20 | 🟢 **SUPERIOR AL PROMEDIO (+1,20 pts)** |
-| ↳ Rapidez en la Reanudación | - | **70,42** | **72,12** | **+2,41%** | 73,80 | 🟡 En línea con el promedio regional |
-| **Factura de Energía** | **FE** | **70,21** | **70,38** | **+0,24%** | 72,40 | 🟡 Cercano al promedio regional |
-| ↳ Disponibilidad de Canales Digitales | - | **87,40** | **89,20** | **+2,06%** | 88,10 | 🟢 **CLASE MUNDIAL (+1,10 pts)** |
-| ↳ Claridad de la Factura | - | **68,20** | **67,45** | **-1,10%** | 71,30 | 🔴 Oportunidad de rediseño didáctico |
-| **Atención al Cliente** | **AT** | **66,63** | **68,10** | **+2,21%** | 70,50 | 🟡 Reducción progresiva de brechas |
-| ↳ Calidad y Trato Personal | - | **75,20** | **77,63** | **+3,21%** | 78,10 | 🟢 En línea con el promedio regional |
-| ↳ Facilidad de Contacto / Call Center | - | **60,10** | **61,52** | **+2,36%** | 64,90 | 🔴 Oportunidad en tiempos de espera |
-| **Imagen Corporativa** | **IM** | **56,54** | **60,53** | **+7,05%** | 63,80 | 🟢 **Fuerte avance institucional (+3,99 pts)** |
-| ↳ Compromiso con el Medio Ambiente | - | **56,31** | **63,46** | **+12,70%** | 63,20 | 🟢 **SUPERIOR AL PROMEDIO (+0,26 pts)** |
-| **Información y Comunicación** | **IC** | **46,46** | **52,03** | **+11,99%** | 57,40 | 🚀 **ÁREA DE MAYOR ACELERACIÓN (+5,57 pts)** |
-| ↳ Notificación Previa de Cortes | - | **59,48** | **58,86** | **-1,04%** | 62,50 | 🔴 Oportunidad en alertas digitales push |
-| **Responsabilidad Socioambiental** | **RSA** | **55,34** | **59,57** | **+7,65%** | 60,90 | 🟢 Cierre continuo de brecha competitiva |
+El tablero interactivo cuenta con una navegación moderna mediante un **Menú Lateral Izquierdo (Sidebar)** fijo con 8 paneles temáticos independientes:
+
+1. **📊 Resumen Ejecutivo (`tab-overview`):** KPIs macro, radar comparativo multivariable CIER (4 series), ponderaciones de calidad del servicio y tarjetas de fortalezas/desafíos.
+2. **📋 Resultados & Territorial (`tab-results`):** Desglose territorial completo (Total EPEC vs Córdoba Capital vs Interior vs Brecha territorial) y matriz de 66 indicadores canónicos con filtros por dimensión.
+3. **🏢 Benchmark >500k & Países (`tab-benchmark`):** Posicionamiento competitivo frente a 13 grandes distribuidoras de América Latina y comparativa internacional por países miembros de CIER.
+4. **🚩 Matriz de Mejora - Sección 16 (`tab-matriz`):**
+   * **Recorte Oficial HD del Informe CIER (Pág. 94):** Imagen de alta resolución ($2428 \times 1512\text{ px}$) con visor modal de pantalla completa y zoom.
+   * **Dispersión Interactiva (Chart.js):** Gráfico con coordenadas de Importancia vs Desempeño y **selección bidireccional de puntos** (atenuación al 50%).
+   * **Cruce de Microdatos Paginado (10 puestos por vez):** Tarjetas con la pregunta de encuesta, barras de calificaciones (Negativo 1-4, Neutro 5-7, Positivo 8-10), nota media, causa raíz y acción recomendada.
+   * **Tabla de Ranking de Prioridades (1ª a 30ª):** Buscador instantáneo y sincronización con el gráfico de dispersión.
+5. **👥 Perfil del Detractor (`tab-detractores`):** Radiografía sociodemográfica (Edad 47.8 años, Ingresos $1.338.726, Educación 77.2%, Ubicación), 4 causas raíz de detracción y modelo de segmentación por tolerancia a cortes.
+6. **📚 Diccionario de Datos (`tab-dictionary`):** Glosario de 66+ variables CIER, formulaciones de cálculo y escalas.
+7. **🖼️ Guía de Gráficos (`tab-charts-guide`):** Catálogo de gráficos oficiales con recortes originales de informes PDF/PPT.
+8. **🗄️ Catálogo & Respaldo SSOT (`tab-files`):** Checklist de auditoría de la Fuente Única de Verdad e inventario de archivos.
 
 ---
 
-## 📂 Estructura Integral del Repositorio
+## 📁 Estructura del Repositorio
 
 ```
 encuesta-cier-epec/
-├── data/
-│   ├── raw/                       # Archivos originales de campo CIER (2025 y 2026)
-│   │   ├── 2025/                  # BD Excel, frecuencias, cuestionarios, cronogramas, PDFs, PPTX
-│   │   └── 2026/                  # BD Excel, frecuencias, índices, planos de muestra, PPTX
-│   ├── classified/                # Insumos organizados por tipología documental
-│   └── processed/                 # Datasets limpios y unificados
-│       ├── microdata_epec_2025_2026.xlsx  # Microdatos unificados (N=1.250 filas x 120+ variables)
-│       ├── microdata_epec_2025_2026.csv   # Microdatos en formato plano estándar
-│       ├── diccionario_unificado.xlsx     # Catálogo exhaustivo de variables y etiquetas
-│       ├── comparativo_distribuidores_500k.xlsx # Matriz comparativa vs. empresas >500k
-│       └── resumen_indices_satisfaccion.xlsx   # Resumen ejecutivo de índices ISCAL/IAOP
-├── docs/                          # Informes ejecutivos y técnicos en Markdown
+├── index.html                   # Tablero interactivo principal (HTML5 semántico)
+├── style.css                    # Hoja de estilos con tema oscuro premium y diseño responsive
+├── app.js                       # Controlador JavaScript modular (Chart.js, filtros, modales)
+├── data_bundle.js               # Bundle de datos estructurados JSON inyectado en el cliente
+├── README.md                    # Documentación principal del repositorio
+├── assets/
+│   └── img/
+│       └── crops/               # Recortes oficiales HD de gráficos del informe CIER (Pág. 94, tablas)
+├── docs/                        # Fuente Única de Verdad (SSOT) en Markdown
+│   ├── matriz_acciones_mejora_prioridades.md
+│   ├── resumen_cambios_y_actualizaciones_v2.md
 │   ├── resumen_ejecutivo_indices.md
 │   ├── comparativo_distribuidores_500k.md
+│   ├── comparativo_regional_epec.md
+│   ├── comparativo_paises_cier.md
+│   ├── analisis_conglomerados_segmentos.md
 │   ├── diccionario_variables.md
 │   └── catalogo_archivos.md
-├── scripts/                       # Pipeline analítico y de extracción en Python
-│   ├── 01_unzip_and_catalog.py
-│   ├── 02_build_dictionary.py
-│   ├── 03_process_microdata.py
-│   ├── 04_generate_summary.py
-│   ├── extract_detailed_benchmarks.py
-│   └── build_dashboard_bundle.py
-├── config/                        # Configuración segura de despliegue
-├── index.html                     # Dashboard Interactivo SPA (Single-Page Application)
-├── app.js                         # Lógica reactiva de filtros, gráficos y métricas
-├── data_bundle.js                 # Carga optimizada de datos sin backend
-├── style.css                      # Estilos visuales Dark Mode / Glassmorphism
-├── README.md                      # Documentación del proyecto
-└── publish.bat                    # Script de despliegue y sincronización rápida
+├── data/
+│   ├── processed/               # Datasets limpios (CSV y XLSX)
+│   └── classified/              # Informes PDF, PPTX y bases de microdatos clasificadas
+└── scripts/                     # Scripts de automatización, validación y testing
 ```
 
 ---
 
-## 🚀 Despliegue y Visualización Local
+## 🛠️ Cómo Ejecutar y Editar el Proyecto
 
-### Opción 1: Visualización Web Inmediata
-Abrir `index.html` en cualquier navegador web moderno (no requiere servidor local ni backend).
-
-### Opción 2: Ejecución del Pipeline Analítico
-Para regenerar datasets y bundle del dashboard:
-```powershell
-python scripts/run_pipeline.py
-python scripts/build_dashboard_bundle.py
-```
+1. **Ejecución Local Inmediata:**
+   * No requiere servidores ni dependencias pesadas: simplemente abra `index.html` en su navegador preferido (Edge, Chrome, Firefox).
+2. **Sincronización y Actualizaciones:**
+   * Las modificaciones en datos se reflejan editando `data_bundle.js` o ejecutando los scripts en `scripts/`.
+   * La documentación SSOT en `docs/` se mantiene sincronizada con los microdatos auditados.
 
 ---
 
-## 🏛️ Créditos y Gobernanza de Datos
-* **Titular del Proyecto**: Empresa Provincial de Energía de Córdoba (EPEC)
-* **Auditoría & Metodología**: Comisión de Integración Energética Regional (CIER)
-* **Ingeniería de Datos y Analítica**: Unidad de Ciencia de Datos & BI EPEC
-* **Repositorio Central de Agentes**: [`antigravity-agents-repository`](https://github.com/inventarioenergycpy/antigravity-agents-repository)
+*© 2026 EPEC · Estudio Regional CIER de Satisfacción Residencial.*

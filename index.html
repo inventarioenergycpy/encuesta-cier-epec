@@ -3,713 +3,896 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal Analítico: Encuesta CIER 2025 - 2026 (EPEC)</title>
-  <!-- Google Fonts -->
+  <title>EPEC · Encuesta de Satisfacción Residencial CIER (2025 - 2026)</title>
+  <meta name="description" content="Dashboard Ejecutivo y Analítico de la Encuesta de Satisfacción CIER para EPEC. Fuente Única de Verdad (SSOT) con microdatos auditados (N=1.250).">
+  
+  <!-- Google Fonts: Inter & Outfit -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  
   <!-- Chart.js CDN -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <!-- Custom Stylesheet -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  
+  <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="dashboard-body dark-theme">
 
-  <!-- Top App Navigation Bar -->
-  <header class="app-header">
-    <div class="header-container">
-      <div class="brand-wrapper">
-        <div class="brand-icon">⚡</div>
-        <div class="brand-title">
-          <h1>Encuesta de Satisfacción CIER (EPEC)</h1>
-          <p>Investigación del Consumidor Residencial • Comparativa 2025 vs. 2026</p>
+  <div class="app-layout">
+    
+    <!-- =========================================================================
+         SIDEBAR NAVIGATION (MENÚ AL COSTADO IZQUIERDO)
+         ========================================================================= -->
+    <aside class="app-sidebar" id="app-sidebar">
+      
+      <!-- Brand & Header -->
+      <div class="sidebar-header">
+        <div class="brand-badge-container">
+          <div class="logo-box">CIER</div>
+          <div class="brand-text">
+            <h1 class="brand-title">EPEC · CIER</h1>
+            <span class="brand-subtitle">Satisfacción Residencial</span>
+          </div>
+        </div>
+        <div class="ssot-status-pill">
+          <span class="status-dot"></span>
+          <span>Fuente Única de Verdad (SSOT)</span>
         </div>
       </div>
 
-      <nav class="nav-tabs">
-        <button class="nav-tab-btn" data-tab="tab-overview" id="nav-overview">
-          <span>🎯</span> Visión y Metodología
+      <!-- Navigation Menu -->
+      <nav class="sidebar-nav">
+        
+        <div class="nav-group-title">VISTA GENERAL</div>
+        
+        <button class="nav-tab-btn active" data-tab="tab-overview" data-title="Resumen Ejecutivo Global" id="btn-tab-overview">
+          <span class="tab-icon">📊</span>
+          <span class="tab-text">Resumen Ejecutivo</span>
+          <span class="nav-badge-pill">KPIs</span>
         </button>
-        <button class="nav-tab-btn" data-tab="tab-results" id="nav-results">
-          <span>📊</span> Resultados e Índices
+
+        <button class="nav-tab-btn" data-tab="tab-results" data-title="Resultados por Área & Territorial" id="btn-tab-results">
+          <span class="tab-icon">📋</span>
+          <span class="tab-text">Resultados & Territorial</span>
+          <span class="nav-badge-pill">66 vars</span>
         </button>
-        <button class="nav-tab-btn" data-tab="tab-benchmark" id="nav-benchmark">
-          <span>🏢</span> Benchmark >500k Clientes
+
+        <button class="nav-tab-btn" data-tab="tab-benchmark" data-title="Benchmark Empresas >500k & Países CIER" id="btn-tab-benchmark">
+          <span class="tab-icon">🏢</span>
+          <span class="tab-text">Benchmark & Países</span>
+          <span class="nav-badge-pill">>500k</span>
         </button>
-        <button class="nav-tab-btn" data-tab="tab-dictionary" id="nav-dictionary">
-          <span>📖</span> Diccionario de Variables
+
+        <div class="nav-group-title">ESTRATEGIA & ACCIÓN</div>
+
+        <button class="nav-tab-btn" data-tab="tab-matriz" data-title="Matriz de Acciones de Mejora (Sección 16)" id="btn-tab-matriz">
+          <span class="tab-icon">🚩</span>
+          <span class="tab-text">Matriz Mejora (Secc. 16)</span>
+          <span class="nav-badge-pill pill-red">7 FOCO</span>
         </button>
-        <button class="nav-tab-btn" data-tab="tab-files" id="nav-files">
-          <span>📂</span> Explorador de Archivos
+
+        <button class="nav-tab-btn" data-tab="tab-detractores" data-title="Perfil Sociodemográfico del Detractor" id="btn-tab-detractores">
+          <span class="tab-icon">👥</span>
+          <span class="tab-text">Perfil del Detractor</span>
+          <span class="nav-badge-pill pill-amber">15.2%</span>
         </button>
+
+        <div class="nav-group-title">DICCIONARIO & GUÍA</div>
+
+        <button class="nav-tab-btn" data-tab="tab-dictionary" data-title="Diccionario Unificado de Variables" id="btn-tab-dictionary">
+          <span class="tab-icon">📚</span>
+          <span class="tab-text">Diccionario de Datos</span>
+          <span class="nav-badge-pill">Fórmulas</span>
+        </button>
+
+        <button class="nav-tab-btn" data-tab="tab-charts-guide" data-title="Guía de Gráficos Oficiales CIER" id="btn-tab-charts-guide">
+          <span class="tab-icon">🖼️</span>
+          <span class="tab-text">Guía de Gráficos</span>
+          <span class="nav-badge-pill">PDF / PPT</span>
+        </button>
+
+        <div class="nav-group-title">ADMINISTRACIÓN</div>
+
+        <button class="nav-tab-btn" data-tab="tab-files" data-title="Catálogo de Archivos & Respaldo SSOT" id="btn-tab-files">
+          <span class="tab-icon">🗄️</span>
+          <span class="tab-text">Catálogo & SSOT</span>
+          <span class="nav-badge-pill pill-green">Auditado</span>
+        </button>
+
       </nav>
-    </div>
-  </header>
 
-  <!-- Main App Content -->
-  <main class="main-content">
-
-    <!-- Hero Card & KPI Summary Bar -->
-    <section class="hero-card">
-      <div class="hero-badge-group">
-        <span class="badge badge-cyan">Regional CIER Benchmark</span>
-        <span class="badge badge-emerald">Muestra Total: N = 1.250 Encuestas</span>
-        <span class="badge badge-blue">32 Archivos Analizados</span>
-        <span class="badge badge-purple">Evolución Interanual 2025 - 2026</span>
+      <!-- Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="stat-mini-card">
+          <div class="stat-mini-row">
+            <span class="stat-mini-lbl">Muestra</span>
+            <span class="stat-mini-val font-mono">N = 1.250</span>
+          </div>
+          <div class="stat-mini-row">
+            <span class="stat-mini-lbl">ISG 2026</span>
+            <span class="stat-mini-val val-cyan font-mono">65.60 pts</span>
+          </div>
+          <div class="stat-mini-row">
+            <span class="stat-mini-lbl">IAC Aprobación</span>
+            <span class="stat-mini-val val-green font-mono">77.60 pts</span>
+          </div>
+        </div>
+        <div class="sidebar-copyright">
+          EPEC · Estudio Regional CIER 2025-2026
+        </div>
       </div>
 
-      <h2 class="hero-title">Evaluación Integral de la Satisfacción del Consumidor</h2>
-      <p class="hero-desc">
-        Monitoreo estratégico y diagnóstico cuantitativo de la calidad del servicio eléctrico suministrado por EPEC,
-        evaluando atributos clave: Suministro de Energía, Facturación, Atención al Cliente, Imagen Institucional,
-        Responsabilidad Socioambiental y Precio.
-      </p>
+    </aside>
 
-      <!-- KPI Grid -->
+    <!-- =========================================================================
+         MAIN APPLICATION CONTENT AREA
+         ========================================================================= -->
+    <div class="app-main">
+      
+      <!-- Top Bar Header -->
+      <header class="app-topbar">
+        <div class="topbar-left">
+          <button class="sidebar-toggle-btn" id="sidebar-toggle-btn" aria-label="Alternar menú lateral" title="Alternar menú lateral">
+            <span>☰</span>
+          </button>
+          <div>
+            <div class="topbar-breadcrumb">Dashboard EPEC CIER 2026 / <span id="current-section-breadcrumb">Resumen Ejecutivo</span></div>
+            <h2 class="topbar-title" id="current-section-title">Resumen Ejecutivo Global</h2>
+          </div>
+        </div>
+
+        <div class="topbar-kpis">
+          <div class="topbar-kpi-chip">
+            <span class="chip-lbl">ISG 2026</span>
+            <span class="chip-val font-mono">65.60</span>
+            <span class="chip-diff pos font-mono">+4.48</span>
+          </div>
+          <div class="topbar-kpi-chip">
+            <span class="chip-lbl">IAC Aprobación</span>
+            <span class="chip-val font-mono">77.60</span>
+            <span class="chip-diff pos font-mono">+1.92</span>
+          </div>
+          <div class="topbar-kpi-chip">
+            <span class="chip-lbl">ISCAL Calidad</span>
+            <span class="chip-val font-mono">65.96</span>
+            <span class="chip-diff pos font-mono">+2.27</span>
+          </div>
+          <div class="topbar-kpi-chip">
+            <span class="chip-lbl">Detractores</span>
+            <span class="chip-val font-mono">15.19%</span>
+            <span class="chip-diff pos font-mono">-2.47%</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Scrollable Main Container -->
+      <main class="main-content-scroll" id="main-content-scroll">
+        
+<section class="tab-panel active" id="tab-overview">
+      
+      <!-- Top Macro KPIs -->
       <div class="kpi-grid">
-        <div class="kpi-card">
+        <div class="kpi-card accent-cyan">
           <div class="kpi-header">
-            <span>ISCAL (Calidad Percibida)</span>
-            <span>⭐</span>
+            <span class="kpi-title">Índice Aprobación Cliente (IAC)</span>
+            <span class="kpi-badge badge-up">+2.54%</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value" id="kpi-iscal">65.96</span>
-            <span class="kpi-prev">2025: 63.69</span>
-          </div>
-          <span class="kpi-delta delta-up">▲ +2.27 pts (+3.56% IAOP)</span>
+          <div class="kpi-val">77.60</div>
+          <div class="kpi-sub">vs. 75.68 en 2025 · <span class="text-cyan">+1.92 pts</span></div>
         </div>
 
-        <div class="kpi-card">
+        <div class="kpi-card accent-blue">
           <div class="kpi-header">
-            <span>Aprobación del Cliente (IAC)</span>
-            <span>👍</span>
+            <span class="kpi-title">Calidad Percibida (ISCAL)</span>
+            <span class="kpi-badge badge-up">+3.56%</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value" id="kpi-iac">77.60</span>
-            <span class="kpi-prev">2025: 75.68</span>
-          </div>
-          <span class="kpi-delta delta-up">▲ +1.92 pts (+2.54% IAOP)</span>
+          <div class="kpi-val">65.96</div>
+          <div class="kpi-sub">vs. 63.69 en 2025 · <span class="text-blue">+2.27 pts</span></div>
         </div>
 
-        <div class="kpi-card">
+        <div class="kpi-card accent-green">
           <div class="kpi-header">
-            <span>Suministro de Energía (SE)</span>
-            <span>🔌</span>
+            <span class="kpi-title">Clientes en Excelencia (IECP)</span>
+            <span class="kpi-badge badge-up">+25.65%</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value">78.48</span>
-            <span class="kpi-prev">2025: 75.79</span>
-          </div>
-          <span class="kpi-delta delta-up">▲ +2.70 pts (+3.56% IAOP)</span>
+          <div class="kpi-val">27.15%</div>
+          <div class="kpi-sub">Notas 9 y 10 · <span class="text-green">+5.54% promotores</span></div>
         </div>
 
-        <div class="kpi-card">
+        <div class="kpi-card accent-amber">
           <div class="kpi-header">
-            <span>Información y Comunic. (IC)</span>
-            <span>📢</span>
+            <span class="kpi-title">Insatisfacción (IICP)</span>
+            <span class="kpi-badge badge-down">-13.97%</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value">52.03</span>
-            <span class="kpi-prev">2025: 46.46</span>
-          </div>
-          <span class="kpi-delta delta-up">▲ +5.57 pts (+11.99% IAOP)</span>
+          <div class="kpi-val">15.19%</div>
+          <div class="kpi-sub">Notas 1 a 4 · <span class="text-green">-2.47% detractores</span></div>
         </div>
 
-        <div class="kpi-card">
+        <div class="kpi-card accent-purple">
           <div class="kpi-header">
-            <span>Excelencia Calidad (IECP)</span>
-            <span>🏆</span>
+            <span class="kpi-title">Satisfacción General (ISG)</span>
+            <span class="kpi-badge badge-up">+7.33%</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value">27.15%</span>
-            <span class="kpi-prev">2025: 21.61%</span>
-          </div>
-          <span class="kpi-delta delta-up">▲ +5.54% (+25.6% relativo)</span>
+          <div class="kpi-val">65.60</div>
+          <div class="kpi-sub">vs. 61.12 en 2025 · <span class="text-purple">+4.48 pts</span></div>
         </div>
 
-        <div class="kpi-card">
+        <div class="kpi-card accent-slate">
           <div class="kpi-header">
-            <span>Índice Insatisfacción (IICP)</span>
-            <span>📉</span>
+            <span class="kpi-title">Evaluación Tarifa (PR)</span>
+            <span class="kpi-badge badge-neutral">Tarifa Plena</span>
           </div>
-          <div class="kpi-value-group">
-            <span class="kpi-value">15.19%</span>
-            <span class="kpi-prev">2025: 17.66%</span>
+          <div class="kpi-val">9.28</div>
+          <div class="kpi-sub">vs. 10.75 en 2025 · <span class="text-slate">-1.47 pts</span></div>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="grid-2col mt-4">
+        <!-- 4-Series Radar Chart -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Radar Comparativo Multivariable CIER (4 Series)</h2>
+              <p class="card-desc">EPEC 2025 vs EPEC 2026 vs Promedio Distribuidoras >500k vs Mejor de >500k</p>
+            </div>
+            <span class="badge-tag">6 Áreas Troncales</span>
           </div>
-          <span class="kpi-delta delta-up">▼ -2.47% (-14.0% reducción)</span>
+          <div class="chart-wrapper">
+            <canvas id="chart-global-radar"></canvas>
+          </div>
+        </div>
+
+        <!-- Importance Weights & Correlation Card -->
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h2 class="card-title">Matriz de Importancia Relativa (Pesos CIER)</h2>
+              <p class="card-desc">Ponderación matemática oficial que define la satisfacción global del usuario</p>
+            </div>
+            <span class="badge-tag">Ponderaciones 2026</span>
+          </div>
+          <div class="importance-grid" id="importance-weights-container">
+            <!-- Rendered dynamically -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Areas Detail Cards Grid -->
+      <div class="mt-4">
+        <h3 class="section-heading">Desempeño por Áreas de Servicio (2025 vs 2026)</h3>
+        <div class="areas-kpi-grid" id="areas-kpi-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+
+    </section>
+
+<section class="tab-panel" id="tab-results">
+      <div class="glass-card">
+        <div class="card-header flex-wrap">
+          <div>
+            <h2 class="card-title">Matriz de 66 Indicadores Canónicos y Desglose Territorial</h2>
+            <p class="card-desc">Base auditada oficial de la Planilla CIER 2026 con filtros por dimensión y alcance geográfico</p>
+          </div>
+          
+          <!-- Scope Toggle Buttons -->
+          <div class="scope-toggle-group">
+            <span class="scope-label">Alcance:</span>
+            <button class="scope-btn active" data-scope="total" id="scope-btn-total">Provincial Total</button>
+            <button class="scope-btn" data-scope="capital" id="scope-btn-capital">Capital (Zona A)</button>
+            <button class="scope-btn" data-scope="interior" id="scope-btn-interior">Interior (Zonas B+H+I)</button>
+            <button class="scope-btn" data-scope="gap" id="scope-btn-gap">Brecha Territorial</button>
+          </div>
+        </div>
+
+        <!-- Filter Controls Row -->
+        <div class="table-controls-row">
+          <div class="dimension-filters-pills" id="dimension-filters-container">
+            <!-- Filter pills rendered dynamically -->
+          </div>
+          <div class="search-box-wrapper">
+            <input type="text" id="indices-search-input" class="search-input" placeholder="Buscar por atributo o sigla (ej. tensión, factura, AT)...">
+          </div>
+        </div>
+
+        <!-- Table -->
+        <div class="table-responsive mt-3">
+          <table class="data-table" id="indices-detailed-table">
+            <thead>
+              <tr id="indices-table-header">
+                <th>Dimensión</th>
+                <th>Sigla</th>
+                <th>Tipo</th>
+                <th>Atributo Canónico</th>
+                <th>Índice 2025</th>
+                <th>Índice 2026</th>
+                <th>Nota Prom.</th>
+                <th>Dif. Puntos</th>
+                <th>Var. IAOP</th>
+              </tr>
+            </thead>
+            <tbody id="indices-table-body">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
         </div>
       </div>
     </section>
 
-    <!-- ==================== TAB 1: OVERVIEW & METHODOLOGY ==================== -->
-    <div class="tab-panel active" id="tab-overview">
-      <div class="content-section">
-        <div class="section-header">
-          <h2>🎯 1. Objetivo Estratégico del Estudio</h2>
-        </div>
-        <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
-          La Encuesta CIER es el estándar internacional de medición de satisfacción del consumidor residencial de energía eléctrica en América Latina. Para EPEC, permite:
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-bottom: 1.5rem;">
-          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: var(--accent-cyan); margin-bottom: 0.5rem;">📐 Diagnóstico Cuantitativo</h4>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Evaluar con precisión estadística la percepción del usuario en más de 30 atributos específicos de servicio, infraestructura y atención.</p>
-          </div>
-          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: var(--accent-blue); margin-bottom: 0.5rem;">🌎 Benchmarking Internacional</h4>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Comparar el desempeño de EPEC frente a distribuidoras eléctricas de Argentina, América del Sur, Centroamérica y el Caribe.</p>
-          </div>
-          <div style="background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: var(--accent-emerald); margin-bottom: 0.5rem;">📈 Planificación de Inversiones</h4>
-            <p style="font-size: 0.85rem; color: var(--text-muted);">Identificar los atributos de mayor impacto e insatisfacción para priorizar recursos técnicos y comerciales orientados al cliente.</p>
-          </div>
-        </div>
-
-        <div class="section-header" style="margin-top: 2rem;">
-          <h2>🔄 2. Ciclo de Vida y Desarrollo de la Encuesta</h2>
-        </div>
-        <div class="lifecycle-timeline">
-          <div class="timeline-step">
-            <div class="step-number">1</div>
-            <div class="step-title">Diseño Muestral</div>
-            <div class="step-desc">Definición de cuotas por conglomerados geográficos y sorteo de puntos de suministro (N = 625).</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-number">2</div>
-            <div class="step-title">Prueba Piloto y Ajuste</div>
-            <div class="step-desc">Validación de cuestionario en campo, calibración de tiempos y pruebas de comprensión de preguntas.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-number">3</div>
-            <div class="step-title">Capacitación de Campo</div>
-            <div class="step-desc">Entrenamiento intensivo y homologación técnica de entrevistadores y supervisores de ruta.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-number">4</div>
-            <div class="step-title">Relevamiento y 20% Catastro</div>
-            <div class="step-desc">Ejecución de entrevistas domiciliarias presenciales y auditoría de verificación sobre el 20% de la muestra.</div>
-          </div>
-          <div class="timeline-step">
-            <div class="step-number">5</div>
-            <div class="step-title">Procesamiento y Métricas</div>
-            <div class="step-desc">Tabulación de microdatos, cálculo de ISCAL, IAOP, correlaciones y reportes analíticos interanuales.</div>
-          </div>
-        </div>
-
-        <div class="section-header" style="margin-top: 2rem;">
-          <h2>📋 3. Ficha Técnica Metodológica</h2>
-        </div>
-        <div class="table-responsive">
-          <table class="modern-table">
-            <tbody>
-              <tr>
-                <td style="font-weight: 700; width: 28%; color: var(--accent-cyan);">Universo de Estudio</td>
-                <td>Clientes residenciales (domiciliares) urbanos con suministro activo de energía eléctrica de EPEC.</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 700; color: var(--accent-cyan);">Tamaño Muestral</td>
-                <td><strong>625 encuestas en 2025</strong> y <strong>625 encuestas en 2026</strong> (Total: 1.250 observaciones).</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 700; color: var(--accent-cyan);">Diseño de Muestra</td>
-                <td>Probabilístico, estratificado y por conglomerados en múltiples etapas con sorteo aleatorio.</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 700; color: var(--accent-cyan);">Margen de Error y Confianza</td>
-                <td>Margen de error máximo $\pm 3.92\%$ a un nivel de confianza del $95\%$.</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 700; color: var(--accent-cyan);">Escala de Evaluación</td>
-                <td>Escala estándar CIER de 1 a 10 puntos (convertida linealmente a escala 0 a 100 para cálculo de índices).</td>
-              </tr>
-              <tr>
-                <td style="font-weight: 700; color: var(--accent-cyan);">Fórmula IAOP</td>
-                <td>$\text{IAOP} = \frac{\text{Índice}_{2026} - \text{Índice}_{2025}}{\text{Índice}_{2025}} \times 100\%$ (Aprovechamiento de Oportunidades).</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+<section class="tab-panel" id="tab-benchmark">
+      
+      <!-- Sub Tab Switcher -->
+      <div class="sub-nav-tabs">
+        <button class="sub-tab-btn active" data-subtab="subtab-distrib" id="btn-subtab-distrib">
+          🏢 Distribuidoras >500.000 Clientes
+        </button>
+        <button class="sub-tab-btn" data-subtab="subtab-paises" id="btn-subtab-paises">
+          🌎 Benchmark Internacional por Países (CIER)
+        </button>
       </div>
-    </div>
 
-    <!-- ==================== TAB 2: RESULTS & COMPARISON ==================== -->
-    <div class="tab-panel" id="tab-results">
-      <!-- Interactive Charts -->
-      <div class="charts-grid">
-        <div class="chart-card">
-          <div class="chart-title">
-            <span>🕸️ Radar: Evolución de Áreas de Calidad (IDAR)</span>
-            <span class="badge badge-cyan">2025 vs. 2026</span>
+      <!-- Subtab 1: Distribuidores >500k -->
+      <div class="subtab-content active" id="subtab-distrib">
+        <div class="grid-2col">
+          <div class="glass-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Radar de Posicionamiento Gran Porte (>500k)</h3>
+                <p class="card-desc">EPEC frente al Promedio y Mejor Distribuidora del Grupo</p>
+              </div>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-radar-500k"></canvas>
+            </div>
           </div>
-          <div style="position: relative; height: 350px;">
-            <canvas id="chart-areas"></canvas>
+
+          <div class="glass-card">
+            <div class="card-header">
+              <div>
+                <h3 class="card-title">Brechas Competitivas de EPEC (vs Promedio >500k)</h3>
+                <p class="card-desc">Atributos de liderazgo técnico vs oportunidades de mejora comercial</p>
+              </div>
+            </div>
+            <div class="chart-wrapper">
+              <canvas id="chart-gap-500k"></canvas>
+            </div>
           </div>
         </div>
 
-        <div class="chart-card">
-          <div class="chart-title">
-            <span>🕸️ Radar: Indicadores Globales CIER</span>
-            <span class="badge badge-emerald">Escala 0 a 100</span>
+        <!-- Benchmark Table -->
+        <div class="glass-card mt-4">
+          <div class="card-header">
+            <h3 class="card-title">Tabla Comparativa de 14 Indicadores de Gran Porte</h3>
           </div>
-          <div style="position: relative; height: 350px;">
-            <canvas id="chart-global"></canvas>
+          <div class="table-responsive">
+            <table class="data-table" id="benchmark-500k-table">
+              <thead>
+                <tr>
+                  <th>Dimensión / Indicador</th>
+                  <th>EPEC 2025</th>
+                  <th>EPEC 2026</th>
+                  <th>Promedio >500k (2025)</th>
+                  <th>Promedio >500k (2026)</th>
+                  <th>Total CIER 2026</th>
+                  <th>Líder >500k (2026)</th>
+                  <th>Posición EPEC</th>
+                </tr>
+              </thead>
+              <tbody id="benchmark-table-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
 
-      <!-- Comparative Table Section -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2>📊 Serie Histórica Comparativa (2025 vs. 2026)</h2>
-          <span style="font-size: 0.85rem; color: var(--text-muted);" id="table-count-info">Mostrando 60 indicadores</span>
+      <!-- Subtab 2: Paises CIER -->
+      <div class="subtab-content" id="subtab-paises">
+        <div class="glass-card">
+          <div class="card-header">
+            <div>
+              <h3 class="card-title">Benchmark Internacional de Sistemas Eléctricos (América Latina)</h3>
+              <p class="card-desc">Posición de EPEC en el mapa regional frente a promedios nacionales de la región</p>
+            </div>
+          </div>
+          <div class="table-responsive mt-3">
+            <table class="data-table" id="paises-table">
+              <thead>
+                <tr>
+                  <th>País / Sistema Eléctrico</th>
+                  <th>Tipo</th>
+                  <th>ISCAL</th>
+                  <th>Aprobación (IAC)</th>
+                  <th>Suministro (SE)</th>
+                  <th>Atención (AT)</th>
+                  <th>Factura (FE)</th>
+                  <th>Imagen (IM)</th>
+                </tr>
+              </thead>
+              <tbody id="paises-table-body">
+                <!-- Rendered dynamically -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+<section class="tab-panel" id="tab-matriz" data-title="Matriz de Acciones de Mejora (Sección 16)">
+      
+      <!-- Section Header -->
+      <div class="glass-card mb-4">
+        <div class="card-header flex-wrap">
+          <div>
+            <div class="badge-tag-red mb-2">Sección 16 · Informe Individual CIER 2026 EPEC-AR (Pág. 94)</div>
+            <h2 class="card-title">Matriz Conjunta de Definición de Acciones de Mejora (Importancia vs Desempeño)</h2>
+            <p class="card-desc">Herramienta analítica central para priorizar inversiones y gestiones operativas en función del peso en la satisfacción global y el rendimiento actual.</p>
+          </div>
+          <div class="cuadrante-foco-summary-badge">
+            <span class="foco-icon">🚩</span>
+            <div>
+              <span class="foco-title">7 Atributos en Cuadrante Foco</span>
+              <span class="foco-sub">Alta Importancia (>3.3%) · Bajo Desempeño (<64.8 pts)</span>
+            </div>
+          </div>
         </div>
 
-        <div class="controls-bar">
-          <input type="text" id="search-indices" class="search-input" placeholder="🔍 Buscar por nombre de indicador, sigla (SE, FE, ISCAL) o área...">
+        <!-- Subtab Switcher: Gráfica Oficial HD vs Dispersión Interactiva -->
+        <div class="subtabs-bar mt-3">
+          <button class="sub-tab-btn active" data-subtab="subtab-matriz-oficial" id="btn-subtab-matriz-oficial">
+            <span>📄 Gráfica Oficial del Informe CIER (Recorte HD)</span>
+          </button>
+          <button class="sub-tab-btn" data-subtab="subtab-matriz-interactiva" id="btn-subtab-matriz-interactiva">
+            <span>📊 Dispersión Interactiva (Chart.js)</span>
+          </button>
+        </div>
+
+        <!-- SUBTAB 1: Gráfica Oficial del Informe (HD Enhanced Crop) -->
+        <div class="subtab-content active" id="subtab-matriz-oficial">
+          <div class="grid-2col mt-3 align-items-start">
+            <div>
+              <div class="official-crop-container" onclick="openImageModal('assets/img/crops/matriz_mejora_hd.png', 'Sección 16: Matriz Conjunta de Definición de Acciones de Mejora', 'Informe Individual CIER 2026 EPEC-AR - Página 94 (Resolución HD 2428x1512 px)')" title="Haga clic para ver en pantalla completa con zoom">
+                <div class="crop-header-bar">
+                  <span class="crop-tag">Gráfica Oficial Extraída · Calidad HD Mejorada</span>
+                  <span class="crop-zoom-hint">🔍 Clic para ampliar en HD</span>
+                </div>
+                <img src="assets/img/crops/matriz_mejora_hd.png" alt="16. Matriz Conjunta de Definición de Acciones de Mejora (Pág. 94)" class="official-crop-img">
+              </div>
+            </div>
+
+            <!-- Quadrant Interpretation Guide -->
+            <div>
+              <h3 class="section-heading-sm">Guía de Interpretación de los 4 Cuadrantes</h3>
+              <div class="quadrants-guide-grid">
+                
+                <div class="quadrant-box q-foco">
+                  <div class="q-header">
+                    <span class="q-badge badge-red">Cuadrante IV · FOCO</span>
+                    <span class="q-prio">Prioridades 1ª a 7ª</span>
+                  </div>
+                  <h4 class="q-title">Acciones Urgentes de Mejora</h4>
+                  <p class="q-desc"><strong>Alta Importancia (>3.3%) y Bajo Desempeño (<64.8 pts).</strong> Cada punto aquí resta satisfacción directamente.</p>
+                  <div class="q-tags">
+                    <span>IC1 Notif. Corte (1º)</span>
+                    <span>AT1 Contacto (2º)</span>
+                    <span>FE1 Plazo Factura (3º)</span>
+                    <span>AT2 Espera (4º)</span>
+                    <span>IC3 Riesgos (5º)</span>
+                    <span>FE3 Comprensión (6º)</span>
+                    <span>IC5 Medición (7º)</span>
+                  </div>
+                </div>
+
+                <div class="quadrant-box q-fortaleza">
+                  <div class="q-header">
+                    <span class="q-badge badge-blue">Cuadrante I · FORTALEZAS</span>
+                    <span class="q-prio">Mantener Liderazgo</span>
+                  </div>
+                  <h4 class="q-title">Fortalezas Clave de EPEC</h4>
+                  <p class="q-desc"><strong>Alta Importancia y Alto Desempeño.</strong> Calidad y continuidad del suministro técnico (SE1, SE2, SE3, FE2).</p>
+                </div>
+
+                <div class="quadrant-box q-secundaria">
+                  <div class="q-header">
+                    <span class="q-badge badge-amber">Cuadrante II · VENTAJAS</span>
+                    <span class="q-prio">Eficiencia Operativa</span>
+                  </div>
+                  <h4 class="q-title">Ventajas Secundarias</h4>
+                  <p class="q-desc"><strong>Baja Importancia y Alto Desempeño.</strong> Locales de pago (FE4), calidad y claridad de atención (AT4, AT5, AT6).</p>
+                </div>
+
+                <div class="quadrant-box q-baja">
+                  <div class="q-header">
+                    <span class="q-badge badge-slate">Cuadrante III · BAJA PRIO</span>
+                    <span class="q-prio">Monitoreo</span>
+                  </div>
+                  <h4 class="q-title">Baja Prioridad Relativa</h4>
+                  <p class="q-desc"><strong>Baja Importancia y Bajo Desempeño.</strong> Atributos de imagen institucional (IM1 a IM8), uso eficiente (IC2) y derechos (IC4).</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SUBTAB 2: Interactive Scatter Plot Visualizer -->
+        <div class="subtab-content" id="subtab-matriz-interactiva">
+          <div class="mt-3">
+            <h3 class="section-heading-sm">Gráfico Interactivo de Dispersión (30 Atributos CIER con Tooltips y Filtros)</h3>
+            <div class="chart-wrapper-lg">
+              <canvas id="chart-matriz-prioridades"></canvas>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Deep Dive into All 30 Attributes (Microdata Cross-Tabulation & 10-per-page Pagination) -->
+      <div class="glass-card mb-4">
+        <div class="card-header flex-wrap">
+          <div>
+            <div class="badge-tag-blue mb-1">Microdatos Auditados N = 1.250 Casos · Cruce Exhaustivo de los 30 Atributos</div>
+            <h3 class="card-title">Cruce de Microdatos y Preguntas de Encuesta (Ranking por Puestos)</h3>
+            <p class="card-desc">Preguntas exactas de la encuesta, distribución de calificaciones (Negativas 1-4, Neutras 5-7, Positivas 8-10), causas raíz y acciones operativas.</p>
+          </div>
           
-          <select id="filter-area" class="filter-select">
-            <option value="ALL">Todas las Áreas</option>
-            <option value="Suministro de energía">Suministro de energía (SE)</option>
-            <option value="Información y comunicación">Información y comunicación (IC)</option>
-            <option value="Factura de energía">Factura de energía (FE)</option>
-            <option value="Atención al cliente">Atención al cliente (AT)</option>
-            <option value="Imagen">Imagen Corporativa (IM)</option>
-            <option value="Responsabilidad socioambiental">Responsabilidad Socioambiental (RSA)</option>
-            <option value="Alumbrado público">Alumbrado Público (AP)</option>
-          </select>
-
-          <select id="filter-tipo" class="filter-select">
-            <option value="ALL">Todos los Tipos</option>
-            <option value="IDAR">Áreas Clave (IDAR)</option>
-            <option value="IDAT">Atributos Específicos (IDAT)</option>
-            <option value="-">Índices Globales</option>
-          </select>
+          <!-- Quadrant & Search Filter Controls -->
+          <div class="filters-row flex-wrap gap-2">
+            <select id="microdata-quadrant-filter" class="custom-select" aria-label="Filtrar por Cuadrante Estratégico">
+              <option value="all">Todos los Cuadrantes (30)</option>
+              <option value="Cuadrante Foco">🚩 Cuadrante Foco (7)</option>
+              <option value="Fortaleza Clave">🌟 Fortalezas Clave (4)</option>
+              <option value="Ventaja Secundaria">⚡ Ventajas Secundarias (9)</option>
+              <option value="Baja Prioridad">⚪ Baja Prioridad (10)</option>
+            </select>
+            <div class="search-box-wrapper">
+              <input type="text" id="microdata-search-input" class="search-input" placeholder="Buscar por sigla, pregunta, causa...">
+            </div>
+          </div>
         </div>
 
-        <div class="table-responsive">
-          <table class="modern-table" id="table-indices">
-            <thead>
-              <tr>
-                <th>Dimensión / Área</th>
-                <th>Sigla</th>
-                <th>Tipo</th>
-                <th>Indicador / Atributo</th>
-                <th>Índice 2025</th>
-                <th>Índice 2026</th>
-                <th>Diferencia</th>
-                <th>Var. IAOP (%)</th>
-              </tr>
-            </thead>
-            <tbody id="tbody-indices">
-              <!-- Dynamically populated -->
-            </tbody>
-          </table>
+        <!-- 10-Puestos Pagination Buttons Bar -->
+        <div class="microdata-pagination-bar mt-3">
+          <div class="pagi-btn-group" id="microdata-pagi-buttons">
+            <button class="pagi-btn active" data-page="1">
+              <span class="pagi-num">1</span>
+              <span class="pagi-label">Puestos 1 al 10</span>
+              <span class="pagi-badge badge-red">1ª - 10ª Prio</span>
+            </button>
+            <button class="pagi-btn" data-page="2">
+              <span class="pagi-num">2</span>
+              <span class="pagi-label">Puestos 11 al 20</span>
+              <span class="pagi-badge badge-blue">11ª - 20ª Prio</span>
+            </button>
+            <button class="pagi-btn" data-page="3">
+              <span class="pagi-num">3</span>
+              <span class="pagi-label">Puestos 21 al 30</span>
+              <span class="pagi-badge badge-amber">21ª - 30ª Prio</span>
+            </button>
+            <button class="pagi-btn" data-page="all">
+              <span class="pagi-num">∞</span>
+              <span class="pagi-label">Ver Todos (30)</span>
+              <span class="pagi-badge badge-slate">Completo</span>
+            </button>
+          </div>
+
+          <div class="pagi-status-text" id="microdata-pagi-status">
+            Mostrando <strong>1 - 10</strong> de <strong>30 atributos</strong>
+          </div>
+        </div>
+
+        <!-- Dynamic Microdata Cards Grid -->
+        <div class="focus-attributes-grid mt-4" id="focus-attributes-container">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Bottom Pagination Navigation -->
+        <div class="pagi-bottom-nav mt-4">
+          <button class="btn btn-secondary btn-sm" id="btn-pagi-prev" disabled>◄ Puestos Anteriores</button>
+          <span class="pagi-indicator" id="pagi-indicator-text">Página 1 de 3</span>
+          <button class="btn btn-secondary btn-sm" id="btn-pagi-next">Puestos Siguientes ►</button>
         </div>
       </div>
 
-      <!-- Detailed 2026 Satisfaction Scores -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2>⭐ Detalle de Puntuaciones y Notas Promedio (2026)</h2>
+      <!-- Full Table of 30 Attributes and Ranking -->
+      <div class="glass-card mb-4">
+        <div class="card-header flex-wrap">
+          <div>
+            <h3 class="card-title">Ranking Completo de los 30 Atributos (Prioridad 1ª a 30ª)</h3>
+            <p class="card-desc">Clasificación oficial según el Informe Individual CIER 2026 de EPEC</p>
+          </div>
+          <div class="search-box-wrapper">
+            <input type="text" id="priorities-search-input" class="search-input" placeholder="Filtrar por atributo, sigla o cuadrante...">
+          </div>
         </div>
-        <div class="table-responsive">
-          <table class="modern-table">
+
+        <div class="table-responsive mt-3">
+          <table class="data-table" id="priorities-table">
             <thead>
               <tr>
-                <th>Área de Evaluación</th>
+                <th>N° Gráfico</th>
                 <th>Sigla</th>
+                <th>Área / Dimensión</th>
                 <th>Atributo Evaluado</th>
-                <th>Nota Promedio (1 a 10)</th>
-                <th>Índice CIER (0 a 100)</th>
-                <th>Nivel de Satisfacción</th>
+                <th>Importancia Relativa (%)</th>
+                <th>Desempeño EPEC (IDAT)</th>
+                <th>Ranking Prioridad</th>
+                <th>Cuadrante Estratégico</th>
               </tr>
             </thead>
-            <tbody id="tbody-sat-detail">
-              <!-- Dynamically populated -->
+            <tbody id="priorities-table-body">
+              <!-- Rendered dynamically -->
             </tbody>
           </table>
         </div>
       </div>
-    </div>
 
-    <!-- ==================== TAB 3: BENCHMARK >500K CLIENTES ==================== -->
-    <div class="tab-panel" id="tab-benchmark">
-      <!-- Benchmark Context Header -->
-      <div class="content-section" style="border-left: 4px solid var(--accent-emerald);">
-        <div class="section-header">
-          <h2>🏢 Comparativo Estratégico: EPEC vs. Empresas de Gran Porte (>500.000 Clientes)</h2>
-          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-            <a href="data/processed/comparativo_distribuidores_500k.xlsx" class="btn-action" target="_blank">📥 Descargar Excel Comparativo</a>
-            <a href="data/processed/comparativo_distribuidores_500k.csv" class="btn-action" target="_blank">📄 Descargar CSV</a>
-          </div>
+    </section>
+
+<section class="tab-panel" id="tab-detractores" data-title="Perfil Sociodemográfico del Detractor">
+<div class="detractor-hero-card">
+        <div class="detractor-hero-content">
+          <span class="hero-badge">Microdatos Auditados N = 1.250 Casos</span>
+          <h2 class="hero-title">Radiografía Sociodemográfica del Cliente Detractor Crítico</h2>
+          <p class="hero-desc">El análisis cuantitativo revela que el núcleo con mayor rechazo a EPEC se caracteriza por ser <strong>familias jóvenes, de ingresos medios-altos, alto nivel educativo y radicadas en barrios de expansión periurbana</strong>, cuya tolerancia a cortes no supera los 90 minutos.</p>
         </div>
-        <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
-          Este módulo presenta el análisis comparativo exhaustivo entre <strong>EPEC</strong> y el segmento de <strong>Distribuidores de Gran Porte (>500.000 clientes)</strong> evaluados por la CIER en América Latina durante los períodos <strong>2025 y 2026</strong>. Permite contrastar la evolución interanual de EPEC respecto al <em>Promedio de Empresas >500k</em>, el <em>Promedio Total CIER</em> y el <em>Benchmark de la Empresa Líder del Segmento</em>.
-        </p>
-
-        <!-- Benchmark Highlight Metric Cards -->
-        <div class="kpi-grid">
-          <div class="kpi-card">
-            <div class="kpi-header">
-              <span>ISCAL vs. Promedio >500k</span>
-              <span>⭐</span>
-            </div>
-            <div class="kpi-value-group">
-              <span class="kpi-value">65.96</span>
-              <span class="kpi-prev">Prom. 500k: 70.15</span>
-            </div>
-            <span class="kpi-delta delta-up">▲ Brecha reducida a 4.19 pts (EPEC creció +3.56%)</span>
+        <div class="detractor-stats-chips">
+          <div class="chip-item">
+            <span class="chip-val">47.8 años</span>
+            <span class="chip-lbl">Edad Media</span>
           </div>
-
-          <div class="kpi-card">
-            <div class="kpi-header">
-              <span>Suministro de Energía (SE)</span>
-              <span>⚡</span>
-            </div>
-            <div class="kpi-value-group">
-              <span class="kpi-value" style="color: var(--accent-emerald);">78.48</span>
-              <span class="kpi-prev">Prom. 500k: 77.80</span>
-            </div>
-            <span class="kpi-delta delta-up">🟢 SUPERIOR AL PROMEDIO (+0.68 pts)</span>
+          <div class="chip-item">
+            <span class="chip-val">$1.338.726</span>
+            <span class="chip-lbl">Ingreso Familiar Medio</span>
           </div>
-
-          <div class="kpi-card">
-            <div class="kpi-header">
-              <span>Continuidad del Servicio</span>
-              <span>🔌</span>
-            </div>
-            <div class="kpi-value-group">
-              <span class="kpi-value" style="color: var(--accent-emerald);">85.92</span>
-              <span class="kpi-prev">Prom. 500k: 84.30</span>
-            </div>
-            <span class="kpi-delta delta-up">🟢 VENTAJA DESTACADA (+1.62 pts)</span>
+          <div class="chip-item">
+            <span class="chip-val">77.2%</span>
+            <span class="chip-lbl">Sec. o Superior</span>
           </div>
-
-          <div class="kpi-card">
-            <div class="kpi-header">
-              <span>Facilidad y Canales de Pago</span>
-              <span>💳</span>
-            </div>
-            <div class="kpi-value-group">
-              <span class="kpi-value" style="color: var(--accent-emerald);">89.20</span>
-              <span class="kpi-prev">Prom. 500k: 88.10</span>
-            </div>
-            <span class="kpi-delta delta-up">🟢 CLASE MUNDIAL (+1.10 pts)</span>
+          <div class="chip-item">
+            <span class="chip-val">59.8%</span>
+            <span class="chip-lbl">Capital / Expansión</span>
           </div>
         </div>
       </div>
 
-      <!-- Benchmark Charts Grid -->
-      <div class="charts-grid">
-        <div class="chart-card">
-          <div class="chart-title">
-            <span>🕸️ Radar Benchmark: EPEC vs. Segmento >500k y Líder CIER (2026)</span>
-            <span class="badge badge-cyan">Escala 0 a 100</span>
+      <!-- 4 Pillars Breakdown -->
+      <div class="grid-4col mt-4">
+        <!-- Age Breakdown Card -->
+        <div class="glass-card">
+          <div class="card-header-compact">
+            <span class="card-icon">🎂</span>
+            <h3 class="card-title-sm">1. Rango de Edad</h3>
           </div>
-          <div style="position: relative; height: 370px;">
-            <canvas id="chart-radar-500k"></canvas>
-          </div>
-        </div>
-
-        <div class="chart-card">
-          <div class="chart-title">
-            <span>📊 Evolución Interanual de Brechas (2025 vs. 2026)</span>
-            <span class="badge badge-emerald">EPEC vs. Promedio >500k</span>
-          </div>
-          <div style="position: relative; height: 370px;">
-            <canvas id="chart-gap-500k"></canvas>
+          <p class="metric-highlight">73.9% en edad laboral activa</p>
+          <div class="demographic-bars" id="age-bars-container">
+            <!-- Rendered dynamically -->
           </div>
         </div>
-      </div>
 
-      <!-- Strategic Diagnosis Cards Grid -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2>🧭 Diagnóstico Estratégico Competitivo</h2>
+        <!-- Income Card -->
+        <div class="glass-card">
+          <div class="card-header-compact">
+            <span class="card-icon">💼</span>
+            <h3 class="card-title-sm">2. Alcance Adquisitivo</h3>
+          </div>
+          <p class="metric-highlight">+14.6% vs. clientes conformes</p>
+          <ul class="clean-list">
+            <li><strong>Ingreso Medio:</strong> $1.338.726 / mes</li>
+            <li><strong>Mediana:</strong> $1.100.000 / mes</li>
+            <li><strong>Decil CIER:</strong> 10.72 (Medio-Alto)</li>
+            <li><strong>Pagos Digitales:</strong> >85% adhesión</li>
+            <li><strong>Solvencia:</strong> Sin problemas de mora</li>
+          </ul>
         </div>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
-          
-          <!-- Column 1: Fortalezas -->
-          <div style="background: rgba(16, 185, 129, 0.05); border: 1px solid rgba(16, 185, 129, 0.25); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: #34d399; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span>🟢</span> Fortalezas donde EPEC Supera al Promedio >500k
-            </h4>
-            <ul style="font-size: 0.85rem; color: #d1d5db; padding-left: 1.2rem; line-height: 1.7;">
-              <li><strong>Continuidad de Suministro (85.92 vs 84.30):</strong> Percepción sobresaliente en estabilidad y ausencia de cortes no previstos.</li>
-              <li><strong>Estabilidad de Tensión (77.40 vs 76.20):</strong> Menor reporte de fluctuaciones que dañen artefactos eléctricos.</li>
-              <li><strong>Canales de Pago (89.20 vs 88.10):</strong> Amplia adopción y satisfacción con plataformas digitales y débito automático.</li>
-              <li><strong>Compromiso Ambiental (63.46 vs 63.20):</strong> Reconocimiento positivo por iniciativas de energía limpia y eficiencia.</li>
-            </ul>
-          </div>
 
-          <!-- Column 2: Rápido Crecimiento -->
-          <div style="background: rgba(6, 182, 212, 0.05); border: 1px solid rgba(6, 182, 212, 0.25); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: #22d3ee; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span>🟡</span> Áreas de Mayor Aceleración y Cierre de Brecha
-            </h4>
-            <ul style="font-size: 0.85rem; color: #d1d5db; padding-left: 1.2rem; line-height: 1.7;">
-              <li><strong>Información y Comunicación (+11.99% IAOP):</strong> Saltó de 46.46 a 52.03 puntos, siendo el área de mayor progreso.</li>
-              <li><strong>Imagen Corporativa (+7.05% IAOP):</strong> Creció de 56.54 a 60.53 puntos, acortando distancia con el promedio regional (63.80).</li>
-              <li><strong>Promotores de Calidad (+25.65% IECP):</strong> Aumento de 5.54 puntos porcentuales en usuarios con máxima satisfacción.</li>
-              <li><strong>Detractores en Descenso (-14.0% IICP):</strong> Reducción neta del índice de insatisfacción del 17.66% al 15.19%.</li>
-            </ul>
+        <!-- Location Card -->
+        <div class="glass-card">
+          <div class="card-header-compact">
+            <span class="card-icon">📍</span>
+            <h3 class="card-title-sm">3. Localización</h3>
           </div>
+          <p class="metric-highlight">59.8% Capital y Periurbano</p>
+          <ul class="clean-list">
+            <li><strong>Córdoba Capital:</strong> Corredores Norte y Sur</li>
+            <li><strong>Sierras Chicas:</strong> Villa Allende, La Calera, Unquillo, Mendiolaza</li>
+            <li><strong>Valle de Punilla:</strong> Carlos Paz, La Falda</li>
+            <li><strong>Causa de Red:</strong> Líneas aéreas extensas</li>
+          </ul>
+        </div>
 
-          <!-- Column 3: Oportunidades Prioritarias -->
-          <div style="background: rgba(244, 63, 94, 0.05); border: 1px solid rgba(244, 63, 94, 0.25); border-radius: var(--radius-md); padding: 1.25rem;">
-            <h4 style="color: #fb7185; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
-              <span>🔴</span> Oportunidades Prioritarias de Mejora
-            </h4>
-            <ul style="font-size: 0.85rem; color: #d1d5db; padding-left: 1.2rem; line-height: 1.7;">
-              <li><strong>Aviso Previo de Cortes (58.86 vs 62.50):</strong> Demanda de alertas proactivas multicanal (WhatsApp/App) ante mantenimientos.</li>
-              <li><strong>Atención Telefónica (61.52 vs 64.90):</strong> Oportunidad en agilidad de respuesta y tiempos de espera en contact center.</li>
-              <li><strong>Claridad y Desglose Tarifario (67.45 vs 71.30):</strong> Necesidad de mayor pedagogía sobre componentes impositivos en factura.</li>
-              <li><strong>Benchmark Líder Regional:</strong> Las distribuidoras líderes alcanzan ISCAL > 83 pts, marcando la meta a mediano plazo.</li>
-            </ul>
+        <!-- Education Card -->
+        <div class="glass-card">
+          <div class="card-header-compact">
+            <span class="card-icon">🎓</span>
+            <h3 class="card-title-sm">4. Nivel de Educación</h3>
           </div>
-
+          <p class="metric-highlight">48.9% Nivel Terciario/Univ.</p>
+          <ul class="clean-list">
+            <li><strong>Universidad Completa:</strong> 18.2%</li>
+            <li><strong>Universidad Incompleta:</strong> 17.6%</li>
+            <li><strong>Secundaria Completa:</strong> 23.0%</li>
+            <li><strong>Técnico Superior:</strong> 11.6%</li>
+            <li><strong>Perfil:</strong> Teletrabajo y comercio</li>
+          </ul>
         </div>
       </div>
 
-      <!-- Benchmark Full Data Table Section -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2>📊 Matriz Detallada de Comparación: EPEC vs. Distribuidores >500.000 Clientes</h2>
-          <span style="font-size: 0.85rem; color: var(--text-muted);" id="bench-count-info">Mostrando 16 indicadores benchmark</span>
+      <!-- 4 Root Causes Grid -->
+      <div class="mt-4">
+        <h3 class="section-heading">Las 4 Causas Raíz de la Detracción según la SSOT</h3>
+        <div class="grid-4col" id="causal-factors-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+
+      <!-- Model of Tolerance -->
+      <div class="glass-card mt-4">
+        <div class="card-header">
+          <h3 class="card-title">Modelo de Segmentación por Tolerancia a Tiempos de Corte</h3>
+        </div>
+        <div class="tolerance-clusters-grid">
+          <div class="cluster-card detractor">
+            <div class="cluster-badge">15.19% · Detractores Críticos</div>
+            <h4>Los Grandes Inconformes</h4>
+            <p class="cluster-time">Cortes > 90 a 120+ minutos</p>
+            <p class="cluster-desc">Tolerancia mínima. Fuerte dependencia de la energía para teletrabajo y pérdidas económicas directas. Alta propensión a viralizar quejas en medios y redes.</p>
+          </div>
+
+          <div class="cluster-card neutral">
+            <div class="cluster-badge">57.66% · Clientes Neutros</div>
+            <h4>Clientes Pasivos / Neutros</h4>
+            <p class="cluster-time">Cortes de hasta 2 horas</p>
+            <p class="cluster-desc">Tolerancia intermedia. No viralizan quejas espontáneamente pero si el corte supera las 2 horas sin aviso, migran al grupo detractor.</p>
+          </div>
+
+          <div class="cluster-card promoter">
+            <div class="cluster-badge">27.15% · Clientes Conformes</div>
+            <h4>Promotores Netos (+5.54%)</h4>
+            <p class="cluster-time">Cortes hasta 90 minutos</p>
+            <p class="cluster-desc">Alto respaldo institucional. Valoran la estabilidad técnica en tensión (77.4 pts) y continuidad general (85.9 pts).</p>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section class="tab-panel" id="tab-dictionary">
+      <div class="glass-card">
+        <div class="card-header flex-wrap">
+          <div>
+            <h2 class="card-title">Diccionario Unificado de Variables CIER (2025 - 2026)</h2>
+            <p class="card-desc">Catálogo exhaustivo de preguntas, opciones de respuesta y homologación de variables</p>
+          </div>
+          <div class="search-box-wrapper">
+            <input type="text" id="dict-search-input" class="search-input" placeholder="Buscar variable por código o término (ej. P036, edad, tarifa, corte)...">
+          </div>
         </div>
 
-        <div class="controls-bar">
-          <input type="text" id="search-bench" class="search-input" placeholder="🔍 Buscar por atributo, sigla o dimensión...">
-          
-          <select id="filter-bench-tipo" class="filter-select">
-            <option value="ALL">Todos los Tipos de Indicador</option>
-            <option value="IDAR">Áreas Clave (IDAR)</option>
-            <option value="IDAT">Atributos Específicos (IDAT)</option>
-            <option value="Global">Índices Globales</option>
-          </select>
-
-          <select id="filter-bench-status" class="filter-select">
-            <option value="ALL">Todos los Estados</option>
-            <option value="Líder">Supera al Promedio >500k</option>
-            <option value="Crecimiento">En Crecimiento / Cierre de Brecha</option>
-            <option value="Oportunidad">Oportunidad Prioritaria</option>
-          </select>
-        </div>
-
-        <div class="table-responsive">
-          <table class="modern-table" id="table-benchmark-500k">
+        <div class="table-responsive mt-3">
+          <table class="data-table" id="dict-table">
             <thead>
               <tr>
-                <th>Dimensión / Indicador</th>
-                <th>Sigla</th>
-                <th>Tipo</th>
-                <th>EPEC 2025</th>
-                <th>EPEC 2026</th>
-                <th>EPEC Var. IAOP</th>
-                <th>Promedio >500k (2025)</th>
-                <th>Promedio >500k (2026)</th>
-                <th>CIER Total (2026)</th>
-                <th>Líder >500k (2026)</th>
-                <th>Posición y Estado</th>
+                <th>Variable</th>
+                <th>Dimensión / Área</th>
+                <th>Nombre / Atributo</th>
+                <th>Tipo / Estado</th>
+                <th>Escala / Valores / Descripción</th>
               </tr>
             </thead>
-            <tbody id="tbody-benchmark-500k">
-              <!-- Dynamically populated -->
+            <tbody id="dict-table-body">
+              <!-- Rendered dynamically -->
             </tbody>
           </table>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- ==================== TAB 4: DICTIONARY & VARIABLES ==================== -->
-    <div class="tab-panel" id="tab-dictionary">
-      <div class="content-section">
-        <div class="section-header">
-          <h2>📖 Diccionario y Mapeo Semántico de Variables</h2>
-          <span style="font-size: 0.85rem; color: var(--text-muted);" id="dict-count-info">Cargando catálogo...</span>
-        </div>
-
-        <div class="controls-bar">
-          <input type="text" id="search-dict" class="search-input" placeholder="🔍 Buscar por código (P001, P015), pregunta o palabra clave...">
+<section class="tab-panel" id="tab-charts-guide">
+      <div class="glass-card">
+        <div class="card-header flex-wrap">
+          <div>
+            <h2 class="card-title">Guía de Gráficos Oficiales y Recortes Originales de Informes CIER</h2>
+            <p class="card-desc">Visualizador de gráficos oficiales extraídos de los informes PDF y presentaciones PPTX de EPEC</p>
+          </div>
           
-          <select id="filter-dict-dim" class="filter-select">
-            <option value="ALL">Todas las Dimensiones Temáticas</option>
-            <option value="2_Calidad_y_Continuidad_Suministro">Calidad y Continuidad</option>
-            <option value="3_Facturacion_Medicion_y_Tarifa">Facturación y Medición</option>
-            <option value="4_Atencion_al_Cliente_y_Canales">Atención al Cliente</option>
-            <option value="5_Informacion_y_Comunicacion">Información y Comunicación</option>
-            <option value="6_Imagen_y_Responsabilidad_Social">Imagen y Responsabilidad</option>
-            <option value="7_Perfil_Sociodemografico">Perfil Sociodemográfico</option>
-            <option value="1_Identificacion_y_Muestreo">Identificación y Muestra</option>
-            <option value="8_Otras_Preguntas_Generales">Otras Preguntas</option>
-          </select>
-
-          <select id="filter-dict-status" class="filter-select">
-            <option value="ALL">Todos los Estados</option>
-            <option value="Presente en ambos años">Presente en ambos años (2025 y 2026)</option>
-            <option value="Solo 2025">Solo en 2025</option>
-            <option value="Solo 2026 (Nueva)">Nueva en 2026</option>
-          </select>
+          <!-- Filter by Thematic Axis -->
+          <div class="guide-filter-group">
+            <span class="guide-filter-label">Eje Temático:</span>
+            <select id="guide-thematic-select" class="guide-select">
+              <option value="all">Todos los Ejes Temáticos (7 Ejes · 15 Gráficos)</option>
+              <option value="eje-1">Eje 1: Modelo CIER, ISCAL y Lealtad</option>
+              <option value="eje-2">Eje 2: Calidad y Continuidad del Suministro</option>
+              <option value="eje-3">Eje 3: Atención Comercial y Fricciones</option>
+              <option value="eje-4">Eje 4: Facturación, Tarifas y Canales de Pago</option>
+              <option value="eje-5">Eje 5: Imagen, Medio Ambiente y RSA</option>
+              <option value="eje-6">Eje 6: Desglose Regional y Zonas Operativas</option>
+              <option value="eje-7">Eje 7: Benchmarking y Segmentación</option>
+            </select>
+          </div>
         </div>
 
-        <div class="table-responsive">
-          <table class="modern-table">
+        <!-- Charts Grid -->
+        <div class="charts-guide-grid mt-4" id="charts-guide-grid-container">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+    </section>
+
+<section class="tab-panel" id="tab-files">
+      
+      <!-- SSOT Checklist Card -->
+      <div class="glass-card mb-4">
+        <div class="card-header">
+          <div>
+            <h2 class="card-title">Checklist de Verificación de la Fuente Única de Verdad (SSOT)</h2>
+            <p class="card-desc">Auditoría cruzada de consistencia entre los documentos Markdown oficiales, planillas CIER y microdatos</p>
+          </div>
+          <span class="badge-tag-green">100% Verificado</span>
+        </div>
+
+        <div class="table-responsive mt-3">
+          <table class="data-table" id="ssot-checklist-table">
             <thead>
               <tr>
-                <th>Código Variable</th>
-                <th>Dimensión Temática</th>
-                <th>Descripción / Título de la Pregunta</th>
-                <th>Estado Interanual</th>
-                <th>Opciones de Respuesta</th>
+                <th>Área / Dimensión</th>
+                <th>Documento SSOT (docs/)</th>
+                <th>Fuente Primaria Oficial</th>
+                <th>Estado</th>
+                <th>Nivel de Coincidencia</th>
               </tr>
             </thead>
-            <tbody id="tbody-dict">
-              <!-- Dynamically populated -->
+            <tbody id="ssot-checklist-tbody">
+              <!-- Rendered dynamically -->
             </tbody>
           </table>
         </div>
       </div>
-    </div>
 
-    <!-- ==================== TAB 4: FILE EXPLORER & DOWNLOADS ==================== -->
-    <div class="tab-panel" id="tab-files">
-      <!-- Direct Processed Datasets Highlight -->
-      <div class="content-section" style="border-left: 4px solid var(--accent-cyan);">
-        <div class="section-header">
-          <h2>🚀 Archivos Consolidados Listos para Análisis</h2>
+      <!-- Raw Files Catalog Grid -->
+      <div class="glass-card">
+        <div class="card-header flex-wrap">
+          <div>
+            <h2 class="card-title">Inventario de Archivos Fuente del Proyecto (`data/raw/`)</h2>
+            <p class="card-desc">Registro de las 29 fuentes originales auditadas (Planillas, Microdatos, Informes PDF y Presentaciones PPTX)</p>
+          </div>
+          <div class="search-box-wrapper">
+            <input type="text" id="files-search-input" class="search-input" placeholder="Buscar archivo por nombre o tipo...">
+          </div>
         </div>
-        <p style="color: var(--text-muted); margin-bottom: 1.25rem;">
-          Bases de datos consolidadas, diccionarios maestros y planillas de índices generadas por el pipeline:
-        </p>
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
-          <div class="file-card">
-            <div class="file-card-top">
-              <div class="file-icon icon-xlsx">XLS</div>
-              <div class="file-info">
-                <h4>microdata_epec_2025_2026.xlsx</h4>
-                <div class="file-meta">
-                  <span>Excel Multipestaña</span>
-                  <span>1.250 filas x 392 cols</span>
-                </div>
-              </div>
-            </div>
-            <div class="file-actions">
-              <a href="data/processed/microdata_epec_2025_2026.xlsx" class="btn-action" target="_blank">📥 Abrir Excel</a>
-              <button class="btn-copy" onclick="copyPath('data/processed/microdata_epec_2025_2026.xlsx')">📋 Copiar Ruta</button>
-            </div>
-          </div>
 
-          <div class="file-card">
-            <div class="file-card-top">
-              <div class="file-icon icon-xlsx">XLS</div>
-              <div class="file-info">
-                <h4>resumen_indices_satisfaccion.xlsx</h4>
-                <div class="file-meta">
-                  <span>Planilla de Índices</span>
-                  <span>Comparativa 2025-2026</span>
-                </div>
-              </div>
-            </div>
-            <div class="file-actions">
-              <a href="data/processed/resumen_indices_satisfaccion.xlsx" class="btn-action" target="_blank">📥 Abrir Excel</a>
-              <button class="btn-copy" onclick="copyPath('data/processed/resumen_indices_satisfaccion.xlsx')">📋 Copiar Ruta</button>
-            </div>
-          </div>
-
-          <div class="file-card">
-            <div class="file-card-top">
-              <div class="file-icon icon-xlsx">XLS</div>
-              <div class="file-info">
-                <h4>diccionario_unificado.xlsx</h4>
-                <div class="file-meta">
-                  <span>Diccionario Maestro</span>
-                  <span>296 variables mapeadas</span>
-                </div>
-              </div>
-            </div>
-            <div class="file-actions">
-              <a href="data/processed/diccionario_unificado.xlsx" class="btn-action" target="_blank">📥 Abrir Excel</a>
-              <button class="btn-copy" onclick="copyPath('data/processed/diccionario_unificado.xlsx')">📋 Copiar Ruta</button>
-            </div>
-          </div>
-
-          <div class="file-card">
-            <div class="file-card-top">
-              <div class="file-icon icon-csv">CSV</div>
-              <div class="file-info">
-                <h4>catalogo_archivos.csv</h4>
-                <div class="file-meta">
-                  <span>Catálogo de Archivos</span>
-                  <span>32 ítems clasificados</span>
-                </div>
-              </div>
-            </div>
-            <div class="file-actions">
-              <a href="data/processed/catalogo_archivos.csv" class="btn-action" target="_blank">📥 Abrir CSV</a>
-              <button class="btn-copy" onclick="copyPath('data/processed/catalogo_archivos.csv')">📋 Copiar Ruta</button>
-            </div>
-          </div>
+        <div class="files-grid mt-3" id="files-grid-container">
+          <!-- Rendered dynamically -->
         </div>
       </div>
 
-      <!-- All 32 Classified Source Files -->
-      <div class="content-section">
-        <div class="section-header">
-          <h2>📂 Repositorio Completo de Archivos Clasificados (32 Archivos)</h2>
-          <span style="font-size: 0.85rem; color: var(--text-muted);" id="file-count-info">Mostrando 32 archivos</span>
-        </div>
+    </section>
 
-        <div class="controls-bar">
-          <input type="text" id="search-files" class="search-input" placeholder="🔍 Buscar por nombre de archivo, informe o formato...">
-          
-          <select id="filter-file-year" class="filter-select">
-            <option value="ALL">Todos los Años</option>
-            <option value="2025">Año 2025 (18 archivos)</option>
-            <option value="2026">Año 2026 (14 archivos)</option>
-          </select>
-
-          <select id="filter-file-cat" class="filter-select">
-            <option value="ALL">Todas las Categorías</option>
-            <option value="1_Metodologia_Instrumentos">1. Metodología e Instrumentos</option>
-            <option value="2_Operacion_Campo_Muestreo">2. Operación de Campo y Muestreo</option>
-            <option value="3_Diccionarios_Metadatos">3. Diccionarios y Metadatos</option>
-            <option value="4_Microdatos_Frecuencias">4. Microdatos y Frecuencias</option>
-            <option value="5_Informes_Presentaciones">5. Informes Ejecutivos y Benchmarks</option>
-          </select>
-        </div>
-
-        <div class="files-grid" id="files-grid-container">
-          <!-- Dynamically populated -->
-        </div>
-      </div>
+      </main>
     </div>
+  </div>
 
-  </main>
 
-  <!-- Options Modal for Variables -->
-  <div class="modal-overlay" id="options-modal">
-    <div class="modal-box">
+
+  <!-- Image Modal Viewer -->
+  <div class="modal-overlay" id="chart-image-modal">
+    <div class="modal-content">
       <div class="modal-header">
-        <h3 id="modal-title" style="font-size: 1.1rem; color: white;">Opciones de Respuesta</h3>
-        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <h3 class="modal-title" id="modal-chart-title">Gráfico CIER</h3>
+        <button class="modal-close-btn" id="modal-close-btn">&times;</button>
       </div>
-      <div id="modal-body">
-        <!-- Content inserted dynamically -->
+      <div class="modal-body">
+        <img src="" alt="Gráfico Ampliado" id="modal-chart-img" class="modal-img">
+        <div class="modal-caption" id="modal-chart-desc"></div>
       </div>
     </div>
   </div>
 
-  <!-- Toast Copy Notification -->
-  <div class="toast-notice" id="toast-notice">Ruta copiada al portapapeles</div>
-
-  <!-- App Footer -->
-  <footer class="app-footer">
-    <p>⚡ Sistema de Análisis y Clasificación de Encuestas CIER • Empresa Provincial de Energía de Córdoba (EPEC) • 2025 - 2026</p>
-  </footer>
-
-  <!-- Bundled Survey Data -->
+  <!-- Scripts -->
   <script src="data_bundle.js"></script>
-  <!-- Application Logic -->
   <script src="app.js"></script>
 </body>
 </html>
+

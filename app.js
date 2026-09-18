@@ -1,443 +1,346 @@
-// Dashboard Controller Application for CIER Survey
+
+// Dashboard Controller Application for CIER Survey (EPEC 2025 - 2026)
+// Fully synchronized with enriched SSOT and microdata N=1.250
+
+const cierData = (typeof window.CIER_DATA !== 'undefined') ? window.CIER_DATA : {};
+
+let chartsInstances = {};
+let currentScope = 'total'; // 'total', 'capital', 'interior', 'gap'
+let currentDimFilter = 'all';
 
 document.addEventListener('DOMContentLoaded', () => {
   initTabs();
+  initSubTabs();
   initCharts();
+  renderImportanceWeights();
+  renderAreasKPIGrid();
   renderIndicesTable();
-  renderSatisfactionTable();
-  renderBenchmark500kTable();
-  renderDictionaryTable();
+  renderBenchmarkTable();
+  renderPaisesTable();
+  renderDetractorSection();
+  renderDictTable();
+  renderSSOTChecklist();
   renderFilesGrid();
-  initFilters();
+  initFiltersAndSearch();
+  initChartsGuide();
+  initModalEvents();
+  initMatrizScatterChart();
+  renderFocusAttributes();
+  initMicrodataPaginationEvents();
+  renderPrioritiesTable();
 });
 
-// 1. Tab Navigation Controller
+/* ==========================================================================
+   TABS MANAGEMENT & SIDEBAR CONTROLLER
+   ========================================================================== */
 function initTabs() {
-  const tabs = document.querySelectorAll('.nav-tab-btn');
+  const tabBtns = document.querySelectorAll('.sidebar-nav .nav-tab-btn, .nav-tab-btn');
   const panels = document.querySelectorAll('.tab-panel');
+  const breadcrumbEl = document.getElementById('current-section-breadcrumb');
+  const titleEl = document.getElementById('current-section-title');
+  const sidebar = document.getElementById('app-sidebar');
+  const toggleBtn = document.getElementById('sidebar-toggle-btn');
 
-  tabs.forEach(tab => {
-    tab.addEventListener('click', () => {
-      tabs.forEach(t => t.classList.remove('active'));
+  if (toggleBtn && sidebar) {
+    toggleBtn.addEventListener('click', () => {
+      sidebar.classList.toggle('open');
+    });
+  }
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-tab');
+      if (!targetId) return;
+
+      tabBtns.forEach(b => b.classList.remove('active'));
       panels.forEach(p => p.classList.remove('active'));
 
-      tab.classList.add('active');
-      const targetPanel = document.getElementById(tab.getAttribute('data-tab'));
+      btn.classList.add('active');
+      const targetPanel = document.getElementById(targetId);
       if (targetPanel) {
         targetPanel.classList.add('active');
       }
+      if (targetId === 'tab-matriz') {
+        setTimeout(() => {
+          initMatrizScatterChart();
+          renderFocusAttributes();
+          renderPrioritiesTable();
+        }, 50);
+      }
+
+      // Update Topbar Title & Breadcrumb
+      const sectionTitle = btn.getAttribute('data-title') || btn.querySelector('.tab-text')?.textContent || 'Sección';
+      const shortTitle = btn.querySelector('.tab-text')?.textContent || sectionTitle;
+      
+      if (breadcrumbEl) breadcrumbEl.textContent = shortTitle;
+      if (titleEl) titleEl.textContent = sectionTitle;
+
+      // Close sidebar drawer on mobile if open
+      if (sidebar && sidebar.classList.contains('open')) {
+        sidebar.classList.remove('open');
+      }
+
+      // Smooth scroll to top of window
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+
+      // Trigger chart resize on active tab
+      setTimeout(() => {
+        Object.values(chartsInstances).forEach(chart => {
+          if (chart && typeof chart.resize === 'function') {
+            chart.resize();
+          }
+        });
+      }, 80);
     });
   });
 }
 
-// 2. Chart.js Visualizations (Radar Charts & Benchmark Analysis)
-function initCharts() {
-  if (typeof Chart === 'undefined') return;
+function initSubTabs() {
+  const subTabBtns = document.querySelectorAll('.sub-tab-btn');
+  const subTabContents = document.querySelectorAll('.subtab-content');
 
-  // Chart 1: Radar Chart - 5 Areas of Quality (IDAR)
-  const ctxAreas = document.getElementById('chart-areas');
-  if (ctxAreas) {
-    new Chart(ctxAreas.getContext('2d'), {
+  subTabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const targetId = btn.getAttribute('data-subtab');
+      if (!targetId) return;
+
+      subTabBtns.forEach(b => b.classList.remove('active'));
+      subTabContents.forEach(c => c.classList.remove('active'));
+
+      btn.classList.add('active');
+      const targetContent = document.getElementById(targetId);
+      if (targetContent) {
+        targetContent.classList.add('active');
+      }
+      // If switching to matriz interactive subtab, init/resize chart
+      if (targetId === 'subtab-matriz-interactiva') {
+        setTimeout(() => {
+          initMatrizScatterChart();
+        }, 50);
+      }
+
+      setTimeout(() => {
+        if (chartsInstances.radar500k) chartsInstances.radar500k.resize();
+        if (chartsInstances.gap500k) chartsInstances.gap500k.resize();
+      }, 60);
+    });
+  });
+}
+
+/* ==========================================================================
+   CHARTS INITIALIZATION (RADAR & BAR CHARTS)
+   ========================================================================== */
+function initCharts() {
+  const radarOptions = {
+    responsive: true,
+    maintainAspectRatio: false,
+    elements: {
+      line: { tension: 0.15 },
+      point: { radius: 3.5, hoverRadius: 6 }
+    },
+    scales: {
+      r: {
+        min: 40,
+        max: 100,
+        ticks: {
+          stepSize: 10,
+          color: '#94a3b8',
+          backdropColor: 'transparent',
+          font: { size: 10, family: 'Inter' }
+        },
+        grid: {
+          color: 'rgba(255, 255, 255, 0.08)',
+          lineWidth: 1
+        },
+        angleLines: {
+          color: 'rgba(255, 255, 255, 0.12)'
+        },
+        pointLabels: {
+          color: '#f8fafc',
+          font: { size: 11, weight: '600', family: 'Inter' }
+        }
+      }
+    },
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          color: '#cbd5e1',
+          usePointStyle: true,
+          pointStyle: 'circle',
+          padding: 14,
+          font: { size: 11, weight: '600', family: 'Inter' }
+        }
+      },
+      tooltip: {
+        backgroundColor: 'rgba(15, 23, 42, 0.95)',
+        titleColor: '#f8fafc',
+        bodyColor: '#cbd5e1',
+        borderColor: 'rgba(255, 255, 255, 0.1)',
+        borderWidth: 1,
+        padding: 10,
+        callbacks: {
+          label: (context) => ` ${context.dataset.label}: ${context.raw} pts`
+        }
+      }
+    }
+  };
+
+  // 1. Radar 4 Series Global
+  const ctxGlobal = document.getElementById('chart-global-radar');
+  if (ctxGlobal) {
+    chartsInstances.globalRadar = new Chart(ctxGlobal, {
       type: 'radar',
       data: {
         labels: [
-          'Suministro (SE)', 
-          'Factura (FE)', 
-          'Atención (AT)', 
-          'Imagen (IM)', 
+          'Suministro (SE)',
+          'Factura (FE)',
+          'Atención (AT)',
           'Información (IC)',
+          'Imagen (IM)',
           'Resp. Socioamb. (RSA)'
         ],
         datasets: [
           {
-            label: 'Año 2025',
-            data: [75.79, 70.21, 66.63, 56.54, 46.46, 55.34],
-            backgroundColor: 'rgba(59, 130, 246, 0.22)',
-            borderColor: 'rgba(96, 165, 250, 1)',
-            borderWidth: 2,
-            pointBackgroundColor: 'rgba(96, 165, 250, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 4,
-            pointHoverRadius: 7
+            label: 'EPEC 2025',
+            data: [75.79, 70.21, 66.63, 46.46, 56.54, 55.34],
+            borderColor: '#64748b',
+            backgroundColor: 'transparent',
+            borderDash: [4, 4],
+            borderWidth: 1.8,
+            pointBackgroundColor: '#64748b'
           },
-          {
-            label: 'Año 2026',
-            data: [78.48, 70.38, 68.10, 60.53, 52.03, 59.57],
-            backgroundColor: 'rgba(6, 182, 212, 0.32)',
-            borderColor: 'rgba(34, 211, 238, 1)',
-            borderWidth: 2.5,
-            pointBackgroundColor: 'rgba(34, 211, 238, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 5,
-            pointHoverRadius: 8
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        elements: {
-          line: { tension: 0.15 }
-        },
-        plugins: {
-          legend: {
-            position: 'top',
-            labels: {
-              color: '#f3f4f6',
-              font: { family: 'Plus Jakarta Sans', size: 12, weight: '600' },
-              padding: 16,
-              usePointStyle: true,
-              pointStyle: 'circle'
-            }
-          },
-          tooltip: {
-            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-            titleFont: { family: 'Plus Jakarta Sans', size: 13, weight: '700' },
-            bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
-            padding: 12,
-            borderColor: 'rgba(255, 255, 255, 0.1)',
-            borderWidth: 1,
-            callbacks: {
-              label: (item) => ` ${item.dataset.label}: ${item.raw.toFixed(2)} pts`
-            }
-          }
-        },
-        scales: {
-          r: {
-            angleLines: { color: 'rgba(255, 255, 255, 0.12)' },
-            grid: { color: 'rgba(255, 255, 255, 0.08)' },
-            pointLabels: {
-              color: '#e5e7eb',
-              font: { family: 'Plus Jakarta Sans', size: 11.5, weight: '600' },
-              padding: 10
-            },
-            ticks: {
-              color: '#9ca3af',
-              backdropColor: 'transparent',
-              stepSize: 15,
-              font: { size: 10 }
-            },
-            suggestedMin: 35,
-            suggestedMax: 85
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 2: Radar Chart - Global Benchmark Indices
-  const ctxGlobal = document.getElementById('chart-global');
-  if (ctxGlobal) {
-    new Chart(ctxGlobal.getContext('2d'), {
-      type: 'radar',
-      data: {
-        labels: [
-          'Aprobación (IAC)',
-          'ISCAL Global',
-          'Intermedio (IIS)',
-          'Satisfacción Gen. (ISG)',
-          'Excelencia (IECP)',
-          'Insatisfacción (IICP)'
-        ],
-        datasets: [
-          {
-            label: 'Año 2025',
-            data: [75.68, 63.69, 70.24, 61.12, 21.61, 17.66],
-            backgroundColor: 'rgba(139, 92, 246, 0.22)',
-            borderColor: 'rgba(167, 139, 250, 1)',
-            borderWidth: 2,
-            pointBackgroundColor: 'rgba(167, 139, 250, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 4,
-            pointHoverRadius: 7
-          },
-          {
-            label: 'Año 2026',
-            data: [77.60, 65.96, 77.56, 65.60, 27.15, 15.19],
-            backgroundColor: 'rgba(16, 185, 129, 0.32)',
-            borderColor: 'rgba(52, 211, 153, 1)',
-            borderWidth: 2.5,
-            pointBackgroundColor: 'rgba(52, 211, 153, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 5,
-            pointHoverRadius: 8
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        elements: {
-          line: { tension: 0.15 }
-        },
-        plugins: {
-          legend: {
-            position: 'top',
-            labels: {
-              color: '#f3f4f6',
-              font: { family: 'Plus Jakarta Sans', size: 12, weight: '600' },
-              padding: 16,
-              usePointStyle: true,
-              pointStyle: 'circle'
-            }
-          },
-          tooltip: {
-            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-            titleFont: { family: 'Plus Jakarta Sans', size: 13, weight: '700' },
-            bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
-            padding: 12,
-            borderColor: 'rgba(255, 255, 255, 0.1)',
-            borderWidth: 1,
-            callbacks: {
-              label: (item) => ` ${item.dataset.label}: ${item.raw.toFixed(2)} pts`
-            }
-          }
-        },
-        scales: {
-          r: {
-            angleLines: { color: 'rgba(255, 255, 255, 0.12)' },
-            grid: { color: 'rgba(255, 255, 255, 0.08)' },
-            pointLabels: {
-              color: '#e5e7eb',
-              font: { family: 'Plus Jakarta Sans', size: 11.5, weight: '600' },
-              padding: 10
-            },
-            ticks: {
-              color: '#9ca3af',
-              backdropColor: 'transparent',
-              stepSize: 20,
-              font: { size: 10 }
-            },
-            suggestedMin: 0,
-            suggestedMax: 90
-          }
-        }
-      }
-    });
-  }
-
-  // Chart 3: Benchmark Radar Chart - EPEC vs Promedio >500k vs Líder >500k (2026)
-  const ctxRadar500k = document.getElementById('chart-radar-500k');
-  if (ctxRadar500k) {
-    new Chart(ctxRadar500k.getContext('2d'), {
-      type: 'radar',
-      data: {
-        labels: [
-          'Suministro (SE)',
-          'Sin Interrupción',
-          'Sin Variación Voltaje',
-          'Facturación (FE)',
-          'Facilidad Pago',
-          'Atención (AT)',
-          'Calidad Atención',
-          'Información (IC)',
-          'Imagen (IM)',
-          'Medio Ambiente',
-          'Resp. Socioamb. (RSA)',
-          'ISCAL Global'
-        ],
-        datasets: [
           {
             label: 'EPEC 2026',
-            data: [78.48, 85.92, 77.40, 70.38, 89.20, 68.10, 77.63, 52.03, 60.53, 63.46, 59.57, 65.96],
-            backgroundColor: 'rgba(6, 182, 212, 0.35)',
-            borderColor: 'rgba(34, 211, 238, 1)',
-            borderWidth: 2.5,
-            pointBackgroundColor: 'rgba(34, 211, 238, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 5,
-            pointHoverRadius: 8
+            data: [78.48, 70.38, 68.10, 52.03, 60.53, 59.57],
+            borderColor: '#06b6d4',
+            backgroundColor: 'rgba(6, 182, 212, 0.25)',
+            borderWidth: 2.8,
+            pointBackgroundColor: '#06b6d4'
           },
           {
             label: 'Promedio >500k (2026)',
-            data: [77.80, 84.30, 76.20, 72.40, 88.10, 70.50, 78.10, 57.40, 63.80, 63.20, 60.90, 70.15],
-            backgroundColor: 'rgba(59, 130, 246, 0.20)',
-            borderColor: 'rgba(96, 165, 250, 1)',
+            data: [77.80, 72.40, 70.50, 57.40, 63.80, 60.90],
+            borderColor: '#f59e0b',
+            backgroundColor: 'rgba(245, 158, 11, 0.08)',
             borderWidth: 2,
-            pointBackgroundColor: 'rgba(96, 165, 250, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 4,
-            pointHoverRadius: 7
+            pointBackgroundColor: '#f59e0b'
           },
           {
-            label: 'Benchmark Líder >500k (2026)',
-            data: [88.50, 93.40, 87.20, 82.60, 95.80, 83.40, 89.10, 71.30, 79.40, 80.50, 76.80, 83.10],
-            backgroundColor: 'rgba(245, 158, 11, 0.12)',
-            borderColor: 'rgba(251, 191, 36, 1)',
-            borderWidth: 2,
-            borderDash: [5, 5],
-            pointBackgroundColor: 'rgba(251, 191, 36, 1)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1.5,
-            pointRadius: 4,
-            pointHoverRadius: 7
-          },
-          {
-            label: 'EPEC 2025 (Histórico)',
-            data: [75.79, 83.52, 73.40, 70.21, 87.40, 66.63, 75.20, 46.46, 56.54, 56.31, 55.34, 63.69],
-            backgroundColor: 'rgba(139, 92, 246, 0.08)',
-            borderColor: 'rgba(167, 139, 250, 0.7)',
-            borderWidth: 1.5,
-            borderDash: [3, 3],
-            pointBackgroundColor: 'rgba(167, 139, 250, 0.7)',
-            pointBorderColor: '#ffffff',
-            pointBorderWidth: 1,
-            pointRadius: 3,
-            pointHoverRadius: 6
+            label: 'Mejor >500k (2026)',
+            data: [88.50, 82.60, 83.40, 71.30, 79.40, 76.80],
+            borderColor: '#10b981',
+            backgroundColor: 'transparent',
+            borderDash: [2, 2],
+            borderWidth: 1.8,
+            pointBackgroundColor: '#10b981'
           }
         ]
       },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        elements: {
-          line: { tension: 0.15 }
-        },
-        plugins: {
-          legend: {
-            position: 'top',
-            labels: {
-              color: '#f3f4f6',
-              font: { family: 'Plus Jakarta Sans', size: 11.5, weight: '600' },
-              padding: 14,
-              usePointStyle: true,
-              pointStyle: 'circle'
-            }
-          },
-          tooltip: {
-            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-            titleFont: { family: 'Plus Jakarta Sans', size: 13, weight: '700' },
-            bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
-            padding: 12,
-            borderColor: 'rgba(255, 255, 255, 0.1)',
-            borderWidth: 1,
-            callbacks: {
-              label: (item) => ` ${item.dataset.label}: ${item.raw.toFixed(2)} pts`
-            }
-          }
-        },
-        scales: {
-          r: {
-            angleLines: { color: 'rgba(255, 255, 255, 0.12)' },
-            grid: { color: 'rgba(255, 255, 255, 0.08)' },
-            pointLabels: {
-              color: '#e5e7eb',
-              font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' },
-              padding: 8
-            },
-            ticks: {
-              color: '#9ca3af',
-              backdropColor: 'transparent',
-              stepSize: 15,
-              font: { size: 10 }
-            },
-            suggestedMin: 40,
-            suggestedMax: 100
-          }
-        }
-      }
+      options: radarOptions
     });
   }
 
-  // Chart 4: Interannual Gaps Evolution (Bar Chart - EPEC vs Promedio >500k)
-  const ctxGap500k = document.getElementById('chart-gap-500k');
-  if (ctxGap500k) {
-    new Chart(ctxGap500k.getContext('2d'), {
-      type: 'bar',
+  // 2. Radar 500k
+  const ctx500k = document.getElementById('chart-radar-500k');
+  if (ctx500k) {
+    chartsInstances.radar500k = new Chart(ctx500k, {
+      type: 'radar',
       data: {
         labels: [
+          'ISCAL Global',
+          'Aprobación (IAC)',
           'Suministro (SE)',
-          'Facturación (FE)',
+          'Continuidad (Sin corte)',
+          'Tensión (Sin variación)',
+          'Factura (FE)',
           'Atención (AT)',
           'Imagen (IM)',
-          'Información (IC)',
-          'Resp. Socioamb.',
-          'ISCAL Global'
+          'Medio Ambiente',
+          'Información (IC)'
         ],
         datasets: [
           {
-            label: 'EPEC 2025',
-            data: [75.79, 70.21, 66.63, 56.54, 46.46, 55.34, 63.69],
-            backgroundColor: 'rgba(139, 92, 246, 0.7)',
-            borderColor: 'rgba(167, 139, 250, 1)',
-            borderWidth: 1,
-            borderRadius: 4
-          },
-          {
             label: 'EPEC 2026',
-            data: [78.48, 70.38, 68.10, 60.53, 52.03, 59.57, 65.96],
-            backgroundColor: 'rgba(6, 182, 212, 0.85)',
-            borderColor: 'rgba(34, 211, 238, 1)',
-            borderWidth: 1,
-            borderRadius: 4
+            data: [65.96, 77.60, 78.48, 85.92, 77.40, 70.38, 68.10, 60.53, 63.46, 52.03],
+            borderColor: '#06b6d4',
+            backgroundColor: 'rgba(6, 182, 212, 0.25)',
+            borderWidth: 2.5,
+            pointBackgroundColor: '#06b6d4'
           },
           {
-            label: 'Prom. >500k 2025',
-            data: [76.50, 71.80, 69.20, 62.10, 55.80, 58.60, 68.40],
-            backgroundColor: 'rgba(107, 114, 128, 0.55)',
-            borderColor: 'rgba(156, 163, 175, 1)',
-            borderWidth: 1,
-            borderRadius: 4
+            label: 'Promedio >500k (2026)',
+            data: [70.15, 78.50, 77.80, 84.30, 76.20, 72.40, 70.50, 63.80, 63.20, 57.40],
+            borderColor: '#f59e0b',
+            backgroundColor: 'rgba(245, 158, 11, 0.1)',
+            borderWidth: 2,
+            pointBackgroundColor: '#f59e0b'
           },
           {
-            label: 'Prom. >500k 2026',
-            data: [77.80, 72.40, 70.50, 63.80, 57.40, 60.90, 70.15],
-            backgroundColor: 'rgba(59, 130, 246, 0.8)',
-            borderColor: 'rgba(96, 165, 250, 1)',
-            borderWidth: 1,
-            borderRadius: 4
+            label: 'Líder >500k (2026)',
+            data: [83.10, 89.60, 88.50, 93.40, 87.20, 82.60, 83.40, 79.40, 80.50, 71.30],
+            borderColor: '#10b981',
+            backgroundColor: 'transparent',
+            borderDash: [3, 3],
+            borderWidth: 1.8,
+            pointBackgroundColor: '#10b981'
           }
         ]
       },
+      options: radarOptions
+    });
+  }
+
+  // 3. Gap 500k Bar Chart
+  const ctxGap = document.getElementById('chart-gap-500k');
+  if (ctxGap) {
+    const gapLabels = [
+      'Continuidad (+1.62)',
+      'Tensión (+1.20)',
+      'Canales Pago (+1.10)',
+      'Suministro (+0.68)',
+      'Medio Amb. (+0.26)',
+      'Atención (-2.40)',
+      'Factura (-2.02)',
+      'Imagen (-3.27)',
+      'Información (-5.37)',
+      'ISCAL Global (-4.19)'
+    ];
+    const gapValues = [1.62, 1.20, 1.10, 0.68, 0.26, -2.40, -2.02, -3.27, -5.37, -4.19];
+
+    chartsInstances.gap500k = new Chart(ctxGap, {
+      type: 'bar',
+      data: {
+        labels: gapLabels,
+        datasets: [{
+          label: 'Brecha EPEC vs Promedio >500k (Puntos)',
+          data: gapValues,
+          backgroundColor: gapValues.map(v => v >= 0 ? 'rgba(16, 185, 129, 0.75)' : 'rgba(239, 68, 68, 0.75)'),
+          borderColor: gapValues.map(v => v >= 0 ? '#10b981' : '#ef4444'),
+          borderWidth: 1.5,
+          borderRadius: 4
+        }]
+      },
       options: {
+        indexAxis: 'y',
         responsive: true,
         maintainAspectRatio: false,
         plugins: {
-          legend: {
-            position: 'top',
-            labels: {
-              color: '#f3f4f6',
-              font: { family: 'Plus Jakarta Sans', size: 11.5, weight: '600' },
-              padding: 12,
-              usePointStyle: true,
-              pointStyle: 'rectRounded'
-            }
-          },
+          legend: { display: false },
           tooltip: {
-            backgroundColor: 'rgba(15, 23, 42, 0.95)',
-            titleFont: { family: 'Plus Jakarta Sans', size: 13, weight: '700' },
-            bodyFont: { family: 'Plus Jakarta Sans', size: 12 },
-            padding: 12,
-            borderColor: 'rgba(255, 255, 255, 0.1)',
-            borderWidth: 1,
             callbacks: {
-              label: (item) => ` ${item.dataset.label}: ${item.raw.toFixed(2)} pts`
+              label: (context) => ` Brecha: ${context.raw > 0 ? '+' : ''}${context.raw} puntos vs Promedio >500k`
             }
           }
         },
         scales: {
           x: {
-            grid: { color: 'rgba(255, 255, 255, 0.05)' },
-            ticks: {
-              color: '#e5e7eb',
-              font: { family: 'Plus Jakarta Sans', size: 11, weight: '600' }
-            }
+            grid: { color: 'rgba(255,255,255,0.08)' },
+            ticks: { color: '#94a3b8', font: { family: 'Inter', size: 10 } }
           },
           y: {
-            grid: { color: 'rgba(255, 255, 255, 0.08)' },
-            ticks: {
-              color: '#9ca3af',
-              stepSize: 15,
-              font: { size: 10 }
-            },
-            suggestedMin: 35,
-            suggestedMax: 85
+            grid: { display: false },
+            ticks: { color: '#f8fafc', font: { family: 'Inter', size: 11, weight: '500' } }
           }
         }
       }
@@ -445,435 +348,1096 @@ function initCharts() {
   }
 }
 
-// 3. Render Historical Comparative Table (2025 vs 2026)
-let indicesData = (typeof DASHBOARD_DATA !== 'undefined') ? DASHBOARD_DATA.indices_comparativo : [];
+/* ==========================================================================
+   RENDER IMPORTANCE WEIGHTS & AREAS KPI GRID
+   ========================================================================== */
+function renderImportanceWeights() {
+  const container = document.getElementById('importance-weights-container');
+  if (!container) return;
 
-function renderIndicesTable(filtered = null) {
-  const tbody = document.getElementById('tbody-indices');
+  const weights = [
+    { area: 'Suministro de energía', sigla: 'SE', peso: 33.79, color: 'cyan', icon: '⚡' },
+    { area: 'Atención al cliente', sigla: 'AT', peso: 21.45, color: 'blue', icon: '👤' },
+    { area: 'Factura de energía', sigla: 'FE', peso: 18.20, color: 'amber', icon: '📄' },
+    { area: 'Imagen institucional', sigla: 'IM', peso: 14.12, color: 'purple', icon: '🏛️' },
+    { area: 'Resp. Socioambiental', sigla: 'RSA', peso: 7.85, color: 'green', icon: '🌱' },
+    { area: 'Información y comunicación', sigla: 'IC', peso: 4.59, color: 'slate', icon: '📢' }
+  ];
+
+  container.innerHTML = weights.map(w => `
+    <div class="importance-item accent-${w.color}">
+      <div class="importance-header">
+        <span class="importance-name">${w.icon} ${w.area} (${w.sigla})</span>
+        <span class="importance-val">${w.peso.toFixed(2)}%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill fill-${w.color}" style="width: ${w.peso * 2.5}%"></div>
+      </div>
+    </div>
+  `).join('');
+}
+
+function renderAreasKPIGrid() {
+  const container = document.getElementById('areas-kpi-container');
+  if (!container) return;
+
+  const areas = (cierData.satisfaccionAreas) || [];
+  container.innerHTML = areas.map(a => {
+    const isPositive = a.difPuntos >= 0;
+    return `
+      <div class="area-kpi-card">
+        <div class="area-kpi-header">
+          <span class="area-sigla">${a.sigla}</span>
+          <span class="area-badge ${isPositive ? 'badge-up' : 'badge-down'}">${isPositive ? '+' : ''}${a.varIaop.toFixed(2)}% IAOP</span>
+        </div>
+        <h4 class="area-name">${a.area}</h4>
+        <div class="area-score-row">
+          <span class="area-score-curr">${a.indice2026.toFixed(2)}</span>
+          <span class="area-score-prev">vs. ${a.indice2025.toFixed(2)} (2025)</span>
+        </div>
+        <div class="area-footer">
+          <span>Nota: <strong>${a.promedioNotas2026 ? a.promedioNotas2026.toFixed(2) : (a.indice2026/10).toFixed(2)}</strong> / 10</span>
+          <span>Peso CIER: <strong>${a.pesoCIER ? a.pesoCIER.toFixed(2) : '0'}%</strong></span>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+/* ==========================================================================
+   RENDER DETAILED INDICES TABLE WITH SCOPE TOGGLE
+   ========================================================================== */
+function renderIndicesTable() {
+  const tbody = document.getElementById('indices-table-body');
+  const thead = document.getElementById('indices-table-header');
+  if (!tbody || !thead) return;
+
+  const rawIndices = cierData.indices || [];
+  const rawRegional = cierData.regionalData || [];
+  const searchVal = (document.getElementById('indices-search-input')?.value || '').toLowerCase().trim();
+
+  // Determine which dataset and columns to show based on currentScope
+  if (currentScope === 'total') {
+    thead.innerHTML = `
+      <th>Dimensión</th>
+      <th>Sigla</th>
+      <th>Tipo</th>
+      <th>Atributo Canónico</th>
+      <th>Índice 2025</th>
+      <th>Índice 2026</th>
+      <th>Nota Prom.</th>
+      <th>Dif. Puntos</th>
+      <th>Var. IAOP</th>
+    `;
+
+    const filtered = rawIndices.filter(item => {
+      const matchDim = (currentDimFilter === 'all') || (item.area === currentDimFilter);
+      const matchSearch = !searchVal || 
+        item.atributo.toLowerCase().includes(searchVal) || 
+        item.sigla.toLowerCase().includes(searchVal) ||
+        item.area.toLowerCase().includes(searchVal);
+      return matchDim && matchSearch;
+    });
+
+    tbody.innerHTML = filtered.map(item => {
+      const dif = item.difPuntos || (item.indice2026 - item.indice2025);
+      const difClass = dif > 0 ? 'text-green font-semibold' : (dif < 0 ? 'text-red font-semibold' : 'text-slate');
+      const iaopClass = item.varIaop > 0 ? 'badge-pill-green' : (item.varIaop < 0 ? 'badge-pill-red' : 'badge-pill-slate');
+
+      return `
+        <tr>
+          <td><span class="dim-tag">${item.area}</span></td>
+          <td><code class="code-badge">${item.sigla || '-'}</code></td>
+          <td><span class="type-tag">${item.tipo || '-'}</span></td>
+          <td class="font-medium text-slate-100">${item.atributo}</td>
+          <td class="text-right text-slate-400">${item.indice2025 ? item.indice2025.toFixed(2) : '-'}</td>
+          <td class="text-right font-bold text-cyan-400">${item.indice2026 ? item.indice2026.toFixed(2) : '-'}</td>
+          <td class="text-right font-semibold text-slate-200">${item.notaPromedio2026 ? item.notaPromedio2026.toFixed(2) : '-'}</td>
+          <td class="text-right ${difClass}">${dif > 0 ? '+' : ''}${dif.toFixed(2)}</td>
+          <td class="text-right"><span class="${iaopClass}">${item.varIaop > 0 ? '+' : ''}${item.varIaop.toFixed(2)}%</span></td>
+        </tr>
+      `;
+    }).join('');
+
+  } else {
+    // Regional Scope Table
+    thead.innerHTML = `
+      <th>Atributo Canónico</th>
+      <th>Sigla</th>
+      <th>Tipo</th>
+      <th>Capital 2025</th>
+      <th>Capital 2026</th>
+      <th>Interior 2025</th>
+      <th>Interior 2026</th>
+      <th>Brecha Capital vs Interior (2026)</th>
+    `;
+
+    const filteredReg = rawRegional.filter(item => {
+      const matchSearch = !searchVal || 
+        item.atributo.toLowerCase().includes(searchVal) || 
+        item.sigla.toLowerCase().includes(searchVal);
+      return matchSearch;
+    });
+
+    tbody.innerHTML = filteredReg.map(item => {
+      const gap = item.brecha2026 || (item.capital2026 - item.interior2026);
+      const gapClass = gap > 0 ? 'text-cyan-400 font-semibold' : (gap < 0 ? 'text-amber-400 font-semibold' : 'text-slate');
+      const gapLabel = gap > 0 ? `+${gap.toFixed(2)} (Mayor en Capital)` : (gap < 0 ? `${gap.toFixed(2)} (Mayor en Interior)` : '0.00 (Igual)');
+
+      return `
+        <tr>
+          <td class="font-medium text-slate-100">${item.atributo}</td>
+          <td><code class="code-badge">${item.sigla || '-'}</code></td>
+          <td><span class="type-tag">${item.tipo || '-'}</span></td>
+          <td class="text-right text-slate-400">${item.capital2025 ? item.capital2025.toFixed(2) : '-'}</td>
+          <td class="text-right font-bold text-cyan-400">${item.capital2026 ? item.capital2026.toFixed(2) : '-'}</td>
+          <td class="text-right text-slate-400">${item.interior2025 ? item.interior2025.toFixed(2) : '-'}</td>
+          <td class="text-right font-bold text-blue-400">${item.interior2026 ? item.interior2026.toFixed(2) : '-'}</td>
+          <td class="text-right ${gapClass}">${gapLabel}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+}
+
+/* ==========================================================================
+   RENDER BENCHMARK AND INTERNATIONAL PAISES TABLES
+   ========================================================================== */
+function renderBenchmarkTable() {
+  const tbody = document.getElementById('benchmark-table-body');
   if (!tbody) return;
 
-  const list = filtered || indicesData;
-  tbody.innerHTML = '';
+  const bench = cierData.benchmark || [];
+  tbody.innerHTML = bench.map(b => {
+    const gap = (b.epec2026 - b.prom500k2026);
+    const posTag = gap >= 0 
+      ? `<span class="badge-pill-green">🟢 +${gap.toFixed(2)} pts Liderazgo</span>` 
+      : `<span class="badge-pill-amber">🟡 ${gap.toFixed(2)} pts Brecha</span>`;
 
-  const countInfo = document.getElementById('table-count-info');
-  if (countInfo) countInfo.textContent = `Mostrando ${list.length} indicadores`;
-
-  list.forEach(item => {
-    const tr = document.createElement('tr');
-    
-    const diffNum = parseFloat(item.Diferencia_Puntos);
-    let diffClass = 'delta-neutral';
-    let diffSign = '';
-    if (!isNaN(diffNum)) {
-      if (diffNum > 0) { diffClass = 'delta-up'; diffSign = '+'; }
-      else if (diffNum < 0) { diffClass = 'delta-down'; }
-    }
-
-    const isHighlight = item.Sigla === 'ISCAL' || item.Sigla === 'IAC' || item.Tipo_Indice === 'IDAR';
-    if (isHighlight) {
-      tr.style.background = 'rgba(59, 130, 246, 0.06)';
-      tr.style.fontWeight = '600';
-    }
-
-    tr.innerHTML = `
-      <td><span style="color: var(--text-muted);">${item.Area_Dimension || '-'}</span></td>
-      <td>${item.Sigla ? `<span class="sigla-tag">${item.Sigla}</span>` : '-'}</td>
-      <td><span class="badge-tipo">${item.Tipo_Indice || '-'}</span></td>
-      <td><strong style="color: white;">${item.Atributo_Indicador || item.Descripcion || '-'}</strong></td>
-      <td style="color: #93c5fd;">${item.Indice_2025 !== undefined ? item.Indice_2025 : '-'}</td>
-      <td style="color: #38bdf8;"><strong>${item.Indice_2026 !== undefined ? item.Indice_2026 : '-'}</strong></td>
-      <td><span class="kpi-delta ${diffClass}">${diffSign}${item.Diferencia_Puntos}</span></td>
-      <td><span class="kpi-delta ${diffClass}">${item.Variacion_IAOP_Pct}</span></td>
+    return `
+      <tr>
+        <td class="font-semibold text-slate-100">${b.dim}</td>
+        <td class="text-right text-slate-400">${b.epec2025.toFixed(2)}</td>
+        <td class="text-right font-bold text-cyan-400">${b.epec2026.toFixed(2)}</td>
+        <td class="text-right text-slate-400">${b.prom500k2025.toFixed(2)}</td>
+        <td class="text-right font-semibold text-amber-400">${b.prom500k2026.toFixed(2)}</td>
+        <td class="text-right text-slate-300">${b.cierTotal2026 ? b.cierTotal2026.toFixed(2) : '-'}</td>
+        <td class="text-right font-bold text-green-400">${b.lider500k2026.toFixed(2)}</td>
+        <td class="text-center">${posTag}</td>
+      </tr>
     `;
-    tbody.appendChild(tr);
-  });
+  }).join('');
 }
 
-// 4. Render Satisfaction Detail Table (2026)
-function renderSatisfactionTable() {
-  const tbody = document.getElementById('tbody-sat-detail');
-  if (!tbody || typeof DASHBOARD_DATA === 'undefined') return;
-
-  tbody.innerHTML = '';
-  const list = DASHBOARD_DATA.indices_satisfaccion || [];
-
-  list.forEach(item => {
-    const tr = document.createElement('tr');
-    const idx = parseFloat(item.Indice_Satisfaccion_100);
-    
-    let badgeHtml = '';
-    if (idx >= 75) {
-      badgeHtml = `<span class="badge badge-emerald">Excelente (${idx})</span>`;
-    } else if (idx >= 65) {
-      badgeHtml = `<span class="badge badge-cyan">Bueno (${idx})</span>`;
-    } else if (idx >= 50) {
-      badgeHtml = `<span class="badge badge-blue">Aceptable (${idx})</span>`;
-    } else {
-      badgeHtml = `<span class="badge badge-purple" style="background: rgba(244, 63, 94, 0.15); color: #fb7185; border-color: rgba(244, 63, 94, 0.3);">Oportunidad Mejora (${idx})</span>`;
-    }
-
-    tr.innerHTML = `
-      <td><span style="color: var(--text-muted);">${item.Area_Dimension || '-'}</span></td>
-      <td>${item.Sigla ? `<span class="sigla-tag">${item.Sigla}</span>` : '-'}</td>
-      <td><strong>${item.Atributo_Evaluado || item.Atributo || '-'}</strong></td>
-      <td style="color: #facc15; font-weight: 700;">★ ${item.Nota_Promedio_1_10 || '-'} / 10</td>
-      <td><strong style="color: white;">${item.Indice_Satisfaccion_100 || '-'}</strong></td>
-      <td>${badgeHtml}</td>
-    `;
-    tbody.appendChild(tr);
-  });
-}
-
-// 5. Render Benchmark >500k Customers Table
-let benchData = (typeof DASHBOARD_DATA !== 'undefined' && DASHBOARD_DATA.benchmark_500k) ? DASHBOARD_DATA.benchmark_500k : [];
-
-function renderBenchmark500kTable(filtered = null) {
-  const tbody = document.getElementById('tbody-benchmark-500k');
+function renderPaisesTable() {
+  const tbody = document.getElementById('paises-table-body');
   if (!tbody) return;
 
-  const list = filtered || benchData;
-  tbody.innerHTML = '';
+  const paises = cierData.internationalData || [];
+  tbody.innerHTML = paises.map(p => {
+    const isEpec = p.destacado && p.pais.includes('EPEC');
+    const rowClass = isEpec ? 'highlight-row-cyan' : (p.destacado ? 'highlight-row-slate' : '');
 
-  const countInfo = document.getElementById('bench-count-info');
-  if (countInfo) countInfo.textContent = `Mostrando ${list.length} indicadores benchmark`;
-
-  list.forEach(item => {
-    const tr = document.createElement('tr');
-
-    const epec26 = parseFloat(item.epec_2026);
-    const avg500k26 = parseFloat(item.avg_500k_2026);
-    const isEpecAhead = !isNaN(epec26) && !isNaN(avg500k26) && (epec26 >= avg500k26);
-
-    if (isEpecAhead && item.sigla !== 'IICP') {
-      tr.style.background = 'rgba(16, 185, 129, 0.05)';
-    }
-
-    let statusBadge = '';
-    if (item.estado.includes('Líder') || item.estado.includes('Fortaleza')) {
-      statusBadge = `<span class="badge badge-emerald">🟢 ${item.estado}</span>`;
-    } else if (item.estado.includes('Crecimiento') || item.estado.includes('Evolución') || item.estado.includes('Aceptable')) {
-      statusBadge = `<span class="badge badge-cyan">🟡 ${item.estado}</span>`;
-    } else if (item.estado.includes('Oportunidad')) {
-      statusBadge = `<span class="badge badge-purple" style="background: rgba(244, 63, 94, 0.15); color: #fb7185; border-color: rgba(244, 63, 94, 0.3);">🔴 ${item.estado}</span>`;
-    } else {
-      statusBadge = `<span class="badge badge-blue">🔵 ${item.estado}</span>`;
-    }
-
-    const iaopStr = item.epec_iaop || '-';
-    const isIaopPositive = iaopStr.startsWith('+');
-    const iaopClass = isIaopPositive ? 'delta-up' : (iaopStr.startsWith('-') ? (item.sigla === 'IICP' ? 'delta-up' : 'delta-down') : 'delta-neutral');
-
-    tr.innerHTML = `
-      <td><strong style="color: white;">${item.area}</strong></td>
-      <td>${item.sigla ? `<span class="sigla-tag">${item.sigla}</span>` : '-'}</td>
-      <td><span class="badge-tipo">${item.tipo || '-'}</span></td>
-      <td style="color: #93c5fd;">${item.epec_2025 !== undefined ? item.epec_2025 : '-'}</td>
-      <td style="color: ${isEpecAhead ? '#34d399' : '#38bdf8'}; font-weight: 700;">${item.epec_2026 !== undefined ? item.epec_2026 : '-'}</td>
-      <td><span class="kpi-delta ${iaopClass}">${iaopStr}</span></td>
-      <td style="color: #9ca3af;">${item.avg_500k_2025 !== undefined ? item.avg_500k_2025 : '-'}</td>
-      <td style="color: #e5e7eb; font-weight: 600;">${item.avg_500k_2026 !== undefined ? item.avg_500k_2026 : '-'}</td>
-      <td style="color: #9ca3af;">${item.cier_total_2026 !== undefined ? item.cier_total_2026 : '-'}</td>
-      <td style="color: #facc15; font-weight: 700;">★ ${item.benchmark_500k_2026 !== undefined ? item.benchmark_500k_2026 : '-'}</td>
-      <td>
-        <div>${statusBadge}</div>
-        <div style="font-size: 0.76rem; color: var(--text-muted); margin-top: 0.25rem;">${item.posicion_relativa || ''}</div>
-      </td>
+    return `
+      <tr class="${rowClass}">
+        <td class="font-bold ${isEpec ? 'text-cyan-400' : 'text-slate-100'}">${p.pais}</td>
+        <td><span class="type-tag">${p.tipo}</span></td>
+        <td class="text-right font-bold">${p.iscal.toFixed(2)}</td>
+        <td class="text-right font-semibold">${p.iac.toFixed(2)}</td>
+        <td class="text-right">${p.se.toFixed(2)}</td>
+        <td class="text-right">${p.at.toFixed(2)}</td>
+        <td class="text-right">${p.fe.toFixed(2)}</td>
+        <td class="text-right">${p.im.toFixed(2)}</td>
+      </tr>
     `;
-    tbody.appendChild(tr);
-  });
+  }).join('');
 }
 
-// 6. Render Dictionary Table
-let dictData = (typeof DASHBOARD_DATA !== 'undefined') ? DASHBOARD_DATA.diccionario : [];
+/* ==========================================================================
+   RENDER DETRACTOR SECTION (N=1.250 MICRODATA PROFILE)
+   ========================================================================== */
+function renderDetractorSection() {
+  const prof = cierData.detractorProfile;
+  if (!prof) return;
 
-function renderDictionaryTable(filtered = null) {
-  const tbody = document.getElementById('tbody-dict');
+  // 1. Age Bars
+  const ageContainer = document.getElementById('age-bars-container');
+  if (ageContainer && prof.ageDistribution) {
+    ageContainer.innerHTML = prof.ageDistribution.map(a => `
+      <div class="demographic-item">
+        <div class="demographic-lbl-row">
+          <span>${a.range}</span>
+          <span class="font-bold text-cyan-400">${a.detractors.toFixed(1)}%</span>
+        </div>
+        <div class="progress-bar-bg">
+          <div class="progress-bar-fill fill-cyan" style="width: ${a.detractors * 2.5}%"></div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // 2. Causal Factors
+  const causalContainer = document.getElementById('causal-factors-container');
+  if (causalContainer && prof.causalFactors) {
+    causalContainer.innerHTML = prof.causalFactors.map(c => `
+      <div class="glass-card accent-card">
+        <div class="causal-icon-header">
+          <span class="causal-icon">${c.icono}</span>
+          <h4 class="causal-title">${c.factor}</h4>
+        </div>
+        <p class="causal-desc">${c.descripcion}</p>
+      </div>
+    `).join('');
+  }
+}
+
+/* ==========================================================================
+   RENDER DICTIONARY, SSOT CHECKLIST, AND RAW FILES GRID
+   ========================================================================== */
+function renderDictTable() {
+  const tbody = document.getElementById('dict-table-body');
   if (!tbody) return;
 
-  const list = filtered || dictData;
-  tbody.innerHTML = '';
+  const dict = cierData.dictionary || [];
+  const searchVal = (document.getElementById('dict-search-input')?.value || '').toLowerCase().trim();
 
-  const countInfo = document.getElementById('dict-count-info');
-  if (countInfo) countInfo.textContent = `Mostrando ${list.length} variables`;
-
-  list.forEach(item => {
-    const tr = document.createElement('tr');
-    
-    let statusBadge = '<span class="badge badge-blue">Presente en ambos</span>';
-    if (item.Estado_Comparativo === 'Solo 2025') {
-      statusBadge = '<span class="badge badge-purple">Solo 2025</span>';
-    } else if (item.Estado_Comparativo && item.Estado_Comparativo.includes('Nueva')) {
-      statusBadge = '<span class="badge badge-emerald">Nueva en 2026</span>';
-    }
-
-    const hasOptions = item.Opciones_2026 !== '{}' || item.Opciones_2025 !== '{}';
-    const optBtn = hasOptions ? 
-      `<button class="btn-action" style="padding: 0.25rem 0.6rem; font-size: 0.75rem;" onclick="showOptionsModal('${item.Variable}')">Ver Opciones</button>` : 
-      '<span style="color: var(--text-muted); font-size: 0.8rem;">Texto / Escala Libre</span>';
-
-    tr.innerHTML = `
-      <td><span class="sigla-tag" style="color: #67e8f9;">${item.Variable}</span></td>
-      <td><span style="font-size: 0.82rem; color: var(--text-muted);">${formatDimensionName(item.Dimension_Tematica)}</span></td>
-      <td><strong style="color: #e5e7eb;">${item.Descripcion_Consolidada || item.Descripcion_2026 || item.Descripcion_2025 || '-'}</strong></td>
-      <td>${statusBadge}</td>
-      <td>${optBtn}</td>
-    `;
-    tbody.appendChild(tr);
+  const filtered = dict.filter(d => {
+    if (!searchVal) return true;
+    const v = (d.variable || d.Variable || d.codigo || '').toLowerCase();
+    const dim = (d.dimension || d.Dimension_Tematica || '').toLowerCase();
+    const n = (d.nombre || d.Atributo || d.definicion || '').toLowerCase();
+    const e = (d.escala || d.calculo || d.Escala || d.Descripcion || '').toLowerCase();
+    return v.includes(searchVal) || dim.includes(searchVal) || n.includes(searchVal) || e.includes(searchVal);
   });
+
+  tbody.innerHTML = filtered.map(d => {
+    const v = d.variable || d.Variable || d.codigo || '-';
+    const dim = d.dimension || d.Dimension_Tematica || '-';
+    const n = d.nombre || d.Atributo || d.definicion || '-';
+    const t = d.tipo || d.Estado_Comparativo || 'Estándar CIER';
+    const e = d.escala || d.calculo || d.Escala || d.Descripcion || '-';
+
+    return `
+      <tr>
+        <td><code class="code-badge font-bold">${v}</code></td>
+        <td><span class="dim-tag">${dim}</span></td>
+        <td class="font-semibold text-slate-100">${n}</td>
+        <td><span class="type-tag">${t}</span></td>
+        <td class="text-slate-300 text-sm">${e}</td>
+      </tr>
+    `;
+  }).join('');
 }
 
-function formatDimensionName(name) {
-  if (!name) return '-';
-  return name.replace(/^\d+_/, '').replace(/_/g, ' ');
+function renderSSOTChecklist() {
+  const tbody = document.getElementById('ssot-checklist-tbody');
+  if (!tbody) return;
+
+  const list = cierData.ssotChecklist || [];
+  tbody.innerHTML = list.map(item => `
+    <tr>
+      <td class="font-semibold text-slate-100">${item.area}</td>
+      <td><code class="text-cyan-400">${item.archivo}</code></td>
+      <td class="text-slate-300 text-sm">${item.fuente}</td>
+      <td><span class="badge-pill-green">✔ ${item.estado}</span></td>
+      <td class="font-medium text-green-400">${item.coincidencia}</td>
+    </tr>
+  `).join('');
 }
 
-// 6. Render File Explorer Grid
-let filesData = (typeof DASHBOARD_DATA !== 'undefined') ? DASHBOARD_DATA.catalogo_archivos : [];
-
-function renderFilesGrid(filtered = null) {
+function renderFilesGrid() {
   const container = document.getElementById('files-grid-container');
   if (!container) return;
 
-  const list = filtered || filesData;
-  container.innerHTML = '';
+  const files = cierData.filesCatalog || [];
+  const searchVal = (document.getElementById('files-search-input')?.value || '').toLowerCase().trim();
 
-  const countInfo = document.getElementById('file-count-info');
-  if (countInfo) countInfo.textContent = `Mostrando ${list.length} archivos`;
+  const filtered = files.filter(f => {
+    if (!searchVal) return true;
+    return (f.archivo && f.archivo.toLowerCase().includes(searchVal)) ||
+           (f.tipo && f.tipo.toLowerCase().includes(searchVal)) ||
+           (f.descripcion && f.descripcion.toLowerCase().includes(searchVal));
+  });
 
-  list.forEach(item => {
-    const ext = (item.file_extension || '').replace('.', '').toLowerCase();
-    let iconClass = 'icon-xlsx';
-    let iconText = 'XLS';
+  container.innerHTML = filtered.map(f => {
+    const ext = f.extension ? f.extension.toUpperCase() : 'DOC';
+    const icon = ext === 'PDF' ? '📄' : (ext.includes('XLS') ? '📊' : (ext.includes('PPT') ? '📽️' : '📁'));
 
-    if (ext === 'pdf') { iconClass = 'icon-pdf'; iconText = 'PDF'; }
-    else if (ext === 'pptx' || ext === 'ppt') { iconClass = 'icon-pptx'; iconText = 'PPT'; }
-    else if (ext === 'csv') { iconClass = 'icon-csv'; iconText = 'CSV'; }
-    else if (ext === 'json') { iconClass = 'icon-json'; iconText = 'JSON'; }
-
-    const card = document.createElement('div');
-    card.className = 'file-card';
-    
-    // Relative link to local extracted file
-    const fileRelPath = `data/classified/${item.year}/${item.category}/${item.file_name}`;
-
-    card.innerHTML = `
-      <div class="file-card-top">
-        <div class="file-icon ${iconClass}">${iconText}</div>
-        <div class="file-info">
-          <h4>${item.file_name}</h4>
-          <div class="file-meta">
-            <span class="badge ${item.year === 2026 ? 'badge-cyan' : 'badge-blue'}">${item.year}</span>
-            <span>${item.size_kb} KB</span>
-            <span>${item.modified_date || ''}</span>
-          </div>
+    return `
+      <div class="file-card">
+        <div class="file-card-top">
+          <span class="file-icon">${icon}</span>
+          <span class="file-ext">${ext}</span>
         </div>
-      </div>
-      <div style="font-size: 0.76rem; color: var(--text-muted); margin-bottom: 0.75rem;">
-        📂 ${formatDimensionName(item.category)}
-      </div>
-      <div class="file-actions">
-        <a href="${fileRelPath}" class="btn-action" target="_blank">📥 Abrir Archivo</a>
-        <button class="btn-copy" onclick="copyPath('${fileRelPath}')">📋 Copiar</button>
+        <h4 class="file-name" title="${f.archivo}">${f.archivo}</h4>
+        <div class="file-meta-row">
+          <span>Año: <strong>${f.anio || '2026'}</strong></span>
+          <span>Tamaño: <strong>${f.tamano_mb ? f.tamano_mb.toFixed(2) + ' MB' : '-'}</strong></span>
+        </div>
+        <p class="file-desc">${f.descripcion || 'Documento oficial del relevamiento CIER.'}</p>
       </div>
     `;
-    container.appendChild(card);
+  }).join('');
+}
+
+/* ==========================================================================
+   CHARTS GUIDE (ORIGINAL CROPS MODAL VIEWER)
+   ========================================================================== */
+function initChartsGuide() {
+  const container = document.getElementById('charts-guide-grid-container');
+  const select = document.getElementById('guide-thematic-select');
+  if (!container) return;
+
+  const charts = cierData.guideCharts || [];
+
+  function filterAndRender() {
+    const selectedAxis = select ? select.value : 'all';
+    const filtered = charts.filter(c => {
+      if (selectedAxis === 'all') return true;
+      return (c.eje_id === selectedAxis) || (c.thematicAxis === selectedAxis);
+    });
+
+    if (filtered.length === 0) {
+      container.innerHTML = `
+        <div class="glass-card" style="grid-column: 1/-1; text-align: center; padding: 2rem;">
+          <p class="text-slate-300">No se encontraron gráficos para este eje temático seleccionado.</p>
+        </div>
+      `;
+      return;
+    }
+
+    container.innerHTML = filtered.map(c => {
+      const imgPath = c.imagen_recorte || c.imageCropPath || 'assets/crops/crop_iscal_global.png';
+      const title = c.titulo || c.title || 'Gráfico CIER';
+      const axisName = c.eje_nombre || c.axisTitle || 'Eje CIER';
+      const ref = c.referencia || c.reportSource || 'Informe Oficial CIER';
+      const infName = c.informe_nombre || 'Informe CIER';
+      const desc = c.diagnostico_epec || c.como_leer || c.fullDescription || '';
+
+      const safeTitle = (title || '').replace(/"/g, '&quot;');
+      const safeDesc = (desc || '').replace(/"/g, '&quot;');
+
+      return `
+        <div class="chart-crop-card" data-img="${imgPath}" data-title="${safeTitle}" data-desc="${safeDesc}">
+          <div class="crop-img-wrapper">
+            <img src="${imgPath}" alt="${safeTitle}" loading="lazy" class="crop-thumb-img" onerror="this.src='assets/crops/crop_iscal_global.png'">
+            <div class="crop-overlay">
+              <span class="crop-zoom-btn">🔍 Ampliar Gráfico</span>
+            </div>
+          </div>
+          <div class="crop-info">
+            <span class="crop-axis-tag">${axisName}</span>
+            <h4 class="crop-title">${title}</h4>
+            <p class="crop-desc">${desc ? desc.slice(0, 140) + '...' : ''}</p>
+            <div class="crop-meta-row">
+              <span>Informe: <strong>${infName}</strong></span>
+              <span>Ref: <strong>${ref}</strong></span>
+            </div>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    // Attach click events for zoom modal
+    container.querySelectorAll('.chart-crop-card').forEach(card => {
+      card.addEventListener('click', () => {
+        const imgSrc = card.getAttribute('data-img');
+        const title = card.getAttribute('data-title');
+        const desc = card.getAttribute('data-desc');
+        openModal(imgSrc, title, desc);
+      });
+    });
+  }
+
+  if (select) {
+    select.addEventListener('change', filterAndRender);
+  }
+  filterAndRender();
+}
+
+/* ==========================================================================
+   MODAL EVENTS & FILTERS SEARCH
+   ========================================================================== */
+function openModal(imgSrc, title, desc) {
+  const modal = document.getElementById('chart-image-modal');
+  const modalImg = document.getElementById('modal-chart-img') || document.getElementById('modal-img');
+  const modalTitle = document.getElementById('modal-chart-title') || document.getElementById('modal-title');
+  const modalDesc = document.getElementById('modal-chart-desc') || document.getElementById('modal-desc');
+
+  if (modal && modalImg) {
+    modalImg.src = imgSrc;
+    if (modalTitle) modalTitle.textContent = title || 'Gráfico Oficial CIER';
+    if (modalDesc) modalDesc.textContent = desc || 'Recorte original en alta definición del Informe CIER 2026';
+    modal.classList.add('active');
+  }
+}
+
+window.openModal = openModal;
+window.openImageModal = openModal;
+
+function initModalEvents() {
+  const modal = document.getElementById('chart-image-modal');
+  const closeBtn = document.getElementById('modal-close-btn');
+
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      if (modal) modal.classList.remove('active');
+    });
+  }
+
+  if (modal) {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('active');
+      }
+    });
+  }
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal && modal.classList.contains('active')) {
+      modal.classList.remove('active');
+    }
   });
 }
 
-// 7. Filtering and Search Logic
-function initFilters() {
-  // Indices Search & Filter
-  const searchIndices = document.getElementById('search-indices');
-  const filterArea = document.getElementById('filter-area');
-  const filterTipo = document.getElementById('filter-tipo');
+function initFiltersAndSearch() {
+  // Dimension Pills
+  const pillsContainer = document.getElementById('dimension-filters-container');
+  const dims = [
+    { id: 'all', label: 'Todas las Dimensiones (66)' },
+    { id: 'Suministro de energía', label: 'Suministro (SE)' },
+    { id: 'Información y comunicación', label: 'Información (IC)' },
+    { id: 'Factura de energía', label: 'Factura (FE)' },
+    { id: 'Atención al cliente', label: 'Atención (AT)' },
+    { id: 'Imagen institucional', label: 'Imagen (IM)' },
+    { id: 'Responsabilidad socioambiental', label: 'Resp. Socioambiental (RSA)' },
+    { id: 'Alumbrado público', label: 'Alumbrado Público (AP)' },
+    { id: 'Tarifa y Precio', label: 'Tarifa / Precio (PR)' },
+    { id: 'Índices Globales', label: 'Índices Globales (IAC/ISG/ISCAL)' }
+  ];
 
-  function applyIndicesFilter() {
-    const q = (searchIndices ? searchIndices.value : '').toLowerCase();
-    const area = filterArea ? filterArea.value : 'ALL';
-    const tipo = filterTipo ? filterTipo.value : 'ALL';
+  if (pillsContainer) {
+    pillsContainer.innerHTML = dims.map(d => `
+      <button class="dim-pill ${d.id === 'all' ? 'active' : ''}" data-dim="${d.id}">${d.label}</button>
+    `).join('');
 
-    const filtered = indicesData.filter(item => {
-      const matchQ = !q || 
-        (item.Atributo_Indicador && item.Atributo_Indicador.toLowerCase().includes(q)) ||
-        (item.Descripcion && item.Descripcion.toLowerCase().includes(q)) ||
-        (item.Sigla && item.Sigla.toLowerCase().includes(q)) ||
-        (item.Area_Dimension && item.Area_Dimension.toLowerCase().includes(q));
-
-      const matchArea = area === 'ALL' || (item.Area_Dimension && item.Area_Dimension.includes(area));
-      const matchTipo = tipo === 'ALL' || item.Tipo_Indice === tipo;
-
-      return matchQ && matchArea && matchTipo;
+    pillsContainer.querySelectorAll('.dim-pill').forEach(pill => {
+      pill.addEventListener('click', () => {
+        pillsContainer.querySelectorAll('.dim-pill').forEach(p => p.classList.remove('active'));
+        pill.classList.add('active');
+        currentDimFilter = pill.getAttribute('data-dim');
+        renderIndicesTable();
+      });
     });
-
-    renderIndicesTable(filtered);
   }
 
-  if (searchIndices) searchIndices.addEventListener('input', applyIndicesFilter);
-  if (filterArea) filterArea.addEventListener('change', applyIndicesFilter);
-  if (filterTipo) filterTipo.addEventListener('change', applyIndicesFilter);
-
-  // Dictionary Search & Filter
-  const searchDict = document.getElementById('search-dict');
-  const filterDictDim = document.getElementById('filter-dict-dim');
-  const filterDictStatus = document.getElementById('filter-dict-status');
-
-  function applyDictFilter() {
-    const q = (searchDict ? searchDict.value : '').toLowerCase();
-    const dim = filterDictDim ? filterDictDim.value : 'ALL';
-    const status = filterDictStatus ? filterDictStatus.value : 'ALL';
-
-    const filtered = dictData.filter(item => {
-      const matchQ = !q || 
-        (item.Variable && item.Variable.toLowerCase().includes(q)) ||
-        (item.Descripcion_Consolidada && item.Descripcion_Consolidada.toLowerCase().includes(q));
-
-      const matchDim = dim === 'ALL' || item.Dimension_Tematica === dim;
-      const matchStatus = status === 'ALL' || item.Estado_Comparativo === status;
-
-      return matchQ && matchDim && matchStatus;
+  // Scope Toggle Buttons
+  document.querySelectorAll('.scope-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.scope-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentScope = btn.getAttribute('data-scope');
+      renderIndicesTable();
     });
+  });
 
-    renderDictionaryTable(filtered);
+  // Search Inputs
+  const idxSearch = document.getElementById('indices-search-input');
+  if (idxSearch) {
+    idxSearch.addEventListener('input', () => renderIndicesTable());
   }
 
-  if (searchDict) searchDict.addEventListener('input', applyDictFilter);
-  if (filterDictDim) filterDictDim.addEventListener('change', applyDictFilter);
-  if (filterDictStatus) filterDictStatus.addEventListener('change', applyDictFilter);
-
-  // Benchmark >500k Search & Filter
-  const searchBench = document.getElementById('search-bench');
-  const filterBenchTipo = document.getElementById('filter-bench-tipo');
-  const filterBenchStatus = document.getElementById('filter-bench-status');
-
-  function applyBenchFilter() {
-    const q = (searchBench ? searchBench.value : '').toLowerCase();
-    const tipo = filterBenchTipo ? filterBenchTipo.value : 'ALL';
-    const status = filterBenchStatus ? filterBenchStatus.value : 'ALL';
-
-    const filtered = benchData.filter(item => {
-      const matchQ = !q || 
-        (item.area && item.area.toLowerCase().includes(q)) ||
-        (item.sigla && item.sigla.toLowerCase().includes(q)) ||
-        (item.posicion_relativa && item.posicion_relativa.toLowerCase().includes(q));
-
-      const matchTipo = tipo === 'ALL' || item.tipo === tipo;
-      let matchStatus = true;
-      if (status === 'Líder') {
-        matchStatus = item.estado.includes('Líder') || item.estado.includes('Fortaleza');
-      } else if (status === 'Crecimiento') {
-        matchStatus = item.estado.includes('Crecimiento') || item.estado.includes('Evolución') || item.estado.includes('Aceptable');
-      } else if (status === 'Oportunidad') {
-        matchStatus = item.estado.includes('Oportunidad');
-      }
-
-      return matchQ && matchTipo && matchStatus;
-    });
-
-    renderBenchmark500kTable(filtered);
+  const dictSearch = document.getElementById('dict-search-input');
+  if (dictSearch) {
+    dictSearch.addEventListener('input', () => renderDictTable());
   }
 
-  if (searchBench) searchBench.addEventListener('input', applyBenchFilter);
-  if (filterBenchTipo) filterBenchTipo.addEventListener('change', applyBenchFilter);
-  if (filterBenchStatus) filterBenchStatus.addEventListener('change', applyBenchFilter);
-
-  // File Explorer Search & Filter
-  const searchFiles = document.getElementById('search-files');
-  const filterFileYear = document.getElementById('filter-file-year');
-  const filterFileCat = document.getElementById('filter-file-cat');
-
-  function applyFilesFilter() {
-    const q = (searchFiles ? searchFiles.value : '').toLowerCase();
-    const year = filterFileYear ? filterFileYear.value : 'ALL';
-    const cat = filterFileCat ? filterFileCat.value : 'ALL';
-
-    const filtered = filesData.filter(item => {
-      const matchQ = !q || (item.file_name && item.file_name.toLowerCase().includes(q));
-      const matchYear = year === 'ALL' || String(item.year) === year;
-      const matchCat = cat === 'ALL' || item.category === cat;
-
-      return matchQ && matchYear && matchCat;
-    });
-
-    renderFilesGrid(filtered);
+  const filesSearch = document.getElementById('files-search-input');
+  if (filesSearch) {
+    filesSearch.addEventListener('input', () => renderFilesGrid());
   }
 
-  if (searchFiles) searchFiles.addEventListener('input', applyFilesFilter);
-  if (filterFileYear) filterFileYear.addEventListener('change', applyFilesFilter);
-  if (filterFileCat) filterFileCat.addEventListener('change', applyFilesFilter);
+  const prioSearch = document.getElementById('priorities-search-input');
+  if (prioSearch) {
+    prioSearch.addEventListener('input', () => renderPrioritiesTable());
+  }
+}
+/* ==========================================================================
+   SECTION 16: MATRIZ CONJUNTA DE ACCIONES DE MEJORA Y PRIORIDADES
+   ========================================================================== */
+
+let currentMicrodataPage = 1;
+let currentMicrodataQuadrant = 'all';
+let currentMicrodataQuery = '';
+let selectedAttributes = new Set(); // Stores selected siglas e.g. 'FE3', 'IC1'
+
+function toggleSelectedAttribute(sigla, scrollIntoView = true) {
+  if (selectedAttributes.has(sigla)) {
+    selectedAttributes.delete(sigla);
+  } else {
+    selectedAttributes.add(sigla);
+  }
+  updateSelectionState(scrollIntoView);
 }
 
-// 8. Options Modal Display
-function showOptionsModal(varName) {
-  const item = dictData.find(d => d.Variable === varName);
-  if (!item) return;
+window.toggleSelectedAttribute = toggleSelectedAttribute;
 
-  const modal = document.getElementById('options-modal');
-  const title = document.getElementById('modal-title');
-  const body = document.getElementById('modal-body');
+function clearSelectedAttributes() {
+  selectedAttributes.clear();
+  currentMicrodataPage = 1;
+  updateSelectionState(false);
+}
 
-  title.textContent = `Variable: ${item.Variable} - ${item.Descripcion_Consolidada || ''}`;
-  
-  let opts26 = {};
-  let opts25 = {};
-  try { opts26 = JSON.parse(item.Opciones_2026 || '{}'); } catch(e){}
-  try { opts25 = JSON.parse(item.Opciones_2025 || '{}'); } catch(e){}
+window.clearSelectedAttributes = clearSelectedAttributes;
 
-  const activeOpts = Object.keys(opts26).length > 0 ? opts26 : opts25;
+function selectSingleAttribute(sigla, scrollIntoView = true) {
+  selectedAttributes.clear();
+  selectedAttributes.add(sigla);
+  updateSelectionState(scrollIntoView);
+}
 
-  let html = `
-    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
-      Dimensión: <strong style="color: var(--accent-cyan);">${formatDimensionName(item.Dimension_Tematica)}</strong>
-    </p>
-    <div class="table-responsive">
-      <table class="modern-table">
-        <thead>
-          <tr>
-            <th style="width: 25%;">Código</th>
-            <th>Significado / Etiqueta de Respuesta</th>
-          </tr>
-        </thead>
-        <tbody>
-  `;
+window.selectSingleAttribute = selectSingleAttribute;
 
-  if (Object.keys(activeOpts).length === 0) {
-    html += `<tr><td colspan="2" style="text-align: center; color: var(--text-muted);">Sin códigos fijos (Variable numérica o de escala abierta).</td></tr>`;
+function updateSelectionState(scrollIntoView = true) {
+  // 1. Update Chart without recreating
+  if (chartsInstances.matriz) {
+    chartsInstances.matriz.update();
+  }
+
+  // 2. Re-render Microdata Cards
+  renderFocusAttributes();
+
+  // 3. Re-render Priorities Table
+  renderPrioritiesTable();
+
+  // 4. Scroll smoothly if requested
+  if (scrollIntoView && selectedAttributes.size > 0) {
+    const container = document.getElementById('focus-attributes-container');
+    if (container) {
+      const yOffset = -100;
+      const y = container.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+  }
+}
+
+function initMatrizScatterChart() {
+  const ctx = document.getElementById('chart-matriz-prioridades');
+  if (!ctx) return;
+
+  const data = cierData.matrizAccionesMejora || [];
+  if (!data.length) return;
+
+  const focoData = data.filter(d => d.cuadrante === 'Cuadrante Foco').map(d => ({ x: d.imp, y: d.desemp, raw: d }));
+  const fortalezaData = data.filter(d => d.cuadrante === 'Fortaleza Clave').map(d => ({ x: d.imp, y: d.desemp, raw: d }));
+  const ventajaData = data.filter(d => d.cuadrante === 'Ventaja Secundaria').map(d => ({ x: d.imp, y: d.desemp, raw: d }));
+  const bajaData = data.filter(d => d.cuadrante === 'Baja Prioridad').map(d => ({ x: d.imp, y: d.desemp, raw: d }));
+
+  if (chartsInstances.matriz) {
+    chartsInstances.matriz.destroy();
+  }
+
+  // Helper to convert hex to rgba
+  const hexToRgba = (hex, alpha) => {
+    let c = hex.replace('#', '');
+    if (c.length === 3) c = c.split('').map(x => x + x).join('');
+    const num = parseInt(c, 16);
+    return `rgba(${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}, ${alpha})`;
+  };
+
+  // Helper point stylers (50% attenuation on non-selected points)
+  const getPointRadius = (defaultSize) => (ctx) => {
+    const raw = ctx.raw?.raw;
+    if (!raw) return defaultSize;
+    const isSel = selectedAttributes.has(raw.sigla);
+    if (selectedAttributes.size > 0) {
+      return isSel ? 13 : Math.max(defaultSize * 0.9, 5.5);
+    }
+    return defaultSize;
+  };
+
+  const getPointBorderColor = (defaultColor) => (ctx) => {
+    const raw = ctx.raw?.raw;
+    if (!raw) return defaultColor;
+    if (selectedAttributes.has(raw.sigla)) return '#ffffff';
+    if (selectedAttributes.size > 0) {
+      return hexToRgba(defaultColor.startsWith('#') ? defaultColor : '#cbd5e1', 0.55);
+    }
+    return defaultColor;
+  };
+
+  const getPointBorderWidth = (defaultWidth) => (ctx) => {
+    const raw = ctx.raw?.raw;
+    if (!raw) return defaultWidth;
+    if (selectedAttributes.has(raw.sigla)) return 3.5;
+    if (selectedAttributes.size > 0) return 1.2;
+    return defaultWidth;
+  };
+
+  const getPointBgColor = (defaultColor) => (ctx) => {
+    const raw = ctx.raw?.raw;
+    if (!raw) return defaultColor;
+    if (selectedAttributes.has(raw.sigla)) return '#06b6d4'; // Glowing cyan on selection
+    if (selectedAttributes.size > 0) {
+      return hexToRgba(defaultColor, 0.50); // Exactly 50% opacity attenuation
+    }
+    return defaultColor;
+  };
+
+  chartsInstances.matriz = new Chart(ctx, {
+    type: 'scatter',
+    data: {
+      datasets: [
+        {
+          label: '🚩 Cuadrante Foco (Urgente - Prio 1ª-7ª)',
+          data: focoData,
+          backgroundColor: getPointBgColor('#ef4444'),
+          borderColor: getPointBorderColor('#fca5a5'),
+          borderWidth: getPointBorderWidth(2),
+          pointRadius: getPointRadius(8),
+          pointHoverRadius: 13
+        },
+        {
+          label: '🌟 Fortalezas Claves (Mantener)',
+          data: fortalezaData,
+          backgroundColor: getPointBgColor('#3b82f6'),
+          borderColor: getPointBorderColor('#93c5fd'),
+          borderWidth: getPointBorderWidth(1.5),
+          pointRadius: getPointRadius(6),
+          pointHoverRadius: 10
+        },
+        {
+          label: '⚡ Ventajas Secundarias (Eficiencia)',
+          data: ventajaData,
+          backgroundColor: getPointBgColor('#f59e0b'),
+          borderColor: getPointBorderColor('#fde68a'),
+          borderWidth: getPointBorderWidth(1.5),
+          pointRadius: getPointRadius(5.5),
+          pointHoverRadius: 9
+        },
+        {
+          label: '⚪ Baja Prioridad (Monitoreo)',
+          data: bajaData,
+          backgroundColor: getPointBgColor('#64748b'),
+          borderColor: getPointBorderColor('#cbd5e1'),
+          borderWidth: getPointBorderWidth(1),
+          pointRadius: getPointRadius(5),
+          pointHoverRadius: 8
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      onClick: (evt, elements, chart) => {
+        if (elements && elements.length > 0) {
+          const el = elements[0];
+          const datasetIndex = el.datasetIndex;
+          const index = el.index;
+          const pt = chart.data.datasets[datasetIndex].data[index];
+          if (pt && pt.raw) {
+            toggleSelectedAttribute(pt.raw.sigla, true);
+          }
+        }
+      },
+      scales: {
+        x: {
+          title: {
+            display: true,
+            text: 'Importancia Relativa (%) ➔ [Corte Promedio: 3.3%]',
+            color: '#94a3b8',
+            font: { size: 11, weight: '600', family: 'Inter' }
+          },
+          min: 0,
+          max: 9.5,
+          grid: {
+            color: 'rgba(255, 255, 255, 0.08)'
+          },
+          ticks: {
+            color: '#cbd5e1',
+            font: { size: 10, family: 'Inter' },
+            callback: (v) => `${v}%`
+          }
+        },
+        y: {
+          title: {
+            display: true,
+            text: 'Desempeño EPEC IDAT (0-100) ➔ [Corte Promedio: 64.8 pts]',
+            color: '#94a3b8',
+            font: { size: 11, weight: '600', family: 'Inter' }
+          },
+          min: 35,
+          max: 92,
+          grid: {
+            color: 'rgba(255, 255, 255, 0.08)'
+          },
+          ticks: {
+            color: '#cbd5e1',
+            font: { size: 10, family: 'Inter' },
+            callback: (v) => `${v} pts`
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          position: 'top',
+          labels: {
+            color: '#cbd5e1',
+            usePointStyle: true,
+            padding: 10,
+            font: { size: 10, weight: '600', family: 'Inter' }
+          }
+        },
+        tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          titleColor: '#f8fafc',
+          bodyColor: '#cbd5e1',
+          borderColor: 'rgba(6, 182, 212, 0.4)',
+          borderWidth: 1.5,
+          padding: 12,
+          callbacks: {
+            title: (items) => {
+              const raw = items[0]?.raw?.raw;
+              return raw ? `[${raw.sigla}] ${raw.nombre} (N° ${raw.num}) ➔ Clic para ver microdatos` : '';
+            },
+            label: (context) => {
+              const raw = context.raw?.raw;
+              if (!raw) return '';
+              const isSel = selectedAttributes.has(raw.sigla) ? ' ✅ SELECCIONADO' : ' (Clic para seleccionar)';
+              const lines = [
+                `Área: ${raw.area}`,
+                `Importancia: ${raw.imp}% | Desempeño: ${raw.desemp} pts`,
+                `Ranking Prioridad: ${raw.prio}ª Lugar`,
+                `Cuadrante: ${raw.cuadrante}`,
+                `Resp. Negativas (1-4): ${raw.neg_pct || 0}% | Nota: ${raw.nota || 0}/10`,
+                `Estado:${isSel}`
+              ];
+              return lines;
+            }
+          }
+        }
+      }
+    }
+  });
+}
+
+function renderFocusAttributes() {
+  const container = document.getElementById('focus-attributes-container');
+  if (!container) return;
+
+  const rawList = (cierData.matrizAccionesMejora || []).slice();
+  rawList.sort((a, b) => a.prio - b.prio);
+
+  let filtered = rawList;
+  let isSelectionMode = selectedAttributes.size > 0;
+
+  if (isSelectionMode) {
+    // Show only selected attributes
+    filtered = rawList.filter(d => selectedAttributes.has(d.sigla));
   } else {
-    for (const [code, label] of Object.entries(activeOpts)) {
-      html += `
-        <tr>
-          <td><span class="sigla-tag">${code}</span></td>
-          <td><strong style="color: white;">${label}</strong></td>
-        </tr>
-      `;
+    // Filter by Quadrant
+    if (currentMicrodataQuadrant !== 'all') {
+      filtered = filtered.filter(d => d.cuadrante === currentMicrodataQuadrant);
+    }
+
+    // Filter by Search Query
+    if (currentMicrodataQuery) {
+      const q = currentMicrodataQuery.toLowerCase();
+      filtered = filtered.filter(d => 
+        d.sigla.toLowerCase().includes(q) ||
+        d.nombre.toLowerCase().includes(q) ||
+        d.area.toLowerCase().includes(q) ||
+        (d.pregunta && d.pregunta.toLowerCase().includes(q)) ||
+        (d.causas && d.causas.toLowerCase().includes(q)) ||
+        (d.cuadrante && d.cuadrante.toLowerCase().includes(q)) ||
+        d.prio.toString().includes(q)
+      );
     }
   }
 
-  html += `</tbody></table></div>`;
-  body.innerHTML = html;
-  modal.classList.add('active');
-}
+  // Pagination (10 per page when not in selection mode)
+  const pageSize = 10;
+  const totalItems = filtered.length;
+  const totalPages = Math.ceil(totalItems / pageSize) || 1;
 
-function closeModal() {
-  const modal = document.getElementById('options-modal');
-  if (modal) modal.classList.remove('active');
-}
+  let pageItems = filtered;
+  let startIdx = 0;
+  let endIdx = totalItems;
 
-// 9. Copy Path to Clipboard Helper
-function copyPath(relPath) {
-  const fullPath = `C:\\Users\\jidiaz\\.gemini\\antigravity-ide\\scratch\\encuesta_cier\\${relPath.replace(/\//g, '\\')}`;
-  navigator.clipboard.writeText(fullPath).then(() => {
-    showToast(`Ruta copiada: ${fullPath.split('\\').pop()}`);
-  }).catch(() => {
-    showToast(`Ruta: ${fullPath}`);
+  if (!isSelectionMode && currentMicrodataPage !== 'all') {
+    const pageNum = parseInt(currentMicrodataPage, 10) || 1;
+    startIdx = (pageNum - 1) * pageSize;
+    endIdx = Math.min(startIdx + pageSize, totalItems);
+    pageItems = filtered.slice(startIdx, endIdx);
+  }
+
+  // Update Status and Buttons
+  const statusEl = document.getElementById('microdata-pagi-status');
+  if (statusEl) {
+    if (isSelectionMode) {
+      statusEl.innerHTML = `🎯 <strong>${selectedAttributes.size} seleccionado(s)</strong> desde el gráfico interactivo`;
+    } else if (totalItems === 0) {
+      statusEl.innerHTML = `No se encontraron atributos con los filtros aplicados.`;
+    } else if (currentMicrodataPage === 'all') {
+      statusEl.innerHTML = `Mostrando los <strong>${totalItems} atributos</strong> completos`;
+    } else {
+      statusEl.innerHTML = `Mostrando <strong>${startIdx + 1} - ${endIdx}</strong> de <strong>${totalItems} atributos</strong> (Página ${currentMicrodataPage} de ${totalPages})`;
+    }
+  }
+
+  const indicatorEl = document.getElementById('pagi-indicator-text');
+  if (indicatorEl) {
+    indicatorEl.textContent = isSelectionMode 
+      ? `Filtro de Selección (${selectedAttributes.size} atributos)` 
+      : ((currentMicrodataPage === 'all') ? `Vista Completa (${totalItems} atributos)` : `Página ${currentMicrodataPage} de ${totalPages}`);
+  }
+
+  const prevBtn = document.getElementById('btn-pagi-prev');
+  const nextBtn = document.getElementById('btn-pagi-next');
+  if (prevBtn) prevBtn.disabled = (isSelectionMode || currentMicrodataPage === 'all' || currentMicrodataPage <= 1);
+  if (nextBtn) nextBtn.disabled = (isSelectionMode || currentMicrodataPage === 'all' || currentMicrodataPage >= totalPages);
+
+  // Update active page button
+  document.querySelectorAll('#microdata-pagi-buttons .pagi-btn').forEach(btn => {
+    const p = btn.getAttribute('data-page');
+    btn.classList.toggle('active', !isSelectionMode && p === currentMicrodataPage.toString());
   });
+
+  // Render Selection Banner if points are selected
+  let bannerHTML = '';
+  if (isSelectionMode) {
+    const selectedObjs = rawList.filter(d => selectedAttributes.has(d.sigla));
+    const chipsHTML = selectedObjs.map(s => `
+      <span class="selected-chip-tag" onclick="toggleSelectedAttribute('${s.sigla}', false)" title="Clic para quitar">${s.sigla} · ${s.nombre} ✕</span>
+    `).join(' ');
+
+    bannerHTML = `
+      <div class="selection-banner" style="grid-column: 1/-1;">
+        <div style="display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;">
+          <span class="badge-tag" style="background: var(--accent-cyan); color: #04101e; font-weight: 800;">🎯 PUNTOS SELECCIONADOS EN GRÁFICO (${selectedAttributes.size}):</span>
+          <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+            ${chipsHTML}
+          </div>
+        </div>
+        <button class="btn btn-secondary btn-sm" onclick="clearSelectedAttributes()" style="font-size: 0.75rem; padding: 0.3rem 0.7rem;">✕ Quitar Selección / Ver Todos (30)</button>
+      </div>
+    `;
+  }
+
+  if (pageItems.length === 0) {
+    container.innerHTML = bannerHTML + `
+      <div class="glass-card" style="grid-column: 1/-1; text-align: center; padding: 2.5rem;">
+        <p class="text-slate-300">No se encontraron atributos que coincidan con la búsqueda.</p>
+        <button class="btn btn-secondary btn-sm mt-2" onclick="resetMicrodataFilters()">Restablecer Filtros</button>
+      </div>
+    `;
+    return;
+  }
+
+  const cardsHTML = pageItems.map(item => {
+    const isSelected = selectedAttributes.has(item.sigla);
+    let quadClass = 'q-baja';
+    let prioColorClass = 'badge-slate';
+    if (item.cuadrante === 'Cuadrante Foco') {
+      quadClass = 'q-foco';
+      prioColorClass = 'badge-red';
+    } else if (item.cuadrante === 'Fortaleza Clave') {
+      quadClass = 'q-fortaleza';
+      prioColorClass = 'badge-blue';
+    } else if (item.cuadrante === 'Ventaja Secundaria') {
+      quadClass = 'q-secundaria';
+      prioColorClass = 'badge-amber';
+    }
+
+    const selCardClass = isSelected ? 'card-selected' : '';
+    const selBadge = isSelected ? `<span class="selected-badge-indicator">🎯 Seleccionado</span>` : '';
+
+    const negVal = item.neg_pct !== undefined ? item.neg_pct : 15.0;
+    const neuVal = item.neu_pct !== undefined ? item.neu_pct : 35.0;
+    const posVal = item.pos_pct !== undefined ? item.pos_pct : 50.0;
+    const notaVal = item.nota !== undefined ? item.nota : (item.desemp / 10).toFixed(2);
+    const preguntaTxt = item.pregunta || 'Evaluación del atributo en la encuesta residencial CIER';
+    const causasTxt = item.causas || 'Factores operativos y de percepción reportados en la encuesta de satisfacción.';
+    const accionTxt = item.accion || 'Monitoreo de desempeño y mantenimiento de estándares de calidad de servicio.';
+
+    return `
+      <div class="focus-card ${quadClass} ${selCardClass}" onclick="toggleSelectedAttribute('${item.sigla}', false)" style="cursor: pointer;" title="Clic para alternar selección en el gráfico interactivo">
+        <div class="focus-card-header">
+          <div style="display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap;">
+            <span class="focus-prio-badge ${prioColorClass}">Prioridad ${item.prio}ª · ${item.cuadrante}</span>
+            ${selBadge}
+          </div>
+          <span class="focus-sigla">${item.sigla}</span>
+        </div>
+        <h4 class="focus-attr-name">[N° ${item.num}] ${item.nombre}</h4>
+        
+        <div class="focus-meta-row">
+          <span><strong>Área:</strong> ${item.area}</span>
+          <span><strong>Imp:</strong> ${item.imp.toFixed(2)}% · <strong>Desemp:</strong> ${item.desemp.toFixed(2)} pts</span>
+        </div>
+
+        <!-- Survey Question Text -->
+        <div class="survey-question-box">
+          <strong>Pregunta CIER:</strong> "${preguntaTxt}"
+        </div>
+
+        <!-- Ratings Breakdown Bar -->
+        <div class="ratings-breakdown">
+          <div class="breakdown-labels">
+            <span class="text-neg">Negativo (1-4): <strong>${negVal}%</strong></span>
+            <span class="text-neu">Neutro (5-7): <strong>${neuVal}%</strong></span>
+            <span class="text-pos">Positivo (8-10): <strong>${posVal}%</strong></span>
+          </div>
+          <div class="stacked-bar-bg" title="Neg: ${negVal}%, Neu: ${neuVal}%, Pos: ${posVal}%">
+            <div class="bar-segment seg-neg" style="width: ${negVal}%;"></div>
+            <div class="bar-segment seg-neu" style="width: ${neuVal}%;"></div>
+            <div class="bar-segment seg-pos" style="width: ${posVal}%;"></div>
+          </div>
+          <div class="text-muted mt-1" style="font-size: 0.72rem; text-align: right;">
+            Nota media encuesta: <strong style="color: #fff;">${notaVal} / 10</strong> (N=1.250)
+          </div>
+        </div>
+
+        <!-- Root Cause from Survey Microdata -->
+        <div class="focus-cause-box mt-2">
+          <div class="cause-lbl">⚠️ Causa Raíz / Percepción del Cliente en Encuesta</div>
+          <div class="cause-text">${causasTxt}</div>
+        </div>
+
+        <!-- Recommended Action -->
+        <div class="focus-action-box mt-2">
+          <div class="action-lbl">🎯 Acción Operativa / Táctica Recomendada</div>
+          <div class="action-text">${accionTxt}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  container.innerHTML = bannerHTML + cardsHTML;
 }
 
-function showToast(msg) {
-  const toast = document.getElementById('toast-notice');
-  if (!toast) return;
-  toast.textContent = msg;
-  toast.style.display = 'block';
-  setTimeout(() => {
-    toast.style.display = 'none';
-  }, 2500);
+window.resetMicrodataFilters = function() {
+  selectedAttributes.clear();
+  currentMicrodataPage = 1;
+  currentMicrodataQuadrant = 'all';
+  currentMicrodataQuery = '';
+  const searchInput = document.getElementById('microdata-search-input');
+  const select = document.getElementById('microdata-quadrant-filter');
+  if (searchInput) searchInput.value = '';
+  if (select) select.value = 'all';
+  updateSelectionState(false);
+};
+
+function initMicrodataPaginationEvents() {
+  // Pagination buttons
+  document.querySelectorAll('#microdata-pagi-buttons .pagi-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      selectedAttributes.clear(); // Clear single-point filter when user clicks a page button
+      const page = btn.getAttribute('data-page');
+      currentMicrodataPage = (page === 'all') ? 'all' : parseInt(page, 10);
+      updateSelectionState(false);
+    });
+  });
+
+  // Prev / Next buttons
+  const prevBtn = document.getElementById('btn-pagi-prev');
+  const nextBtn = document.getElementById('btn-pagi-next');
+
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (typeof currentMicrodataPage === 'number' && currentMicrodataPage > 1) {
+        selectedAttributes.clear();
+        currentMicrodataPage--;
+        updateSelectionState(false);
+      }
+    });
+  }
+
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      if (typeof currentMicrodataPage === 'number' && currentMicrodataPage < 3) {
+        selectedAttributes.clear();
+        currentMicrodataPage++;
+        updateSelectionState(false);
+      }
+    });
+  }
+
+  // Search input
+  const searchInput = document.getElementById('microdata-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', () => {
+      selectedAttributes.clear();
+      currentMicrodataQuery = searchInput.value.trim();
+      currentMicrodataPage = 1;
+      updateSelectionState(false);
+    });
+  }
+
+  // Quadrant select
+  const select = document.getElementById('microdata-quadrant-filter');
+  if (select) {
+    select.addEventListener('change', () => {
+      selectedAttributes.clear();
+      currentMicrodataQuadrant = select.value;
+      currentMicrodataPage = 1;
+      updateSelectionState(false);
+    });
+  }
+}
+
+function renderPrioritiesTable() {
+  const tbody = document.getElementById('priorities-table-body') || document.querySelector('#priorities-table tbody');
+  if (!tbody) return;
+
+  const searchInput = document.getElementById('priorities-search-input');
+  const query = searchInput ? searchInput.value.toLowerCase().trim() : '';
+
+  let list = (cierData.matrizAccionesMejora || []).slice();
+  list.sort((a, b) => a.prio - b.prio);
+
+  if (query) {
+    list = list.filter(item => 
+      item.sigla.toLowerCase().includes(query) ||
+      item.nombre.toLowerCase().includes(query) ||
+      item.area.toLowerCase().includes(query) ||
+      item.cuadrante.toLowerCase().includes(query) ||
+      item.prio.toString().includes(query) ||
+      item.num.toString().includes(query)
+    );
+  }
+
+  if (list.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="8" class="text-center text-muted" style="padding: 2rem;">No se encontraron atributos que coincidan con "${query}".</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = list.map(item => {
+    const isFoco = item.cuadrante === 'Cuadrante Foco';
+    const isSelected = selectedAttributes.has(item.sigla);
+    let badgeClass = 'badge-slate';
+    if (item.cuadrante === 'Cuadrante Foco') badgeClass = 'badge-red';
+    else if (item.cuadrante === 'Fortaleza Clave') badgeClass = 'badge-blue';
+    else if (item.cuadrante === 'Ventaja Secundaria') badgeClass = 'badge-amber';
+
+    const prioBadge = isFoco 
+      ? `<span class="badge-red font-bold">${item.prio}ª FOCO</span>`
+      : `<span class="badge-slate font-bold">${item.prio}ª</span>`;
+
+    let rowClass = isFoco ? 'highlight-row-red' : '';
+    if (isSelected) rowClass += ' highlight-row-selected';
+
+    return `
+      <tr class="${rowClass}" onclick="toggleSelectedAttribute('${item.sigla}', true)" style="cursor: pointer;" title="Clic para seleccionar en el gráfico y microdatos">
+        <td class="text-center font-mono font-bold">${item.num}</td>
+        <td><span class="badge-tag">${item.sigla}</span></td>
+        <td class="font-semibold text-sub">${item.area}</td>
+        <td class="font-bold text-main">${item.nombre}</td>
+        <td class="text-right font-mono font-bold" style="color: ${item.imp > 3.3 ? '#f87171' : '#cbd5e1'};">${item.imp.toFixed(2)}%</td>
+        <td class="text-right font-mono font-bold" style="color: ${item.desemp < 64.8 ? '#f87171' : '#60a5fa'};">${item.desemp.toFixed(2)}</td>
+        <td class="text-center">${prioBadge}</td>
+        <td><span class="q-badge ${badgeClass}">${item.cuadrante}</span></td>
+      </tr>
+    `;
+  }).join('');
 }
